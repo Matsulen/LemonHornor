@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lemonhornor:effected_sword"
+    },
+    {
+      "item": "lemonhornor:mystery_amethyst"
+    }
+  ],
+  "output": {
+    "item": "lemonhornor:effected_sword_1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lemonhornor:samon_sword_4"
+    },
+    {
+      "item": "lemonhornor:mystery_plate"
+    }
+  ],
+  "output": {
+    "item": "lemonhornor:samon_sword_5"
+  }
+}

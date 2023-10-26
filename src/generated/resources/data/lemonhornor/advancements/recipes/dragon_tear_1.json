@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dragon_tear": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lemonhornor:dragon_tear"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lemonhornor:dragon_tear_1"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dragon_tear",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lemonhornor:dragon_tear_1"
+    ]
+  },
+  "sends_telemetry_event": true
+}

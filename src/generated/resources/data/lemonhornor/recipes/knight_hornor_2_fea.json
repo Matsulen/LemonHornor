@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lemonhornor:knight_hornor_1"
+    },
+    {
+      "item": "lemonhornor:mystery_amethyst"
+    }
+  ],
+  "output": {
+    "item": "lemonhornor:knight_hornor_2"
+  }
+}

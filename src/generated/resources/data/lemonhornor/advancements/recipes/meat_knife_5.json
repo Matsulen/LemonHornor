@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_meat_knife": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lemonhornor:meat_knife_4"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lemonhornor:meat_knife_5"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_meat_knife",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lemonhornor:meat_knife_5"
+    ]
+  },
+  "sends_telemetry_event": true
+}

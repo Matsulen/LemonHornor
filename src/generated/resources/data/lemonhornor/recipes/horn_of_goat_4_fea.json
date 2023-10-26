@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lemonhornor:horn_of_goat_3"
+    },
+    {
+      "item": "lemonhornor:mystery_amethyst"
+    }
+  ],
+  "output": {
+    "item": "lemonhornor:horn_of_goat_4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lemonhornor:camp_fire_sword_3"
+    },
+    {
+      "item": "lemonhornor:mystery_amethyst"
+    }
+  ],
+  "output": {
+    "item": "lemonhornor:camp_fire_sword_4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lemonhornor:iron_blade_9"
+    },
+    {
+      "item": "lemonhornor:star"
+    }
+  ],
+  "output": {
+    "item": "lemonhornor:iron_blade_10"
+  }
+}

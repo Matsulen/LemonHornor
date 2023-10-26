@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_knight_hornor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lemonhornor:knight_hornor_2"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lemonhornor:knight_hornor_3"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_knight_hornor",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lemonhornor:knight_hornor_3"
+    ]
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_horn_of_goat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lemonhornor:horn_of_goat"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lemonhornor:horn_of_goat_1"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_horn_of_goat",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lemonhornor:horn_of_goat_1"
+    ]
+  },
+  "sends_telemetry_event": true
+}

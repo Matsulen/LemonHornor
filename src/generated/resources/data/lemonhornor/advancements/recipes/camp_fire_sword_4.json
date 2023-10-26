@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_camp_fire_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lemonhornor:camp_fire_sword_3"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lemonhornor:camp_fire_sword_4"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_camp_fire_sword",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lemonhornor:camp_fire_sword_4"
+    ]
+  },
+  "sends_telemetry_event": true
+}

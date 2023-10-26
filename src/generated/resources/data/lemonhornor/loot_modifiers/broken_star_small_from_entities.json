@@ -1,0 +1,34 @@
+{
+  "type": "lemonhornor:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/creeper"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/zombie"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/zombie_villager"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/skeleton"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/slime"
+    },
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/spider"
+    },
+    {
+      "chance": 0.02,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "lemonhornor:broken_star_small"
+}

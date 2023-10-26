@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "lemonhornor:totem_sword"
+    }
+  ],
+  "result": {
+    "count": 50,
+    "item": "minecraft:emerald"
+  }
+}
