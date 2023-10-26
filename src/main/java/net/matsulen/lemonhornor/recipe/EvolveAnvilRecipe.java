@@ -65,6 +65,11 @@ public class EvolveAnvilRecipe implements Recipe<SimpleContainer> {
     }
 
     @Override
+    public NonNullList<Ingredient> getIngredients() {
+        return inputItems;
+    }
+    
+    @Override
     public RecipeType<?> getType() {
         return Type.INSTANCE;
     }
@@ -115,7 +120,7 @@ public class EvolveAnvilRecipe implements Recipe<SimpleContainer> {
         @Override
         public void toNetwork(FriendlyByteBuf pBuffer, EvolveAnvilRecipe pRecipe) {
             //写入，以及缓冲区
-            pBuffer.writeInt(pRecipe.inputItems.size());
+            pBuffer.writeInt(pRecipe.getIngredients().size());
             for (Ingredient ingredient : pRecipe.getIngredients()) {
                 ingredient.toNetwork(pBuffer);
             }
