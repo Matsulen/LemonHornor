@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lemonhornor:spare_7"
+    },
+    {
+      "item": "lemonhornor:broken_star_big"
+    }
+  ],
+  "output": {
+    "item": "lemonhornor:spare_8"
+  }
+}

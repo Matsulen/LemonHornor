@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lemonhornor:baysword_9"
+    },
+    {
+      "item": "lemonhornor:star"
+    }
+  ],
+  "output": {
+    "item": "lemonhornor:baysword_10"
+  }
+}

@@ -125,6 +125,30 @@ public class ModItemModelProvider extends ItemModelProvider {
         tagWeaponItem(ModItems.IRON_BLADE_9, ModTags.Items.IRON_BLADE_TAG);
         tagWeaponItem(ModItems.IRON_BLADE_10, ModTags.Items.IRON_BLADE_TAG);
 
+        tagWeaponItem(ModItems.BAYSWORD, ModTags.Items.BAYSWORD_TAG);
+        tagWeaponItem(ModItems.BAYSWORD_1, ModTags.Items.BAYSWORD_TAG);
+        tagWeaponItem(ModItems.BAYSWORD_2, ModTags.Items.BAYSWORD_TAG);
+        tagWeaponItem(ModItems.BAYSWORD_3, ModTags.Items.BAYSWORD_TAG);
+        tagWeaponItem(ModItems.BAYSWORD_4, ModTags.Items.BAYSWORD_TAG);
+        tagWeaponItem(ModItems.BAYSWORD_5, ModTags.Items.BAYSWORD_TAG);
+        tagWeaponItem(ModItems.BAYSWORD_6, ModTags.Items.BAYSWORD_TAG);
+        tagWeaponItem(ModItems.BAYSWORD_7, ModTags.Items.BAYSWORD_TAG);
+        tagWeaponItem(ModItems.BAYSWORD_8, ModTags.Items.BAYSWORD_TAG);
+        tagWeaponItem(ModItems.BAYSWORD_9, ModTags.Items.BAYSWORD_TAG);
+        tagWeaponItem(ModItems.BAYSWORD_10, ModTags.Items.BAYSWORD_TAG);
+
+        tagWeaponItem(ModItems.SPARE, ModTags.Items.SPARE_TAG);
+        tagWeaponItem(ModItems.SPARE_1, ModTags.Items.SPARE_TAG);
+        tagWeaponItem(ModItems.SPARE_2, ModTags.Items.SPARE_TAG);
+        tagWeaponItem(ModItems.SPARE_3, ModTags.Items.SPARE_TAG);
+        tagWeaponItem(ModItems.SPARE_4, ModTags.Items.SPARE_TAG);
+        tagWeaponItem(ModItems.SPARE_5, ModTags.Items.SPARE_TAG);
+        tagWeaponItem(ModItems.SPARE_6, ModTags.Items.SPARE_TAG);
+        tagWeaponItem(ModItems.SPARE_7, ModTags.Items.SPARE_TAG);
+        tagWeaponItem(ModItems.SPARE_8, ModTags.Items.SPARE_TAG);
+        tagWeaponItem(ModItems.SPARE_9, ModTags.Items.SPARE_TAG);
+        tagWeaponItem(ModItems.SPARE_10, ModTags.Items.SPARE_TAG);
+
         tagWeaponItem(ModItems.CAMP_FIRE_SWORD, ModTags.Items.CAMP_FIRE_SWORD_TAG);
         tagWeaponItem(ModItems.CAMP_FIRE_SWORD_1, ModTags.Items.CAMP_FIRE_SWORD_TAG);
         tagWeaponItem(ModItems.CAMP_FIRE_SWORD_2, ModTags.Items.CAMP_FIRE_SWORD_TAG);
@@ -202,6 +226,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         tagWeaponItem(ModItems.SHAPED_AMETHYST_4, ModTags.Items.SHAPED_AMETHYST_TAG);
         tagWeaponItem(ModItems.SHAPED_AMETHYST_5, ModTags.Items.SHAPED_AMETHYST_TAG);
 
+        tagWeaponItem(ModItems.FLINT_HAND, ModTags.Items.FLINT_HAND_TAG);
+        tagWeaponItem(ModItems.FLINT_HAND_1, ModTags.Items.FLINT_HAND_TAG);
+        tagWeaponItem(ModItems.FLINT_HAND_2, ModTags.Items.FLINT_HAND_TAG);
+        tagWeaponItem(ModItems.FLINT_HAND_3, ModTags.Items.FLINT_HAND_TAG);
+        tagWeaponItem(ModItems.FLINT_HAND_4, ModTags.Items.FLINT_HAND_TAG);
+        tagWeaponItem(ModItems.FLINT_HAND_5, ModTags.Items.FLINT_HAND_TAG);
+
+        complexBlock(ModBlocks.EVOLVE_ANVIL.get());
 
     }
 
@@ -214,6 +246,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     public void evenSimplerBlockItem(RegistryObject<Block> block) {
         this.withExistingParent(LemonHornor.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
                 modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
+    }
+    private ItemModelBuilder complexBlock(Block block) {
+        return withExistingParent(ForgeRegistries.BLOCKS.getKey(block).getPath(), new ResourceLocation(LemonHornor.MOD_ID,
+                "block/" + ForgeRegistries.BLOCKS.getKey(block).getPath()));
     }
 
     //手持物品的方法

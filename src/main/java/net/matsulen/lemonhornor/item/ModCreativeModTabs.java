@@ -61,6 +61,30 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.IRON_BLADE_9.get());
                         pOutput.accept(ModItems.IRON_BLADE_10.get());
 
+                        pOutput.accept(ModItems.BAYSWORD.get());
+                        pOutput.accept(ModItems.BAYSWORD_1.get());
+                        pOutput.accept(ModItems.BAYSWORD_2.get());
+                        pOutput.accept(ModItems.BAYSWORD_3.get());
+                        pOutput.accept(ModItems.BAYSWORD_4.get());
+                        pOutput.accept(ModItems.BAYSWORD_5.get());
+                        pOutput.accept(ModItems.BAYSWORD_6.get());
+                        pOutput.accept(ModItems.BAYSWORD_7.get());
+                        pOutput.accept(ModItems.BAYSWORD_8.get());
+                        pOutput.accept(ModItems.BAYSWORD_9.get());
+                        pOutput.accept(ModItems.BAYSWORD_10.get());
+
+                        pOutput.accept(ModItems.SPARE.get());
+                        pOutput.accept(ModItems.SPARE_1.get());
+                        pOutput.accept(ModItems.SPARE_2.get());
+                        pOutput.accept(ModItems.SPARE_3.get());
+                        pOutput.accept(ModItems.SPARE_4.get());
+                        pOutput.accept(ModItems.SPARE_5.get());
+                        pOutput.accept(ModItems.SPARE_6.get());
+                        pOutput.accept(ModItems.SPARE_7.get());
+                        pOutput.accept(ModItems.SPARE_8.get());
+                        pOutput.accept(ModItems.SPARE_9.get());
+                        pOutput.accept(ModItems.SPARE_10.get());
+
                         pOutput.accept(ModItems.CAMP_FIRE_SWORD.get());
                         pOutput.accept(ModItems.CAMP_FIRE_SWORD_1.get());
                         pOutput.accept(ModItems.CAMP_FIRE_SWORD_2.get());
@@ -137,6 +161,14 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.ROUND_SWORD_3.get());
                         pOutput.accept(ModItems.ROUND_SWORD_4.get());
                         pOutput.accept(ModItems.ROUND_SWORD_5.get());
+                        
+                        pOutput.accept(ModItems.FLINT_HAND.get());
+                        pOutput.accept(ModItems.FLINT_HAND_1.get());
+                        pOutput.accept(ModItems.FLINT_HAND_2.get());
+                        pOutput.accept(ModItems.FLINT_HAND_3.get());
+                        pOutput.accept(ModItems.FLINT_HAND_4.get());
+                        pOutput.accept(ModItems.FLINT_HAND_5.get());
+                        
                         
                     })
                     .build());

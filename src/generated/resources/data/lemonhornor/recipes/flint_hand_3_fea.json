@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lemonhornor:flint_hand_2"
+    },
+    {
+      "item": "lemonhornor:mystery_amethyst"
+    }
+  ],
+  "output": {
+    "item": "lemonhornor:flint_hand_3"
+  }
+}
