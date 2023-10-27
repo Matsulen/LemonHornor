@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=east": {
+      "model": "lemonhornor:block/evolve_anvil",
+      "y": 90
+    },
+    "facing=north": {
       "model": "lemonhornor:block/evolve_anvil"
+    },
+    "facing=south": {
+      "model": "lemonhornor:block/evolve_anvil",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lemonhornor:block/evolve_anvil",
+      "y": 270
     }
   }
 }

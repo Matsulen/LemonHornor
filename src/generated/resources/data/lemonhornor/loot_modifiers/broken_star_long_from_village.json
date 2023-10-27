@@ -6,31 +6,7 @@
       "loot_table_id": "minecraft:chests/village/village_armorer"
     },
     {
-      "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/village/village_butcher"
-    },
-    {
-      "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/village/village_cartographer"
-    },
-    {
-      "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/village/village_plains_house"
-    },
-    {
-      "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/village/village_savanna_house"
-    },
-    {
-      "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/village/village_snowy_house"
-    },
-    {
-      "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/village/village_taiga_house"
-    },
-    {
-      "chance": 0.03,
+      "chance": 0.3,
       "condition": "minecraft:random_chance"
     }
   ],

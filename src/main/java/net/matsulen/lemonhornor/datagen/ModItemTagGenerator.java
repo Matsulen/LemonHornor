@@ -49,6 +49,34 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.IRON_BLADE_9.get(),
                         ModItems.IRON_BLADE_10.get()
                 );
+
+        this.tag(ModTags.Items.BAYSWORD_TAG)
+                .add(ModItems.BAYSWORD.get(),
+                        ModItems.BAYSWORD_1.get(),
+                        ModItems.BAYSWORD_2.get(),
+                        ModItems.BAYSWORD_3.get(),
+                        ModItems.BAYSWORD_4.get(),
+                        ModItems.BAYSWORD_5.get(),
+                        ModItems.BAYSWORD_6.get(),
+                        ModItems.BAYSWORD_7.get(),
+                        ModItems.BAYSWORD_8.get(),
+                        ModItems.BAYSWORD_9.get(),
+                        ModItems.BAYSWORD_10.get()
+                );
+        this.tag(ModTags.Items.SPARE_TAG)
+                .add(ModItems.SPARE.get(),
+                        ModItems.SPARE_1.get(),
+                        ModItems.SPARE_2.get(),
+                        ModItems.SPARE_3.get(),
+                        ModItems.SPARE_4.get(),
+                        ModItems.SPARE_5.get(),
+                        ModItems.SPARE_6.get(),
+                        ModItems.SPARE_7.get(),
+                        ModItems.SPARE_8.get(),
+                        ModItems.SPARE_9.get(),
+                        ModItems.SPARE_10.get()
+                );
+        
         this.tag(ModTags.Items.CAMP_FIRE_SWORD_TAG)
                 .add(ModItems.CAMP_FIRE_SWORD.get(),
                         ModItems.CAMP_FIRE_SWORD_1.get(),
@@ -136,6 +164,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.SHAPED_AMETHYST_3.get(),
                         ModItems.SHAPED_AMETHYST_4.get(),
                         ModItems.SHAPED_AMETHYST_5.get()
+                );
+        this.tag(ModTags.Items.FLINT_HAND_TAG)
+                .add(ModItems.FLINT_HAND.get(),
+                        ModItems.FLINT_HAND_1.get(),
+                        ModItems.FLINT_HAND_2.get(),
+                        ModItems.FLINT_HAND_3.get(),
+                        ModItems.FLINT_HAND_4.get(),
+                        ModItems.FLINT_HAND_5.get()
                 );
     }
 }

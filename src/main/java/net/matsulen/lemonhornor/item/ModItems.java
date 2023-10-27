@@ -309,6 +309,92 @@ public class ModItems {
             () -> new ShapedAmethystItem(ModToolTiers.Evolve, 24,-2.8f
                     , new Item.Properties()));
 
+    public static final RegistryObject<Item> BAYSWORD = ITEMS.register("baysword",
+            () -> new BaySwordItem(ModToolTiers.Evolve, 2,-1.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAYSWORD_1 = ITEMS.register("baysword_1",
+            () -> new BaySwordItem(ModToolTiers.Evolve, 3,-1.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAYSWORD_2 = ITEMS.register("baysword_2",
+            () -> new BaySwordItem(ModToolTiers.Evolve, 5,-1.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAYSWORD_3 = ITEMS.register("baysword_3",
+            () -> new BaySwordItem(ModToolTiers.Evolve, 8,-1.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAYSWORD_4 = ITEMS.register("baysword_4",
+            () -> new BaySwordItem(ModToolTiers.Evolve, 11,-1.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAYSWORD_5 = ITEMS.register("baysword_5",
+            () -> new BaySwordItem(ModToolTiers.Evolve, 14,-1.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAYSWORD_6 = ITEMS.register("baysword_6",
+            () -> new BaySwordItem(ModToolTiers.Evolve, 17,-1.7f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAYSWORD_7 = ITEMS.register("baysword_7",
+            () -> new BaySwordItem(ModToolTiers.Evolve, 19,-1.7f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAYSWORD_8 = ITEMS.register("baysword_8",
+            () -> new BaySwordItem(ModToolTiers.Evolve, 21,-1.7f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAYSWORD_9 = ITEMS.register("baysword_9",
+            () -> new BaySwordItem(ModToolTiers.Evolve, 23,-1.7f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAYSWORD_10 = ITEMS.register("baysword_10",
+            () -> new BaySwordItem(ModToolTiers.Evolve, 25,-1.7f
+                    , new Item.Properties()));
+
+    public static final RegistryObject<Item> SPARE = ITEMS.register("spare",
+            () -> new SpareItem(ModToolTiers.Evolve, 4,-2.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> SPARE_1 = ITEMS.register("spare_1",
+            () -> new SpareItem(ModToolTiers.Evolve, 5,-2.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> SPARE_2 = ITEMS.register("spare_2",
+            () -> new SpareItem(ModToolTiers.Evolve, 6,-2.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> SPARE_3 = ITEMS.register("spare_3",
+            () -> new SpareItem(ModToolTiers.Evolve, 7,-2.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> SPARE_4 = ITEMS.register("spare_4",
+            () -> new SpareItem(ModToolTiers.Evolve, 9,-2.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> SPARE_5 = ITEMS.register("spare_5",
+            () -> new SpareItem(ModToolTiers.Evolve, 12,-2.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> SPARE_6 = ITEMS.register("spare_6",
+            () -> new SpareItem(ModToolTiers.Evolve, 15,-2.4f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> SPARE_7 = ITEMS.register("spare_7",
+            () -> new SpareItem(ModToolTiers.Evolve, 18,-2.4f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> SPARE_8 = ITEMS.register("spare_8",
+            () -> new SpareItem(ModToolTiers.Evolve, 23,-2.4f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> SPARE_9 = ITEMS.register("spare_9",
+            () -> new SpareItem(ModToolTiers.Evolve, 26,-2.4f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> SPARE_10 = ITEMS.register("spare_10",
+            () -> new SpareItem(ModToolTiers.Evolve, 28,-2.4f
+                    , new Item.Properties()));
+
+    public static final RegistryObject<Item> FLINT_HAND = ITEMS.register("flint_hand",
+            () -> new FlintHandItem(ModToolTiers.Evolve, 2,-2.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> FLINT_HAND_1 = ITEMS.register("flint_hand_1",
+            () -> new FlintHandItem(ModToolTiers.Evolve, 6,-2.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> FLINT_HAND_2 = ITEMS.register("flint_hand_2",
+            () -> new FlintHandItem(ModToolTiers.Evolve, 10,-2.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> FLINT_HAND_3 = ITEMS.register("flint_hand_3",
+            () -> new FlintHandItem(ModToolTiers.Evolve, 15,-2.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> FLINT_HAND_4 = ITEMS.register("flint_hand_4",
+            () -> new FlintHandItem(ModToolTiers.Evolve, 20,-2.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> FLINT_HAND_5 = ITEMS.register("flint_hand_5",
+            () -> new FlintHandItem(ModToolTiers.Evolve, 24,-2.8f
+                    , new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {

@@ -109,6 +109,50 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         new EvolveTableRecipe(ModItems.IRON_BLADE_9.get(), ModItems.STAR.get(), ModItems.IRON_BLADE_10.get(), 1)
                 .unlockedBy("has_iron_blade", has(ModItems.IRON_BLADE_9.get())).save(pWriter);
 
+        new EvolveTableRecipe(ModItems.SPARE.get(), ModItems.BROKEN_STAR_SMALL.get(), ModItems.SPARE_1.get(), 1)
+                .unlockedBy("has_SPARE", has(ModItems.SPARE.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.SPARE_1.get(), ModItems.BROKEN_STAR_SMALL.get(), ModItems.SPARE_2.get(), 1)
+                .unlockedBy("has_SPARE", has(ModItems.SPARE_1.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.SPARE_2.get(), ModItems.BROKEN_STAR_SMALL.get(), ModItems.SPARE_3.get(), 1)
+                .unlockedBy("has_SPARE", has(ModItems.SPARE_2.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.SPARE_3.get(), ModItems.BROKEN_STAR_LONG.get(), ModItems.SPARE_4.get(), 1)
+                .unlockedBy("has_SPARE", has(ModItems.SPARE_3.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.SPARE_4.get(), ModItems.BROKEN_STAR_LONG.get(), ModItems.SPARE_5.get(), 1)
+                .unlockedBy("has_SPARE", has(ModItems.SPARE_4.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.SPARE_5.get(), ModItems.BROKEN_STAR_LONG.get(), ModItems.SPARE_6.get(), 1)
+                .unlockedBy("has_SPARE", has(ModItems.SPARE_5.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.SPARE_6.get(), ModItems.BROKEN_STAR_BIG.get(), ModItems.SPARE_7.get(), 1)
+                .unlockedBy("has_SPARE", has(ModItems.SPARE_6.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.SPARE_7.get(), ModItems.BROKEN_STAR_BIG.get(), ModItems.SPARE_8.get(), 1)
+                .unlockedBy("has_SPARE", has(ModItems.SPARE_7.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.SPARE_8.get(), ModItems.BROKEN_STAR_BIG.get(), ModItems.SPARE_9.get(), 1)
+                .unlockedBy("has_SPARE", has(ModItems.SPARE_8.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.SPARE_9.get(), ModItems.STAR.get(), ModItems.SPARE_10.get(), 1)
+                .unlockedBy("has_SPARE", has(ModItems.SPARE_9.get())).save(pWriter);
+
+        new EvolveTableRecipe(ModItems.BAYSWORD.get(), ModItems.BROKEN_STAR_SMALL.get(), ModItems.BAYSWORD_1.get(), 1)
+                .unlockedBy("has_baysword", has(ModItems.BAYSWORD.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.BAYSWORD_1.get(), ModItems.BROKEN_STAR_SMALL.get(), ModItems.BAYSWORD_2.get(), 1)
+                .unlockedBy("has_baysword", has(ModItems.BAYSWORD_1.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.BAYSWORD_2.get(), ModItems.BROKEN_STAR_SMALL.get(), ModItems.BAYSWORD_3.get(), 1)
+                .unlockedBy("has_baysword", has(ModItems.BAYSWORD_2.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.BAYSWORD_3.get(), ModItems.BROKEN_STAR_LONG.get(), ModItems.BAYSWORD_4.get(), 1)
+                .unlockedBy("has_baysword", has(ModItems.BAYSWORD_3.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.BAYSWORD_4.get(), ModItems.BROKEN_STAR_LONG.get(), ModItems.BAYSWORD_5.get(), 1)
+                .unlockedBy("has_baysword", has(ModItems.BAYSWORD_4.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.BAYSWORD_5.get(), ModItems.BROKEN_STAR_LONG.get(), ModItems.BAYSWORD_6.get(), 1)
+                .unlockedBy("has_baysword", has(ModItems.BAYSWORD_5.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.BAYSWORD_6.get(), ModItems.BROKEN_STAR_BIG.get(), ModItems.BAYSWORD_7.get(), 1)
+                .unlockedBy("has_baysword", has(ModItems.BAYSWORD_6.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.BAYSWORD_7.get(), ModItems.BROKEN_STAR_BIG.get(), ModItems.BAYSWORD_8.get(), 1)
+                .unlockedBy("has_baysword", has(ModItems.BAYSWORD_7.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.BAYSWORD_8.get(), ModItems.BROKEN_STAR_BIG.get(), ModItems.BAYSWORD_9.get(), 1)
+                .unlockedBy("has_baysword", has(ModItems.BAYSWORD_8.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.BAYSWORD_9.get(), ModItems.STAR.get(), ModItems.BAYSWORD_10.get(), 1)
+                .unlockedBy("has_baysword", has(ModItems.BAYSWORD_9.get())).save(pWriter);
+
+
+
         new EvolveTableRecipe(ModItems.CAMP_FIRE_SWORD.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.CAMP_FIRE_SWORD_1.get(), 1)
                 .unlockedBy("has_camp_fire_sword", has(ModItems.CAMP_FIRE_SWORD.get())).save(pWriter);
         new EvolveTableRecipe(ModItems.CAMP_FIRE_SWORD_1.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.CAMP_FIRE_SWORD_2.get(), 1)
@@ -218,6 +262,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_round_sword", has(ModItems.ROUND_SWORD_3.get())).save(pWriter);
         new EvolveTableRecipe(ModItems.ROUND_SWORD_4.get(), ModItems.MYSTERY_PLATE.get(), ModItems.ROUND_SWORD_5.get(), 1)
                 .unlockedBy("has_round_sword", has(ModItems.ROUND_SWORD_4.get())).save(pWriter);
+
+        new EvolveTableRecipe(ModItems.FLINT_HAND.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.FLINT_HAND_1.get(), 1)
+                .unlockedBy("has_flint_hand", has(ModItems.FLINT_HAND.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.FLINT_HAND_1.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.FLINT_HAND_2.get(), 1)
+                .unlockedBy("has_flint_hand", has(ModItems.FLINT_HAND_1.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.FLINT_HAND_2.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.FLINT_HAND_3.get(), 1)
+                .unlockedBy("has_flint_hand", has(ModItems.FLINT_HAND_2.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.FLINT_HAND_3.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.FLINT_HAND_4.get(), 1)
+                .unlockedBy("has_flint_hand", has(ModItems.FLINT_HAND_3.get())).save(pWriter);
+        new EvolveTableRecipe(ModItems.FLINT_HAND_4.get(), ModItems.MYSTERY_PLATE.get(), ModItems.FLINT_HAND_5.get(), 1)
+                .unlockedBy("has_flint_hand", has(ModItems.FLINT_HAND_4.get())).save(pWriter);
+
 
         new EvolveTableRecipe(ModItems.SHAPED_AMETHYST.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.SHAPED_AMETHYST_1.get(), 1)
                 .unlockedBy("has_shaped_amethyst", has(ModItems.SHAPED_AMETHYST.get())).save(pWriter);
