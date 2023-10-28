@@ -304,167 +304,26 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
                 LootItemRandomChanceCondition.randomChance(0.8f).build(),
         }, ModItems.SHAPED_AMETHYST.get()));
 
-        add("flint_hand_from_creeper", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("entities/creeper")).build(),
-                LootItemRandomChanceCondition.randomChance(0.05f).build(),
-        }, ModItems.FLINT_HAND.get()));
-        add("shaped_amethyst_from_woodland_mansion", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/woodland_mansion")).build(),
-                LootItemRandomChanceCondition.randomChance(0.3f).build(),
-        }, ModItems.FLINT_HAND.get()));
 
         // NORMAL WEAPON =====================================================================
 
         add("iron_blade_from_abandoned_mineshaft", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/abandoned_mineshaft")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+                LootItemRandomChanceCondition.randomChance(0.9f).build(),
         }, ModItems.IRON_BLADE.get()));
         add("iron_blade_from_simple_dungeon", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/simple_dungeon")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_BLADE.get()));
-        add("iron_blade_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_BLADE.get()));
-        add("iron_blade_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_BLADE.get()));
-        add("iron_blade_from_bastion_hoglin_stable", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_hoglin_stable")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_BLADE.get()));
-        add("iron_blade_from_bastion_other", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_BLADE.get()));
-        add("iron_blade_from_shipwreck_supply", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_supply")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_BLADE.get()));
-        add("iron_blade_from_shipwreck_map", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_map")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_BLADE.get()));
-        add("iron_blade_from_shipwreck_map", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/pillager_outpost")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+                LootItemRandomChanceCondition.randomChance(0.9f).build(),
         }, ModItems.IRON_BLADE.get()));
 
-        add("iron_sickle_from_abandoned_mineshaft", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/abandoned_mineshaft")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_SICKLE.get()));
-        add("iron_sickle_from_simple_dungeon", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/simple_dungeon")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_SICKLE.get()));
-        add("iron_sickle_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_SICKLE.get()));
-        add("iron_sickle_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_SICKLE.get()));
-        add("iron_sickle_from_bastion_hoglin_stable", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_hoglin_stable")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_SICKLE.get()));
-        add("iron_sickle_from_bastion_other", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_SICKLE.get()));
         add("iron_sickle_from_shipwreck_supply", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_supply")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+                LootItemRandomChanceCondition.randomChance(0.9f).build(),
         }, ModItems.IRON_SICKLE.get()));
-        add("iron_sickle_from_shipwreck_map", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_map")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        add("iron_sickle_from_shipwreck_treasure", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.9f).build(),
         }, ModItems.IRON_SICKLE.get()));
-        add("iron_sickle_from_shipwreck_map", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/pillager_outpost")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.IRON_SICKLE.get()));
-
-
-        add("spare_from_abandoned_mineshaft", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/abandoned_mineshaft")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.SPARE.get()));
-        add("spare_from_simple_dungeon", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/simple_dungeon")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.SPARE.get()));
-        add("spare_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.SPARE.get()));
-        add("spare_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.SPARE.get()));
-        add("spare_from_bastion_hoglin_stable", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_hoglin_stable")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.SPARE.get()));
-        add("spare_from_bastion_other", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.SPARE.get()));
-        add("spare_from_shipwreck_supply", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_supply")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.SPARE.get()));
-        add("spare_from_shipwreck_map", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_map")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.SPARE.get()));
-        add("spare_from_shipwreck_map", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/pillager_outpost")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.SPARE.get()));
-
-
-        add("baysword_from_abandoned_mineshaft", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/abandoned_mineshaft")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.BAYSWORD.get()));
-        add("baysword_from_simple_dungeon", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/simple_dungeon")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.BAYSWORD.get()));
-        add("baysword_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.BAYSWORD.get()));
-        add("baysword_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.BAYSWORD.get()));
-        add("baysword_from_bastion_hoglin_stable", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_hoglin_stable")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.BAYSWORD.get()));
-        add("baysword_from_bastion_other", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.BAYSWORD.get()));
-        add("baysword_from_shipwreck_supply", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_supply")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.BAYSWORD.get()));
-        add("baysword_from_shipwreck_map", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_map")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.BAYSWORD.get()));
-        add("baysword_from_shipwreck_map", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/pillager_outpost")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
-        }, ModItems.BAYSWORD.get()));
-
 
     }
 }
