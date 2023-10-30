@@ -3,6 +3,7 @@ package net.matsulen.lemonhornor.item;
 
 import net.matsulen.lemonhornor.LemonHornor;
 import net.matsulen.lemonhornor.item.custom.*;
+import net.matsulen.lemonhornor.item.useitem.CustomHealingItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -29,7 +30,8 @@ public class ModItems {
             () -> new AmethystItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> SMITHING_HAMMER = ITEMS.register("smithing_hammer",
             () -> new Item(new Item.Properties().stacksTo(1)));
-
+    public static final RegistryObject<Item> HEAL_BOTTLE = ITEMS.register("heal_bottle",
+            () -> new CustomHealingItem(new Item.Properties()));
 
     public static final RegistryObject<Item> IRON_SICKLE = ITEMS.register("iron_sickle",
             () -> new IronSickleItem(ModToolTiers.Evolve, 4,-2.8f

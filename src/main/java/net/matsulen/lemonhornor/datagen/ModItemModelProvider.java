@@ -100,6 +100,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MYSTERY_PLATE);
         simpleItem(ModItems.DIAMOND_DUST);
         simpleItem(ModItems.SMITHING_HAMMER);
+        simpleItem(ModItems.HEAL_BOTTLE);
 
         trimmedArmorItem(ModItems.KNIGHT_HELMET);
         trimmedArmorItem(ModItems.KNIGHT_CHESTPLATE);

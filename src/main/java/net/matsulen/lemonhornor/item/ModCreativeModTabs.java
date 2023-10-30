@@ -30,6 +30,7 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.MYSTERY_AMETHYST.get());
                         pOutput.accept(ModItems.MYSTERY_PLATE.get());
+                        pOutput.accept(ModItems.HEAL_BOTTLE.get());
 
                         pOutput.accept(ModItems.KNIGHT_HELMET.get());
                         pOutput.accept(ModItems.KNIGHT_CHESTPLATE.get());
