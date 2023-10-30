@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "dungeons_arise:chests/mines_treasure_big"
+    },
+    {
+      "chance": 1.0,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "lemonhornor:baysword"
+}

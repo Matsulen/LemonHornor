@@ -13,6 +13,16 @@
   "tooltip.lemonhornor.missing_weapon": "放入需要强化的武器",
   "tooltip.lemonhornor.missing_star": "放入强化素材",
 
+  "item.lemonhornor.knight_helmet": "骑士头盔",
+  "item.lemonhornor.knight_chestplate": "骑士头盔",
+  "item.lemonhornor.knight_leggings": "骑士头盔",
+  "item.lemonhornor.knight_boots": "骑士头盔",
+  "tooltip.lemonhornor.knight_armor.tooltip.shift1": "古代骑士的盔甲，用优质",
+  "tooltip.lemonhornor.knight_armor.tooltip.shift2": "的钢锻造而成。沉重但是",
+  "tooltip.lemonhornor.knight_armor.tooltip.shift3": "防御性能优越。",
+  "tooltip.lemonhornor.knight_armor.tooltip.control1": "有额外的击退抗性并且",
+  "tooltip.lemonhornor.knight_armor.tooltip.control2": "能为使用者提供生命值",
+
   "item.lemonhornor.iron_sickle": "铁镰刀",
   "item.lemonhornor.iron_sickle_1": "铁镰刀+1",
   "item.lemonhornor.iron_sickle_2": "铁镰刀+2",
@@ -51,8 +61,8 @@
   "tooltip.lemonhornor.baysword.tooltip.shift1": "突刺性能优越的刺剑",
   "tooltip.lemonhornor.baysword.tooltip.shift2": "比起挥砍式的武器更加",
   "tooltip.lemonhornor.baysword.tooltip.shift3": "灵敏轻快。",
-  "tooltip.lemonhornor.baysword.tooltip.control1": "无特殊效果",
-  "tooltip.lemonhornor.baysword.tooltip.control2": "--------",
+  "tooltip.lemonhornor.baysword.tooltip.control1": "比普通的剑拥有更",
+  "tooltip.lemonhornor.baysword.tooltip.control2": "远的攻击距离",
 
   "item.lemonhornor.spare": "长枪",
   "item.lemonhornor.spare_1": "长枪+1",
@@ -68,8 +78,8 @@
   "tooltip.lemonhornor.spare.tooltip.shift1": "以攻击距离见长的长枪",
   "tooltip.lemonhornor.spare.tooltip.shift2": "比起挥砍式的武器更加",
   "tooltip.lemonhornor.spare.tooltip.shift3": "注重节奏",
-  "tooltip.lemonhornor.spare.tooltip.control1": "无特殊效果",
-  "tooltip.lemonhornor.spare.tooltip.control2": "--------",
+  "tooltip.lemonhornor.spare.tooltip.control1": "比普通的剑拥有更",
+  "tooltip.lemonhornor.spare.tooltip.control2": "远的攻击距离",
 
   "item.lemonhornor.camp_fire_sword": "§6黑暗光辉",
   "item.lemonhornor.camp_fire_sword_1": "§6黑暗光辉+1",
@@ -207,7 +217,7 @@
   "item.lemonhornor.round_sword_5": "§6波纹圆刃剑+5",
   "tooltip.lemonhornor.round_sword.tooltip.shift2": "蕴含海洋力量的圆形刀刃",
   "tooltip.lemonhornor.round_sword.tooltip.shift3": "接在与三叉戟同样材质的",
-  "tooltip.lemonhornor.round_sword.tooltip.shift4": "长柄上",
+  "tooltip.lemonhornor.round_sword.tooltip.shift4": "长柄上，攻击距离更长",
   "tooltip.lemonhornor.round_sword.tooltip.control1": "右键使用，短时间内赋予",
   "tooltip.lemonhornor.round_sword.tooltip.control2": "使用者水下呼吸的能力",
 
@@ -218,10 +228,10 @@
   "item.lemonhornor.shaped_amethyst_4": "§6水晶仪式剑+4",
   "item.lemonhornor.shaped_amethyst_5": "§6水晶仪式剑+5",
   "tooltip.lemonhornor.shaped_amethyst.tooltip.shift2": "紫水晶制成的仪式用剑，",
-  "tooltip.lemonhornor.shaped_amethyst.tooltip.shift3": "并没有那么坚固，但是却",
-  "tooltip.lemonhornor.shaped_amethyst.tooltip.shift4": "出乎意外的锐利",
+  "tooltip.lemonhornor.shaped_amethyst.tooltip.shift3": "对生物能造成额外伤害，但是",
+  "tooltip.lemonhornor.shaped_amethyst.tooltip.shift4": "对亡灵效果并不佳",
   "tooltip.lemonhornor.shaped_amethyst.tooltip.control1": "攻击敌人时每次都会牺牲",
-  "tooltip.lemonhornor.shaped_amethyst.tooltip.control2": "自身耐久度造成额外伤害",
+  "tooltip.lemonhornor.shaped_amethyst.tooltip.control2": "自身耐久度造成瞬间伤害",
 
 
   "item.lemonhornor.flint_hand": "§6刺拳套",
@@ -233,8 +243,8 @@
   "tooltip.lemonhornor.flint_hand.tooltip.shift2": "前端带有钩刺的全套，无论是",
   "tooltip.lemonhornor.flint_hand.tooltip.shift3": "挥击还是刺击都有优秀的伤害",
   "tooltip.lemonhornor.flint_hand.tooltip.shift4": "效果，同时使用起来十分轻快",
-  "tooltip.lemonhornor.flint_hand.tooltip.control1": "攻击敌人时每次都会牺牲",
-  "tooltip.lemonhornor.flint_hand.tooltip.control2": "自身耐久度造成额外伤害",
+  "tooltip.lemonhornor.flint_hand.tooltip.control1": "攻击敌人时会持续获得移动",
+  "tooltip.lemonhornor.flint_hand.tooltip.control2": "速度增幅。",
 
 
   "tooltip.lemonhornor.iron_blade.tooltip.shift1": "标准的铁质刀刃，",

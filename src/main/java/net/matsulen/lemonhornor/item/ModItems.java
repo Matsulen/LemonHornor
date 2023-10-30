@@ -397,6 +397,16 @@ public class ModItems {
                     , new Item.Properties()));
 
 
+    public static final RegistryObject<Item> KNIGHT_HELMET = ITEMS.register("knight_helmet",
+            () -> new KnightArmorItem(ModArmorMaterials.KNIGHT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> KNIGHT_CHESTPLATE = ITEMS.register("knight_chestplate",
+            () -> new KnightArmorItem(ModArmorMaterials.KNIGHT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> KNIGHT_LEGGINGS = ITEMS.register("knight_leggings",
+            () -> new KnightArmorItem(ModArmorMaterials.KNIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> KNIGHT_BOOTS = ITEMS.register("knight_boots",
+            () -> new KnightArmorItem(ModArmorMaterials.KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

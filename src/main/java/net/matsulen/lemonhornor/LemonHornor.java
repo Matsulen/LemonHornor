@@ -3,12 +3,14 @@ package net.matsulen.lemonhornor;
 import com.mojang.logging.LogUtils;
 import net.matsulen.lemonhornor.block.ModBlocks;
 import net.matsulen.lemonhornor.block.entity.ModBlockEntities;
+import net.matsulen.lemonhornor.event.ModEvents;
 import net.matsulen.lemonhornor.item.ModCreativeModTabs;
 import net.matsulen.lemonhornor.item.ModItems;
 import net.matsulen.lemonhornor.loot.ModLootModifiers;
 import net.matsulen.lemonhornor.recipe.ModRecipe;
 import net.matsulen.lemonhornor.screen.EvolveAnvilScreen;
 import net.matsulen.lemonhornor.screen.ModMenuTypes;
+import net.matsulen.lemonhornor.world.ModWorld;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -30,6 +32,8 @@ public class LemonHornor {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public LemonHornor() {
+
+
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
@@ -46,7 +50,13 @@ public class LemonHornor {
 
         ModRecipe.register(modEventBus);
 
+        ModEvents modEvents = new ModEvents();
+        MinecraftForge.EVENT_BUS.register(modEvents);
+
         modEventBus.addListener(this::commonSetup);
+
+        // For registration and init stuff.
+        ModWorld.DEFERRED_REGISTRY_STRUCTURE.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -68,6 +78,7 @@ public class LemonHornor {
         public static void onClientSetup(FMLClientSetupEvent event) {
             event.enqueueWork(() -> {
                 MenuScreens.register(ModMenuTypes.EVOLVE_ANVIL_MENU.get(), EvolveAnvilScreen::new);
+
             });
         }
     }

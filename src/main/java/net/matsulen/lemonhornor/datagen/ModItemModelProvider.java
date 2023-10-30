@@ -101,6 +101,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.DIAMOND_DUST);
         simpleItem(ModItems.SMITHING_HAMMER);
 
+        trimmedArmorItem(ModItems.KNIGHT_HELMET);
+        trimmedArmorItem(ModItems.KNIGHT_CHESTPLATE);
+        trimmedArmorItem(ModItems.KNIGHT_LEGGINGS);
+        trimmedArmorItem(ModItems.KNIGHT_BOOTS);
+
         tagWeaponItem(ModItems.IRON_SICKLE, ModTags.Items.IRON_SICKLE_TAG);
         tagWeaponItem(ModItems.IRON_SICKLE_1, ModTags.Items.IRON_SICKLE_TAG);
         tagWeaponItem(ModItems.IRON_SICKLE_2, ModTags.Items.IRON_SICKLE_TAG);

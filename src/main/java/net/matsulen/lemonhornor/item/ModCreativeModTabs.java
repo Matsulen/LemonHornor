@@ -31,6 +31,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.MYSTERY_AMETHYST.get());
                         pOutput.accept(ModItems.MYSTERY_PLATE.get());
 
+                        pOutput.accept(ModItems.KNIGHT_HELMET.get());
+                        pOutput.accept(ModItems.KNIGHT_CHESTPLATE.get());
+                        pOutput.accept(ModItems.KNIGHT_LEGGINGS.get());
+                        pOutput.accept(ModItems.KNIGHT_BOOTS.get());
+
                     })
                     .build());
     public static final RegistryObject<CreativeModeTab> LEMON_KINDOM_WEAPON = CREATIVE_MODE_TABS.register("lemon_kindom_weapon",

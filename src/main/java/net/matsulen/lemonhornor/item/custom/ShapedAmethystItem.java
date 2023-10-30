@@ -32,7 +32,7 @@ public class ShapedAmethystItem extends SwordItem {
         if(entity instanceof LivingEntity livingEntity) {
             Random random = new Random();
             int i = random.nextInt(3) + 1;
-            livingEntity.addEffect(new MobEffectInstance(MobEffects.HARM, 20,i), player);
+            livingEntity.addEffect(new MobEffectInstance(MobEffects.HARM, 0,1), player);
             livingEntity.playSound(SoundEvents.AMETHYST_CLUSTER_BREAK);
             stack.hurtAndBreak(i * 2, player, p -> p.broadcastBreakEvent(player.getUsedItemHand()));
         }
