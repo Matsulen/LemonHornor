@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "dungeons_arise:chests/ceryneian_hind/ceryneian_hind_treasure"
+    },
+    {
+      "chance": 0.5,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "lemonhornor:totem_sword"
+}

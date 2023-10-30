@@ -17,6 +17,7 @@ public class ModTags {
 
     public static class Items {
         public static final TagKey<Item> IRON_SICKLE_TAG = tag("iron_sickle");
+        public static final TagKey<Item> NORMAL_ITEM_TAG = tag("normal_item");
         public static final TagKey<Item> IRON_BLADE_TAG = tag("iron_blade");
         public static final TagKey<Item> BAYSWORD_TAG = tag("baysword");
         public static final TagKey<Item> SPARE_TAG = tag("spare");

@@ -28,6 +28,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.KNIGHT_LEGGINGS.get(),
                         ModItems.KNIGHT_BOOTS.get());
 
+        this.tag(ModTags.Items.NORMAL_ITEM_TAG)
+                .add(ModItems.IRON_SICKLE.get(),
+                        ModItems.IRON_BLADE.get(),
+                        ModItems.BAYSWORD.get(),
+                        ModItems.SPARE.get()
+                );
+
+
         this.tag(ModTags.Items.IRON_SICKLE_TAG)
                 .add(ModItems.IRON_SICKLE.get(),
                         ModItems.IRON_SICKLE_1.get(),

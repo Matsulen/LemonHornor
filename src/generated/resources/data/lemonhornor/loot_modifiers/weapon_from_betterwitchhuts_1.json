@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "betterwitchhuts:/chests/hut_0"
+    },
+    {
+      "chance": 0.6,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "lemonhornor:meat_knife"
+}
