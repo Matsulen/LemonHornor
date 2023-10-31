@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "lemonhornor:item/big_heal_bottle"
+  }
+}

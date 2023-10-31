@@ -187,5 +187,73 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.FLINT_HAND_4.get(),
                         ModItems.FLINT_HAND_5.get()
                 );
+        this.tag(ModTags.Items.LAVA_SWORD_TAG)
+                .add(ModItems.LAVA_SWORD.get(),
+                        ModItems.LAVA_SWORD_1.get(),
+                        ModItems.LAVA_SWORD_2.get(),
+                        ModItems.LAVA_SWORD_3.get(),
+                        ModItems.LAVA_SWORD_4.get(),
+                        ModItems.LAVA_SWORD_5.get()
+                );
+        this.tag(ModTags.Items.WITHER_SWORD_TAG)
+                .add(ModItems.WITHER_SWORD.get(),
+                        ModItems.WITHER_SWORD_1.get(),
+                        ModItems.WITHER_SWORD_2.get(),
+                        ModItems.WITHER_SWORD_3.get(),
+                        ModItems.WITHER_SWORD_4.get(),
+                        ModItems.WITHER_SWORD_5.get()
+                );
+        this.tag(ModTags.Items.KING_AXE_TAG)
+                .add(ModItems.KING_AXE.get(),
+                        ModItems.KING_AXE_1.get(),
+                        ModItems.KING_AXE_2.get(),
+                        ModItems.KING_AXE_3.get(),
+                        ModItems.KING_AXE_4.get(),
+                        ModItems.KING_AXE_5.get()
+                );
+        this.tag(ModTags.Items.STORM_AXE_TAG)
+                .add(ModItems.STORM_AXE.get(),
+                        ModItems.STORM_AXE_1.get(),
+                        ModItems.STORM_AXE_2.get(),
+                        ModItems.STORM_AXE_3.get(),
+                        ModItems.STORM_AXE_4.get(),
+                        ModItems.STORM_AXE_5.get()
+                );
+        this.tag(ModTags.Items.BIG_FIRED_CHICKEN_TAG)
+                .add(ModItems.BIG_FIRED_CHICKEN.get(),
+                        ModItems.BIG_FIRED_CHICKEN_1.get(),
+                        ModItems.BIG_FIRED_CHICKEN_2.get(),
+                        ModItems.BIG_FIRED_CHICKEN_3.get(),
+                        ModItems.BIG_FIRED_CHICKEN_4.get(),
+                        ModItems.BIG_FIRED_CHICKEN_5.get()
+                );
+        this.tag(ModTags.Items.GOLDEN_SPEAR_TAG)
+                .add(ModItems.GOLDEN_SPEAR.get(),
+                        ModItems.GOLDEN_SPEAR_1.get(),
+                        ModItems.GOLDEN_SPEAR_2.get(),
+                        ModItems.GOLDEN_SPEAR_3.get(),
+                        ModItems.GOLDEN_SPEAR_4.get(),
+                        ModItems.GOLDEN_SPEAR_5.get()
+                );
+
+        this.tag(ModTags.Items.BAMBOO_SWORD_TAG)
+                .add(ModItems.BAMBOO_SWORD.get(),
+                        ModItems.BAMBOO_SWORD_1.get(),
+                        ModItems.BAMBOO_SWORD_2.get(),
+                        ModItems.BAMBOO_SWORD_3.get(),
+                        ModItems.BAMBOO_SWORD_4.get(),
+                        ModItems.BAMBOO_SWORD_5.get()
+                );
+
+        this.tag(ModTags.Items.LANTERN_SWORD_TAG)
+                .add(ModItems.LANTERN_SWORD.get(),
+                        ModItems.LANTERN_SWORD_1.get(),
+                        ModItems.LANTERN_SWORD_2.get(),
+                        ModItems.LANTERN_SWORD_3.get(),
+                        ModItems.LANTERN_SWORD_4.get(),
+                        ModItems.LANTERN_SWORD_5.get()
+                );
+
+
     }
 }

@@ -615,6 +615,26 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
                 new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_rider/heavenly_rider_treasure")).build(),
                 LootItemRandomChanceCondition.randomChance(0.5f).build(),
         }, ModItems.DRAGON_TEAR.get()));
+        add("weapon_from_wda_9", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.LAVA_SWORD.get()));
+        add("weapon_from_wda_10", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.WITHER_SWORD.get()));
+        add("weapon_from_wda_11", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/scorched_mines/scorched_mines_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.KING_AXE.get()));
+        add("weapon_from_wda_12", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/plague_asylum/plague_asylum_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.STORM_AXE.get()));
+        add("weapon_from_wda_13", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mushroom_house/mushroom_house_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.BIG_FIRED_CHICKEN.get()));
 
         //================================================================================
 
@@ -886,6 +906,12 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_supply")).build(),
                 LootItemRandomChanceCondition.randomChance(0.8f).build(),
         }, ModItems.ROUND_SWORD.get()));
+
+
+        add("big_fired_chicken_from_chicken", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/chicken")).build(),
+                LootItemRandomChanceCondition.randomChance(0.05f).build(),
+        }, ModItems.BIG_FIRED_CHICKEN.get()));
 
 
 

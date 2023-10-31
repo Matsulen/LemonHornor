@@ -100,7 +100,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.MYSTERY_PLATE);
         simpleItem(ModItems.DIAMOND_DUST);
         simpleItem(ModItems.SMITHING_HAMMER);
-        simpleItem(ModItems.HEAL_BOTTLE);
+        simpleItem(ModItems.SMALL_HEAL_BOTTLE);
+        simpleItem(ModItems.BIG_HEAL_BOTTLE);
 
         trimmedArmorItem(ModItems.KNIGHT_HELMET);
         trimmedArmorItem(ModItems.KNIGHT_CHESTPLATE);
@@ -238,6 +239,63 @@ public class ModItemModelProvider extends ItemModelProvider {
         tagWeaponItem(ModItems.FLINT_HAND_3, ModTags.Items.FLINT_HAND_TAG);
         tagWeaponItem(ModItems.FLINT_HAND_4, ModTags.Items.FLINT_HAND_TAG);
         tagWeaponItem(ModItems.FLINT_HAND_5, ModTags.Items.FLINT_HAND_TAG);
+
+        tagWeaponItem(ModItems.LAVA_SWORD, ModTags.Items.LAVA_SWORD_TAG);
+        tagWeaponItem(ModItems.LAVA_SWORD_1, ModTags.Items.LAVA_SWORD_TAG);
+        tagWeaponItem(ModItems.LAVA_SWORD_2, ModTags.Items.LAVA_SWORD_TAG);
+        tagWeaponItem(ModItems.LAVA_SWORD_3, ModTags.Items.LAVA_SWORD_TAG);
+        tagWeaponItem(ModItems.LAVA_SWORD_4, ModTags.Items.LAVA_SWORD_TAG);
+        tagWeaponItem(ModItems.LAVA_SWORD_5, ModTags.Items.LAVA_SWORD_TAG);
+
+        tagWeaponItem(ModItems.WITHER_SWORD, ModTags.Items.WITHER_SWORD_TAG);
+        tagWeaponItem(ModItems.WITHER_SWORD_1, ModTags.Items.WITHER_SWORD_TAG);
+        tagWeaponItem(ModItems.WITHER_SWORD_2, ModTags.Items.WITHER_SWORD_TAG);
+        tagWeaponItem(ModItems.WITHER_SWORD_3, ModTags.Items.WITHER_SWORD_TAG);
+        tagWeaponItem(ModItems.WITHER_SWORD_4, ModTags.Items.WITHER_SWORD_TAG);
+        tagWeaponItem(ModItems.WITHER_SWORD_5, ModTags.Items.WITHER_SWORD_TAG);
+
+        tagWeaponItem(ModItems.KING_AXE, ModTags.Items.KING_AXE_TAG);
+        tagWeaponItem(ModItems.KING_AXE_1, ModTags.Items.KING_AXE_TAG);
+        tagWeaponItem(ModItems.KING_AXE_2, ModTags.Items.KING_AXE_TAG);
+        tagWeaponItem(ModItems.KING_AXE_3, ModTags.Items.KING_AXE_TAG);
+        tagWeaponItem(ModItems.KING_AXE_4, ModTags.Items.KING_AXE_TAG);
+        tagWeaponItem(ModItems.KING_AXE_5, ModTags.Items.KING_AXE_TAG);
+
+        tagWeaponItem(ModItems.STORM_AXE, ModTags.Items.STORM_AXE_TAG);
+        tagWeaponItem(ModItems.STORM_AXE_1, ModTags.Items.STORM_AXE_TAG);
+        tagWeaponItem(ModItems.STORM_AXE_2, ModTags.Items.STORM_AXE_TAG);
+        tagWeaponItem(ModItems.STORM_AXE_3, ModTags.Items.STORM_AXE_TAG);
+        tagWeaponItem(ModItems.STORM_AXE_4, ModTags.Items.STORM_AXE_TAG);
+        tagWeaponItem(ModItems.STORM_AXE_5, ModTags.Items.STORM_AXE_TAG);
+        
+        tagWeaponItem(ModItems.BIG_FIRED_CHICKEN, ModTags.Items.BIG_FIRED_CHICKEN_TAG);
+        tagWeaponItem(ModItems.BIG_FIRED_CHICKEN_1, ModTags.Items.BIG_FIRED_CHICKEN_TAG);
+        tagWeaponItem(ModItems.BIG_FIRED_CHICKEN_2, ModTags.Items.BIG_FIRED_CHICKEN_TAG);
+        tagWeaponItem(ModItems.BIG_FIRED_CHICKEN_3, ModTags.Items.BIG_FIRED_CHICKEN_TAG);
+        tagWeaponItem(ModItems.BIG_FIRED_CHICKEN_4, ModTags.Items.BIG_FIRED_CHICKEN_TAG);
+        tagWeaponItem(ModItems.BIG_FIRED_CHICKEN_5, ModTags.Items.BIG_FIRED_CHICKEN_TAG);
+
+        tagWeaponItem(ModItems.GOLDEN_SPEAR, ModTags.Items.GOLDEN_SPEAR_TAG);
+        tagWeaponItem(ModItems.GOLDEN_SPEAR_1, ModTags.Items.GOLDEN_SPEAR_TAG);
+        tagWeaponItem(ModItems.GOLDEN_SPEAR_2, ModTags.Items.GOLDEN_SPEAR_TAG);
+        tagWeaponItem(ModItems.GOLDEN_SPEAR_3, ModTags.Items.GOLDEN_SPEAR_TAG);
+        tagWeaponItem(ModItems.GOLDEN_SPEAR_4, ModTags.Items.GOLDEN_SPEAR_TAG);
+        tagWeaponItem(ModItems.GOLDEN_SPEAR_5, ModTags.Items.GOLDEN_SPEAR_TAG);
+
+        tagWeaponItem(ModItems.BAMBOO_SWORD, ModTags.Items.BAMBOO_SWORD_TAG);
+        tagWeaponItem(ModItems.BAMBOO_SWORD_1, ModTags.Items.BAMBOO_SWORD_TAG);
+        tagWeaponItem(ModItems.BAMBOO_SWORD_2, ModTags.Items.BAMBOO_SWORD_TAG);
+        tagWeaponItem(ModItems.BAMBOO_SWORD_3, ModTags.Items.BAMBOO_SWORD_TAG);
+        tagWeaponItem(ModItems.BAMBOO_SWORD_4, ModTags.Items.BAMBOO_SWORD_TAG);
+        tagWeaponItem(ModItems.BAMBOO_SWORD_5, ModTags.Items.BAMBOO_SWORD_TAG);
+
+        tagWeaponItem(ModItems.LANTERN_SWORD, ModTags.Items.LANTERN_SWORD_TAG);
+        tagWeaponItem(ModItems.LANTERN_SWORD_1, ModTags.Items.LANTERN_SWORD_TAG);
+        tagWeaponItem(ModItems.LANTERN_SWORD_2, ModTags.Items.LANTERN_SWORD_TAG);
+        tagWeaponItem(ModItems.LANTERN_SWORD_3, ModTags.Items.LANTERN_SWORD_TAG);
+        tagWeaponItem(ModItems.LANTERN_SWORD_4, ModTags.Items.LANTERN_SWORD_TAG);
+        tagWeaponItem(ModItems.LANTERN_SWORD_5, ModTags.Items.LANTERN_SWORD_TAG);
+
 
         complexBlock(ModBlocks.EVOLVE_ANVIL.get());
 

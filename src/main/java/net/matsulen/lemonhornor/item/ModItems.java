@@ -3,7 +3,8 @@ package net.matsulen.lemonhornor.item;
 
 import net.matsulen.lemonhornor.LemonHornor;
 import net.matsulen.lemonhornor.item.custom.*;
-import net.matsulen.lemonhornor.item.useitem.CustomHealingItem;
+import net.matsulen.lemonhornor.item.useitem.BigHealBottleItem;
+import net.matsulen.lemonhornor.item.useitem.SmallHealBottleItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -30,8 +31,10 @@ public class ModItems {
             () -> new AmethystItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> SMITHING_HAMMER = ITEMS.register("smithing_hammer",
             () -> new Item(new Item.Properties().stacksTo(1)));
-    public static final RegistryObject<Item> HEAL_BOTTLE = ITEMS.register("heal_bottle",
-            () -> new CustomHealingItem(new Item.Properties()));
+    public static final RegistryObject<Item> SMALL_HEAL_BOTTLE = ITEMS.register("small_heal_bottle",
+            () -> new SmallHealBottleItem(new Item.Properties()));
+    public static final RegistryObject<Item> BIG_HEAL_BOTTLE = ITEMS.register("big_heal_bottle",
+            () -> new BigHealBottleItem(new Item.Properties()));
 
     public static final RegistryObject<Item> IRON_SICKLE = ITEMS.register("iron_sickle",
             () -> new IronSickleItem(ModToolTiers.Evolve, 4,-2.8f
@@ -397,6 +400,172 @@ public class ModItems {
     public static final RegistryObject<Item> FLINT_HAND_5 = ITEMS.register("flint_hand_5",
             () -> new FlintHandItem(ModToolTiers.Evolve, 24,-2.8f
                     , new Item.Properties()));
+
+    public static final RegistryObject<Item> LAVA_SWORD = ITEMS.register("lava_sword",
+            () -> new LavaSwordItem(ModToolTiers.Evolve, 2,-2.2f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> LAVA_SWORD_1 = ITEMS.register("lava_sword_1",
+            () -> new LavaSwordItem(ModToolTiers.Evolve, 6,-2.2f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> LAVA_SWORD_2 = ITEMS.register("lava_sword_2",
+            () -> new LavaSwordItem(ModToolTiers.Evolve, 10,-2.2f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> LAVA_SWORD_3 = ITEMS.register("lava_sword_3",
+            () -> new LavaSwordItem(ModToolTiers.Evolve, 16,-2.2f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> LAVA_SWORD_4 = ITEMS.register("lava_sword_4",
+            () -> new LavaSwordItem(ModToolTiers.Evolve, 21,-2.2f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> LAVA_SWORD_5 = ITEMS.register("lava_sword_5",
+            () -> new LavaSwordItem(ModToolTiers.Evolve, 27,-2.2f
+                    , new Item.Properties()));
+
+    public static final RegistryObject<Item> WITHER_SWORD = ITEMS.register("wither_sword",
+            () -> new WitherSwordItem(ModToolTiers.Evolve, 2,-2.2f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> WITHER_SWORD_1 = ITEMS.register("wither_sword_1",
+            () -> new WitherSwordItem(ModToolTiers.Evolve, 6,-2.2f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> WITHER_SWORD_2 = ITEMS.register("wither_sword_2",
+            () -> new WitherSwordItem(ModToolTiers.Evolve, 10,-2.2f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> WITHER_SWORD_3 = ITEMS.register("wither_sword_3",
+            () -> new WitherSwordItem(ModToolTiers.Evolve, 16,-2.2f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> WITHER_SWORD_4 = ITEMS.register("wither_sword_4",
+            () -> new WitherSwordItem(ModToolTiers.Evolve, 21,-2.2f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> WITHER_SWORD_5 = ITEMS.register("wither_sword_5",
+            () -> new WitherSwordItem(ModToolTiers.Evolve, 27,-2.2f
+                    , new Item.Properties()));
+
+    public static final RegistryObject<Item> KING_AXE = ITEMS.register("king_axe",
+            () -> new KingAxeItem(ModToolTiers.Evolve, 5,-3.1f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> KING_AXE_1 = ITEMS.register("king_axe_1",
+            () -> new KingAxeItem(ModToolTiers.Evolve, 9,-3.1f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> KING_AXE_2 = ITEMS.register("king_axe_2",
+            () -> new KingAxeItem(ModToolTiers.Evolve, 14,-3.1f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> KING_AXE_3 = ITEMS.register("king_axe_3",
+            () -> new KingAxeItem(ModToolTiers.Evolve, 20,-3.1f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> KING_AXE_4 = ITEMS.register("king_axe_4",
+            () -> new KingAxeItem(ModToolTiers.Evolve, 26,-3.1f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> KING_AXE_5 = ITEMS.register("king_axe_5",
+            () -> new KingAxeItem(ModToolTiers.Evolve, 33,-3.1f
+                    , new Item.Properties()));
+
+    public static final RegistryObject<Item> STORM_AXE = ITEMS.register("storm_axe",
+            () -> new StormAxeItem(ModToolTiers.Evolve, 5,-3.1f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> STORM_AXE_1 = ITEMS.register("storm_axe_1",
+            () -> new StormAxeItem(ModToolTiers.Evolve, 9,-3.1f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> STORM_AXE_2 = ITEMS.register("storm_axe_2",
+            () -> new StormAxeItem(ModToolTiers.Evolve, 14,-3.1f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> STORM_AXE_3 = ITEMS.register("storm_axe_3",
+            () -> new StormAxeItem(ModToolTiers.Evolve, 20,-3.1f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> STORM_AXE_4 = ITEMS.register("storm_axe_4",
+            () -> new StormAxeItem(ModToolTiers.Evolve, 26,-3.1f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> STORM_AXE_5 = ITEMS.register("storm_axe_5",
+            () -> new StormAxeItem(ModToolTiers.Evolve, 33,-3.1f
+                    , new Item.Properties()));
+
+    public static final RegistryObject<Item> BIG_FIRED_CHICKEN = ITEMS.register("big_fired_chicken",
+            () -> new BigFiredChickenItem(ModToolTiers.Evolve, 8,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BIG_FIRED_CHICKEN_1 = ITEMS.register("big_fired_chicken_1",
+            () -> new BigFiredChickenItem(ModToolTiers.Evolve, 12,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BIG_FIRED_CHICKEN_2 = ITEMS.register("big_fired_chicken_2",
+            () -> new BigFiredChickenItem(ModToolTiers.Evolve, 16,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BIG_FIRED_CHICKEN_3 = ITEMS.register("big_fired_chicken_3",
+            () -> new BigFiredChickenItem(ModToolTiers.Evolve, 22,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BIG_FIRED_CHICKEN_4 = ITEMS.register("big_fired_chicken_4",
+            () -> new BigFiredChickenItem(ModToolTiers.Evolve, 29,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BIG_FIRED_CHICKEN_5 = ITEMS.register("big_fired_chicken_5",
+            () -> new BigFiredChickenItem(ModToolTiers.Evolve, 36,-3.5f
+                    , new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLDEN_SPEAR = ITEMS.register("golden_spear",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 3,-2.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_SPEAR_1 = ITEMS.register("golden_spear_1",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 7,-2.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_SPEAR_2 = ITEMS.register("golden_spear_2",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 11,-2.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_SPEAR_3 = ITEMS.register("golden_spear_3",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 15,-2.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_SPEAR_4 = ITEMS.register("golden_spear_4",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 19,-2.8f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_SPEAR_5 = ITEMS.register("golden_spear_5",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 23,-2.8f
+                    , new Item.Properties()));
+
+    public static final RegistryObject<Item> BAMBOO_SWORD = ITEMS.register("bamboo_sword",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 8,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAMBOO_SWORD_1 = ITEMS.register("bamboo_sword_1",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 12,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAMBOO_SWORD_2 = ITEMS.register("bamboo_sword_2",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 16,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAMBOO_SWORD_3 = ITEMS.register("bamboo_sword_3",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 22,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAMBOO_SWORD_4 = ITEMS.register("bamboo_sword_4",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 29,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> BAMBOO_SWORD_5 = ITEMS.register("bamboo_sword_5",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 36,-3.5f
+                    , new Item.Properties()));
+
+    public static final RegistryObject<Item> LANTERN_SWORD = ITEMS.register("lantern_sword",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 8,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> LANTERN_SWORD_1 = ITEMS.register("lantern_sword_1",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 12,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> LANTERN_SWORD_2 = ITEMS.register("lantern_sword_2",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 16,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> LANTERN_SWORD_3 = ITEMS.register("lantern_sword_3",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 22,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> LANTERN_SWORD_4 = ITEMS.register("lantern_sword_4",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 29,-3.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> LANTERN_SWORD_5 = ITEMS.register("lantern_sword_5",
+            () -> new GoldenSpearItem(ModToolTiers.Evolve, 36,-3.5f
+                    , new Item.Properties()));
+
+
+//    public static final RegistryObject<Item> DIAMOND_WAND = ITEMS.register("DIAMOND_WAND",
+//            () -> new DiamondWandItem(new Item.Properties()));
+//    public static final RegistryObject<Item> DIAMOND_WAND_1 = ITEMS.register("diamond_wand_1",
+//            () -> new DiamondWandItem(new Item.Properties()));
+//    public static final RegistryObject<Item> DIAMOND_WAND_2 = ITEMS.register("diamond_wand_2",
+//            () -> new DiamondWandItem(new Item.Properties()));
+//    public static final RegistryObject<Item> DIAMOND_WAND_3 = ITEMS.register("diamond_wand_3",
+//            () -> new DiamondWandItem(new Item.Properties()));
+//    public static final RegistryObject<Item> DIAMOND_WAND_4 = ITEMS.register("diamond_wand_4",
+//            () -> new DiamondWandItem(new Item.Properties()));
+//    public static final RegistryObject<Item> DIAMOND_WAND_5 = ITEMS.register("diamond_wand_5",
+//            () -> new DiamondWandItem(new Item.Properties()));
 
 
     public static final RegistryObject<Item> KNIGHT_HELMET = ITEMS.register("knight_helmet",

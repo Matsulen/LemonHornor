@@ -7,7 +7,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
@@ -27,10 +26,13 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BROKEN_STAR_LONG.get());
                         pOutput.accept(ModItems.BROKEN_STAR_BIG.get());
                         pOutput.accept(ModItems.STAR.get());
+                        pOutput.accept(ModItems.DIAMOND_DUST.get());
 
                         pOutput.accept(ModItems.MYSTERY_AMETHYST.get());
                         pOutput.accept(ModItems.MYSTERY_PLATE.get());
-                        pOutput.accept(ModItems.HEAL_BOTTLE.get());
+
+                        pOutput.accept(ModItems.SMALL_HEAL_BOTTLE.get());
+                        pOutput.accept(ModItems.BIG_HEAL_BOTTLE.get());
 
                         pOutput.accept(ModItems.KNIGHT_HELMET.get());
                         pOutput.accept(ModItems.KNIGHT_CHESTPLATE.get());
@@ -174,7 +176,62 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.FLINT_HAND_3.get());
                         pOutput.accept(ModItems.FLINT_HAND_4.get());
                         pOutput.accept(ModItems.FLINT_HAND_5.get());
+
+                        pOutput.accept(ModItems.LAVA_SWORD.get());
+                        pOutput.accept(ModItems.LAVA_SWORD_1.get());
+                        pOutput.accept(ModItems.LAVA_SWORD_2.get());
+                        pOutput.accept(ModItems.LAVA_SWORD_3.get());
+                        pOutput.accept(ModItems.LAVA_SWORD_4.get());
+                        pOutput.accept(ModItems.LAVA_SWORD_5.get());
+
+                        pOutput.accept(ModItems.WITHER_SWORD.get());
+                        pOutput.accept(ModItems.WITHER_SWORD_1.get());
+                        pOutput.accept(ModItems.WITHER_SWORD_2.get());
+                        pOutput.accept(ModItems.WITHER_SWORD_3.get());
+                        pOutput.accept(ModItems.WITHER_SWORD_4.get());
+                        pOutput.accept(ModItems.WITHER_SWORD_5.get());
                         
+                        pOutput.accept(ModItems.KING_AXE.get());
+                        pOutput.accept(ModItems.KING_AXE_1.get());
+                        pOutput.accept(ModItems.KING_AXE_2.get());
+                        pOutput.accept(ModItems.KING_AXE_3.get());
+                        pOutput.accept(ModItems.KING_AXE_4.get());
+                        pOutput.accept(ModItems.KING_AXE_5.get());
+
+                        pOutput.accept(ModItems.STORM_AXE.get());
+                        pOutput.accept(ModItems.STORM_AXE_1.get());
+                        pOutput.accept(ModItems.STORM_AXE_2.get());
+                        pOutput.accept(ModItems.STORM_AXE_3.get());
+                        pOutput.accept(ModItems.STORM_AXE_4.get());
+                        pOutput.accept(ModItems.STORM_AXE_5.get());
+
+                        pOutput.accept(ModItems.BIG_FIRED_CHICKEN.get());
+                        pOutput.accept(ModItems.BIG_FIRED_CHICKEN_1.get());
+                        pOutput.accept(ModItems.BIG_FIRED_CHICKEN_2.get());
+                        pOutput.accept(ModItems.BIG_FIRED_CHICKEN_3.get());
+                        pOutput.accept(ModItems.BIG_FIRED_CHICKEN_4.get());
+                        pOutput.accept(ModItems.BIG_FIRED_CHICKEN_5.get());
+
+                        pOutput.accept(ModItems.GOLDEN_SPEAR.get());
+                        pOutput.accept(ModItems.GOLDEN_SPEAR_1.get());
+                        pOutput.accept(ModItems.GOLDEN_SPEAR_2.get());
+                        pOutput.accept(ModItems.GOLDEN_SPEAR_3.get());
+                        pOutput.accept(ModItems.GOLDEN_SPEAR_4.get());
+                        pOutput.accept(ModItems.GOLDEN_SPEAR_5.get());
+
+                        pOutput.accept(ModItems.BAMBOO_SWORD.get());
+                        pOutput.accept(ModItems.BAMBOO_SWORD_1.get());
+                        pOutput.accept(ModItems.BAMBOO_SWORD_2.get());
+                        pOutput.accept(ModItems.BAMBOO_SWORD_3.get());
+                        pOutput.accept(ModItems.BAMBOO_SWORD_4.get());
+                        pOutput.accept(ModItems.BAMBOO_SWORD_5.get());
+
+                        pOutput.accept(ModItems.LANTERN_SWORD.get());
+                        pOutput.accept(ModItems.LANTERN_SWORD_1.get());
+                        pOutput.accept(ModItems.LANTERN_SWORD_2.get());
+                        pOutput.accept(ModItems.LANTERN_SWORD_3.get());
+                        pOutput.accept(ModItems.LANTERN_SWORD_4.get());
+                        pOutput.accept(ModItems.LANTERN_SWORD_5.get());
                         
                     })
                     .build());

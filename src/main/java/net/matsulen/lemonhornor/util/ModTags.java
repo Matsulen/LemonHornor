@@ -33,6 +33,14 @@ public class ModTags {
         public static final TagKey<Item> ROUND_SWORD_TAG = tag("round_sword");
         public static final TagKey<Item> SHAPED_AMETHYST_TAG = tag("shaped_amethyst");
         public static final TagKey<Item> FLINT_HAND_TAG = tag("flint_hand");
+        public static final TagKey<Item> LAVA_SWORD_TAG = tag("lava_sword");
+        public static final TagKey<Item> WITHER_SWORD_TAG = tag("wither_sword");
+        public static final TagKey<Item> KING_AXE_TAG = tag("king_axe");
+        public static final TagKey<Item> STORM_AXE_TAG = tag("storm_axe");
+        public static final TagKey<Item> BIG_FIRED_CHICKEN_TAG = tag("big_fired_chicken");
+        public static final TagKey<Item> GOLDEN_SPEAR_TAG = tag("golden_spear");
+        public static final TagKey<Item> BAMBOO_SWORD_TAG = tag("bamboo_sword");
+        public static final TagKey<Item> LANTERN_SWORD_TAG = tag("lantern_sword");
 
 
 

@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lemonhornor:big_fired_chicken_4"
+    },
+    {
+      "item": "lemonhornor:mystery_plate"
+    }
+  ],
+  "output": {
+    "item": "lemonhornor:big_fired_chicken_5"
+  }
+}
