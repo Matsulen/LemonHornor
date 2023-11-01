@@ -18,6 +18,10 @@ public class ModToolTiers {
             new ForgeTier(3,800,1f,2f,15,
                     BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModItems.DIAMOND_DUST.get())),
             new ResourceLocation(LemonHornor.MOD_ID,"evolve"), List.of(), List.of(Tiers.DIAMOND));
+    public static final Tier BAMBOO = TierSortingRegistry.registerTier(
+            new ForgeTier(2,300,1f,2f,20,
+                    BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModItems.DIAMOND_DUST.get())),
+            new ResourceLocation(LemonHornor.MOD_ID,"bamboo"), List.of(), List.of(Tiers.IRON));
     public static final Tier Totem = TierSortingRegistry.registerTier(
             new ForgeTier(5,1800,1f,2f,30,
                     BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(Items.EMERALD)),

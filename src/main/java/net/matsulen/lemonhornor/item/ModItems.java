@@ -516,41 +516,41 @@ public class ModItems {
                     , new Item.Properties()));
 
     public static final RegistryObject<Item> BAMBOO_SWORD = ITEMS.register("bamboo_sword",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 8,-3.5f
+            () -> new BambooSwordItem(ModToolTiers.BAMBOO, 2,-1.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> BAMBOO_SWORD_1 = ITEMS.register("bamboo_sword_1",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 12,-3.5f
+            () -> new BambooSwordItem(ModToolTiers.BAMBOO, 4,-1.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> BAMBOO_SWORD_2 = ITEMS.register("bamboo_sword_2",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 16,-3.5f
+            () -> new BambooSwordItem(ModToolTiers.BAMBOO, 9,-1.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> BAMBOO_SWORD_3 = ITEMS.register("bamboo_sword_3",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 22,-3.5f
+            () -> new BambooSwordItem(ModToolTiers.BAMBOO, 13,-1.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> BAMBOO_SWORD_4 = ITEMS.register("bamboo_sword_4",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 29,-3.5f
+            () -> new BambooSwordItem(ModToolTiers.BAMBOO, 18,-1.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> BAMBOO_SWORD_5 = ITEMS.register("bamboo_sword_5",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 36,-3.5f
+            () -> new BambooSwordItem(ModToolTiers.BAMBOO, 22,-1.5f
                     , new Item.Properties()));
 
     public static final RegistryObject<Item> LANTERN_SWORD = ITEMS.register("lantern_sword",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 8,-3.5f
+            () -> new LanternSwordItem(ModToolTiers.Evolve, 3,-2.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> LANTERN_SWORD_1 = ITEMS.register("lantern_sword_1",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 12,-3.5f
+            () -> new LanternSwordItem(ModToolTiers.Evolve, 7,-2.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> LANTERN_SWORD_2 = ITEMS.register("lantern_sword_2",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 16,-3.5f
+            () -> new LanternSwordItem(ModToolTiers.Evolve, 12,-2.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> LANTERN_SWORD_3 = ITEMS.register("lantern_sword_3",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 22,-3.5f
+            () -> new LanternSwordItem(ModToolTiers.Evolve, 16,-2.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> LANTERN_SWORD_4 = ITEMS.register("lantern_sword_4",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 29,-3.5f
+            () -> new LanternSwordItem(ModToolTiers.Evolve, 21,-2.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> LANTERN_SWORD_5 = ITEMS.register("lantern_sword_5",
-            () -> new GoldenSpearItem(ModToolTiers.Evolve, 36,-3.5f
+            () -> new LanternSwordItem(ModToolTiers.Evolve, 25,-2.5f
                     , new Item.Properties()));
 
 

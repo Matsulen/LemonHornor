@@ -1,17 +1,27 @@
-// 1.20.1	2023-10-27T15:12:26.4404546	Tags for minecraft:item mod id lemonhornor
+// 1.20.1	2023-11-01T23:53:33.3691117	Tags for minecraft:item mod id lemonhornor
+f09ba13b2676c6814a9b0b1e98b31b077597e48a data/lemonhornor/tags/items/bamboo_sword.json
 ab0070ef1d0ad3be6953f07c6edd7177a40e594f data/lemonhornor/tags/items/baysword.json
+54eaf27037646348565db909fc643eeaefaacea4 data/lemonhornor/tags/items/big_fired_chicken.json
 43aac34f386679126d7cd9f58c0c09e18b685208 data/lemonhornor/tags/items/camp_fire_sword.json
 c6a58063e950c2074a0b6e3988b03a1ec16a2dae data/lemonhornor/tags/items/dragon_tear.json
 346d5071b86bcf231770bed163e2ea2d88b29f88 data/lemonhornor/tags/items/effected_sword.json
 c6d13445acbb1a23e0067c4a1cb8a6bddf465e97 data/lemonhornor/tags/items/flint_hand.json
+1fb01ad95ae1491b07f8ad18e081cef206787ed5 data/lemonhornor/tags/items/golden_spear.json
 7601e5e1ec795ec37fc77abfc679d67a31d25536 data/lemonhornor/tags/items/horn_of_goat.json
 ee48ac906e22a368b5dba1e92e1cf6a5d77dcae5 data/lemonhornor/tags/items/iron_blade.json
 84c7a713ce89ffdcf02f49d8cfde16a2f41fad6a data/lemonhornor/tags/items/iron_sickle.json
+3435fae369ec2ac55a765359eef6c35e405ba8a0 data/lemonhornor/tags/items/king_axe.json
 93ed2ab42b80f7c66472b5b4285a13739c8f9be4 data/lemonhornor/tags/items/knight_hornor.json
+2c0937df2caef1136617a6e4a755518d56f88bb5 data/lemonhornor/tags/items/lantern_sword.json
+fbf258d0f0e6877f9917bbd2eed5444f310f11c3 data/lemonhornor/tags/items/lava_sword.json
 99e82d40c8435722c938af48deb3146609dc988f data/lemonhornor/tags/items/meat_knife.json
+ecdd5af2b7ac43286ffc3f9f3669e50a5bd8eb1f data/lemonhornor/tags/items/normal_item.json
 18c637896adddf47a82a0b9f8abaa03ee8cc021b data/lemonhornor/tags/items/round_sword.json
 31cb069b0f84a110d9e90dc80d46072e40b80b8e data/lemonhornor/tags/items/samon_sword.json
 614b90aeb79cde17067def9f1f8c319f0ed3943b data/lemonhornor/tags/items/shaped_amethyst.json
 fafbeb0c5cae37a57fe2cc0e1f191391626428df data/lemonhornor/tags/items/soul_fire.json
 c92aa2d25baa0a3edb60f424f6e6fb95ff7ade8b data/lemonhornor/tags/items/spare.json
+7b649572d4191eccaed9d1ff84775f11d21ea978 data/lemonhornor/tags/items/storm_axe.json
 c5535d1f80f5c44d5b1bf5043c913551ac1794d6 data/lemonhornor/tags/items/totem_sword.json
+94f0faeb7e61ee9f433999df20ca95b766beb316 data/lemonhornor/tags/items/wither_sword.json
+a1f505b1d16670ab21adeb7ab9b3fad219bef7d6 data/minecraft/tags/items/trimmable_armor.json

@@ -1,5 +1,15 @@
 {
 
+  "lemonhornor.adtitle.root": "§c柠檬王国！",
+  "lemonhornor.ad.root": "§b开启柠檬王国的冒险..",
+  "lemonhornor.adtitle.smithing": "§d强化武器！",
+  "lemonhornor.ad.smithing": "§b用星星和水晶强化武器",
+  "lemonhornor.adtitle.weapon": "§d传说武器",
+  "lemonhornor.ad.weapon": "§b地牢！钓鱼！冒险！",
+  "lemonhornor.adtitle.bamboo_sword": "§6竹子剑！",
+  "lemonhornor.ad.bamboo_sword": "§b获得竹剑",
+  "lemonhornor.adtitle.mystery_amethyst": "§6这是什么？！",
+  "lemonhornor.ad.mystery_amethyst": "§b可以强化传说武器的宝贝！",
 
   "item.lemonhornor.broken_star_small": "§2破碎星星碎片",
   "item.lemonhornor.broken_star_long": "§b破碎星星长碎片",
@@ -344,8 +354,8 @@
   "tooltip.lemonhornor.bamboo_sword.tooltip.shift2": "以竹子为刃体锻造的武器，经过",
   "tooltip.lemonhornor.bamboo_sword.tooltip.shift3": "特殊工艺锤炼，足以达到金铁",
   "tooltip.lemonhornor.bamboo_sword.tooltip.shift4": "级别的武器韧度",
-  "tooltip.lemonhornor.bamboo_sword.tooltip.control1": "因为材质原因，武器耐久度较低，可与之",
-  "tooltip.lemonhornor.bamboo_sword.tooltip.control2": "相对的，刀刃本身竟然极其锋利",
+  "tooltip.lemonhornor.bamboo_sword.tooltip.control1": "因为材质原因，武器耐久度较低",
+  "tooltip.lemonhornor.bamboo_sword.tooltip.control2": "无视任何护甲",
 
   "item.lemonhornor.lantern_sword": "§6灯笼剑",
   "item.lemonhornor.lantern_sword_1": "§6灯笼剑+1",
@@ -356,8 +366,8 @@
   "tooltip.lemonhornor.lantern_sword.tooltip.shift2": "奇异的武器，中间似乎被挖孔",
   "tooltip.lemonhornor.lantern_sword.tooltip.shift3": "制成灯笼的形式",
   "tooltip.lemonhornor.lantern_sword.tooltip.shift4": "并不知道制成这样的缘由",
-  "tooltip.lemonhornor.lantern_sword.tooltip.control1": "---------------",
-  "tooltip.lemonhornor.lantern_sword.tooltip.control2": "---------------",
+  "tooltip.lemonhornor.lantern_sword.tooltip.control1": "右键使用，使自己发光",
+  "tooltip.lemonhornor.lantern_sword.tooltip.control2": "同时短时间获得夜视",
 
 
   "tooltip.lemonhornor.iron_blade.tooltip.shift1": "标准的铁质刀刃，",
