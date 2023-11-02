@@ -1,0 +1,32 @@
+{
+  "parent": "lkartifacts:weapon",
+  "display": {
+    "icon": {
+      "item": "lkartifacts:lantern_sword"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.lantern_sword"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.lantern_sword"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lkartifacts:lantern_sword"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

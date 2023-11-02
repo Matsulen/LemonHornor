@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lkartifacts:storm_axe_1"
+    },
+    {
+      "item": "lkartifacts:mystery_amethyst"
+    }
+  ],
+  "output": {
+    "item": "lkartifacts:storm_axe_2"
+  }
+}

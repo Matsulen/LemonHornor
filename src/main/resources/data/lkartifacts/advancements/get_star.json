@@ -1,0 +1,32 @@
+{
+  "parent": "lkartifacts:smithing",
+  "display": {
+    "icon": {
+      "item": "lkartifacts:star"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.star"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.star"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lkartifacts:star"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "lkartifacts:smithing",
+  "display": {
+    "icon": {
+      "item": "lkartifacts:smithing_hammer"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.smithing_hammer"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.smithing_hammer"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lkartifacts:smithing_hammer"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lkartifacts:golden_spear_2"
+    },
+    {
+      "item": "lkartifacts:mystery_amethyst"
+    }
+  ],
+  "output": {
+    "item": "lkartifacts:golden_spear_3"
+  }
+}

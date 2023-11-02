@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lkartifacts:flint_hand_4"
+    },
+    {
+      "item": "lkartifacts:mystery_plate"
+    }
+  ],
+  "output": {
+    "item": "lkartifacts:flint_hand_5"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "betterdungeons:zombie_dungeon/chests/tombstone"
+    },
+    {
+      "chance": 0.1,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "lkartifacts:camp_fire_sword"
+}

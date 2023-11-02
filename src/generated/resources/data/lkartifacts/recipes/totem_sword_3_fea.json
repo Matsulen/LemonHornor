@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lkartifacts:totem_sword_2"
+    },
+    {
+      "item": "lkartifacts:mystery_amethyst"
+    }
+  ],
+  "output": {
+    "item": "lkartifacts:totem_sword_3"
+  }
+}

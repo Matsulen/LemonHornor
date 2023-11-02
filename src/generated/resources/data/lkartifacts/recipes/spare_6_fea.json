@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lkartifacts:spare_5"
+    },
+    {
+      "item": "lkartifacts:broken_star_long"
+    }
+  ],
+  "output": {
+    "item": "lkartifacts:spare_6"
+  }
+}

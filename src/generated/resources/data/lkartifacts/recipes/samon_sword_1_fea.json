@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lkartifacts:samon_sword"
+    },
+    {
+      "item": "lkartifacts:mystery_amethyst"
+    }
+  ],
+  "output": {
+    "item": "lkartifacts:samon_sword_1"
+  }
+}

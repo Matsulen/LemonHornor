@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lkartifacts:baysword_9"
+    },
+    {
+      "item": "lkartifacts:star"
+    }
+  ],
+  "output": {
+    "item": "lkartifacts:baysword_10"
+  }
+}

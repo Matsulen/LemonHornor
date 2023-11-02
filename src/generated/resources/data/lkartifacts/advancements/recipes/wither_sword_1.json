@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lkartifacts:wither_sword_1"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wither_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lkartifacts:wither_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wither_sword",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lkartifacts:wither_sword_1"
+    ]
+  },
+  "sends_telemetry_event": true
+}

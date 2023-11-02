@@ -1,0 +1,32 @@
+{
+  "parent": "lkartifacts:smithing",
+  "display": {
+    "icon": {
+      "item": "lkartifacts:mystery_plate"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.mystery_plate"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.mystery_plate"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lkartifacts:mystery_plate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

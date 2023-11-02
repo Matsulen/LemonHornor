@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "lkartifacts:mystery_amethyst"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.smithing"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.smithing"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "lkartifacts:root",
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

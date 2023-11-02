@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "lkartifacts:smithing_hammer"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.root"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.root"
+    },
+    "background": "minecraft:textures/block/obsidian.png",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

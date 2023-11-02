@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lkartifacts:iron_blade_8"
+    },
+    {
+      "item": "lkartifacts:broken_star_big"
+    }
+  ],
+  "output": {
+    "item": "lkartifacts:iron_blade_9"
+  }
+}

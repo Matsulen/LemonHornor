@@ -1,0 +1,32 @@
+{
+  "parent": "lkartifacts:smithing",
+  "display": {
+    "icon": {
+      "item": "lkartifacts:mystery_amethyst"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.mystery_amethyst"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.mystery_amethyst"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lkartifacts:mystery_amethyst"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

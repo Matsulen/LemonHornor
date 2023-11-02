@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lkartifacts:iron_sickle_9"
+    },
+    {
+      "item": "lkartifacts:star"
+    }
+  ],
+  "output": {
+    "item": "lkartifacts:iron_sickle_10"
+  }
+}

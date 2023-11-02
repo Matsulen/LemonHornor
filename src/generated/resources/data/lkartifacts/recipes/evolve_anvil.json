@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:anvil"
+    },
+    "H": {
+      "item": "lkartifacts:smithing_hammer"
+    }
+  },
+  "pattern": [
+    "H ",
+    "A "
+  ],
+  "result": {
+    "item": "lkartifacts:evolve_anvil"
+  },
+  "show_notification": true
+}

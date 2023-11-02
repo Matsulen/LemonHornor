@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_big_fired_chicken": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lkartifacts:big_fired_chicken"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lkartifacts:big_fired_chicken_1"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_big_fired_chicken",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lkartifacts:big_fired_chicken_1"
+    ]
+  },
+  "sends_telemetry_event": true
+}

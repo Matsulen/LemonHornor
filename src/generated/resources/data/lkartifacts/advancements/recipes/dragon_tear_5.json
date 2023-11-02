@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dragon_tear": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "lkartifacts:dragon_tear_4"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lkartifacts:dragon_tear_5"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dragon_tear",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lkartifacts:dragon_tear_5"
+    ]
+  },
+  "sends_telemetry_event": true
+}

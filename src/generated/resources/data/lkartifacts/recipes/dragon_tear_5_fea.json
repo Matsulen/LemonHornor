@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lkartifacts:dragon_tear_4"
+    },
+    {
+      "item": "lkartifacts:mystery_plate"
+    }
+  ],
+  "output": {
+    "item": "lkartifacts:dragon_tear_5"
+  }
+}
