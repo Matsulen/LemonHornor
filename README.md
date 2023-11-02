@@ -1,5 +1,6 @@
-# LemonHornor
-This is a mod with some custom weapons (sword and axe), one custom Block entity that help
-the Player to "Evolve" the weapon.
-It has custom recepies that include some custom items.
-The block entity also have its custom Menu and Screen
+# Lemon Kindom: Artifacts
+The weapon part of Lemon Kindom.
+Including different kind of evolvable weapons, new normal weapon which can evolve to +10,
+legendary weapons that could evolve to +5.
+New block Evolve Anvil for evolve your speacial weapons.
+All you can loot from structures, including Minecraft structures and some from other mods.
