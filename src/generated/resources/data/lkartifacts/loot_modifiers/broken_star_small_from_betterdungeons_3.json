@@ -6,7 +6,7 @@
       "loot_table_id": "betterdungeons:small_dungeon/chests/loot_piles"
     },
     {
-      "chance": 0.5,
+      "chance": 0.3,
       "condition": "minecraft:random_chance"
     }
   ],

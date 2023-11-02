@@ -6,7 +6,7 @@
       "loot_table_id": "betterstrongholds:/chests/treasure"
     },
     {
-      "chance": 0.6,
+      "chance": 0.2,
       "condition": "minecraft:random_chance"
     }
   ],
