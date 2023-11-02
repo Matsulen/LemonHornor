@@ -1,0 +1,14 @@
+{
+  "type": "lemonhornor:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "dungeons_arise:chests/scorched_mines/scorched_mines_normal"
+    },
+    {
+      "chance": 0.1,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "lemonhornor:broken_star_big"
+}
