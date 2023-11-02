@@ -1,0 +1,32 @@
+{
+  "parent": "lemonhornor:weapon",
+  "display": {
+    "icon": {
+      "item": "lemonhornor:meat_knife"
+    },
+    "title": {
+      "translate": "lemonhornor.adtitle.meat_knife"
+    },
+    "description": {
+      "translate": "lemonhornor.ad.meat_knife"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lemonhornor:meat_knife"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

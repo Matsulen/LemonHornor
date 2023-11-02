@@ -1,0 +1,32 @@
+{
+  "parent": "lemonhornor:smithing",
+  "display": {
+    "icon": {
+      "item": "lemonhornor:mystery_plate"
+    },
+    "title": {
+      "translate": "lemonhornor.adtitle.mystery_plate"
+    },
+    "description": {
+      "translate": "lemonhornor.ad.mystery_plate"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lemonhornor:mystery_plate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

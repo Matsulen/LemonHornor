@@ -1,0 +1,32 @@
+{
+  "parent": "lemonhornor:weapon",
+  "display": {
+    "icon": {
+      "item": "lemonhornor:horn_of_goat"
+    },
+    "title": {
+      "translate": "lemonhornor.adtitle.horn_of_goat"
+    },
+    "description": {
+      "translate": "lemonhornor.ad.horn_of_goat"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lemonhornor:horn_of_goat"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

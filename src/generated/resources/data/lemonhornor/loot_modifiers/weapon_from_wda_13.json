@@ -6,7 +6,7 @@
       "loot_table_id": "dungeons_arise:chests/mushroom_house/mushroom_house_treasure"
     },
     {
-      "chance": 0.5,
+      "chance": 1.0,
       "condition": "minecraft:random_chance"
     }
   ],

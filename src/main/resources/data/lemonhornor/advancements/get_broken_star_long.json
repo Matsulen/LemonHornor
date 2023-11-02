@@ -1,0 +1,32 @@
+{
+  "parent": "lemonhornor:smithing",
+  "display": {
+    "icon": {
+      "item": "lemonhornor:broken_star_long"
+    },
+    "title": {
+      "translate": "lemonhornor.adtitle.broken_star_long"
+    },
+    "description": {
+      "translate": "lemonhornor.ad.broken_star_long"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lemonhornor:broken_star_long"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

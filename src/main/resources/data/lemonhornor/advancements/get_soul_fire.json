@@ -1,0 +1,32 @@
+{
+  "parent": "lemonhornor:weapon",
+  "display": {
+    "icon": {
+      "item": "lemonhornor:soul_fire"
+    },
+    "title": {
+      "translate": "lemonhornor.adtitle.soul_fire"
+    },
+    "description": {
+      "translate": "lemonhornor.ad.soul_fire"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lemonhornor:soul_fire"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

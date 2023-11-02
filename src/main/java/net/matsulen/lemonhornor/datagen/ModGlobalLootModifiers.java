@@ -555,6 +555,300 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
                 new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/abandoned_temple/abandoned_temple_top")).build(),
                 LootItemRandomChanceCondition.randomChance(0.5f).build(),
         }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_from_wda_4", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/abandoned_temple/abandoned_temple_top")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_from_wda_2", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/abandoned_temple/abandoned_temple_entrance")).build(),
+                LootItemRandomChanceCondition.randomChance(0.8f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_from_wda_3", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/abandoned_temple/abandoned_temple_map")).build(),
+                LootItemRandomChanceCondition.randomChance(0.8f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_from_wda_5", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/aviary/aviary_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_from_wda_6", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/aviary/aviary_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_from_wda_7", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/aviary/aviary_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_from_wda_8", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/aviary/aviary_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_from_wda_9", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/bandit_towers/bandit_towers_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_from_wda_10", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/bandit_towers/bandit_towers_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_from_wda_11", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/bandit_towers/bandit_towers_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_from_wda_12", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/bandit_towers/bandit_towers_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_from_wda_13", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/bathhouse/bathhouse_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_from_wda_14", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/bathhouse/bathhouse_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_from_wda_15", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/bathhouse/bathhouse_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_from_wda_16", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/foundry/foundry_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_from_wda_17", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/foundry/foundry_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_from_wda_18", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/foundry/foundry_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_from_wda_19", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/foundry/foundry_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_from_wda_20", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/greenwood_pub/greenwood_pub_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_from_wda_21", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/greenwood_pub/greenwood_pub_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_from_wda_22", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/greenwood_pub/greenwood_pub_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_from_wda_23", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_challenger/heavenly_challenger_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_from_wda_24", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_challenger/heavenly_challenger_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_from_wda_25", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_challenger/heavenly_challenger_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_from_wda_26", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_challenger/heavenly_challenger_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_from_wda_27", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_from_wda_28", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_from_wda_29", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_from_wda_30", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_s_from_wda_heavenly_rider", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_rider/heavenly_rider_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_l_from_wda_heavenly_rider", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_rider/heavenly_rider_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_b_from_wda_heavenly_rider", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_rider/heavenly_rider_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_a_from_wda_heavenly_rider", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/heavenly_rider/heavenly_rider_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_s_from_wda_illager_fort", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/illager_fort/illager_fort_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_l_from_wda_illager_fort", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/illager_fort/illager_fort_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_b_from_wda_illager_fort", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/illager_fort/illager_fort_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_a_from_wda_illager_fort", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/illager_fort/illager_fort_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_s_from_wda_infested_temple", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/infested_temple/infested_temple_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_l_from_wda_infested_temple", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/infested_temple/infested_temple_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_b_from_wda_infested_temple", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/infested_temple/infested_temple_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_a_from_wda_infested_temple", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/infested_temple/infested_temple_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_s_from_wda_jungle_tree_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/jungle_tree_house/jungle_tree_house_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_l_from_wda_jungle_tree_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/jungle_tree_house/jungle_tree_house_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_b_from_wda_jungle_tree_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/jungle_tree_house/jungle_tree_house_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_a_from_wda_jungle_tree_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/jungle_tree_house/jungle_tree_house_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+
+        add("material_s_from_wda_keep_kayra", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/keep_kayra/keep_kayra_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_l_from_wda_keep_kayra", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/keep_kayra/keep_kayra_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_b_from_wda_keep_kayra", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/keep_kayra/keep_kayra_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_a_from_wda_keep_kayra", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/keep_kayra/keep_kayra_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_s_from_wda_mechanical_nest", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mechanical_nest/mechanical_nest_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_l_from_wda_mechanical_nest", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mechanical_nest/mechanical_nest_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_b_from_wda_mechanical_nest", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mechanical_nest/mechanical_nest_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_a_from_wda_mechanical_nest", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mechanical_nest/mechanical_nest_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_s_from_wda_mushroom_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mushroom_house/mushroom_house_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_l_from_wda_mushroom_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mushroom_house/mushroom_house_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_b_from_wda_mushroom_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mushroom_house/mushroom_house_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_a_from_wda_mushroom_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mushroom_house/mushroom_house_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_s_from_wda_plague_asylum", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/plague_asylum/plague_asylum_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_l_from_wda_plague_asylum", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/plague_asylum/plague_asylum_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_b_from_wda_plague_asylum", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/plague_asylum/plague_asylum_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_a_from_wda_plague_asylum", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/plague_asylum/plague_asylum_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_s_from_wda_scorched_mines", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/scorched_mines/scorched_mines_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_l_from_wda_scorched_mines", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/scorched_mines/scorched_mines_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_b_from_wda_scorched_mines", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/scorched_mines/scorched_mines_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_a_from_wda_scorched_mines", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/scorched_mines/scorched_mines_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_s_from_wda_shiraz_palace", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/shiraz_palace/shiraz_palace_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_l_from_wda_shiraz_palace", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/shiraz_palace/shiraz_palace_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_b_from_wda_shiraz_palace", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/shiraz_palace/shiraz_palace_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_a_from_wda_shiraz_palace", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("material_s_from_wda_small_prairie_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/small_prairie_house/small_prairie_house_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.6f).build(),
+        }, ModItems.BROKEN_STAR_SMALL.get()));
+        add("material_l_from_wda_small_prairie_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/small_prairie_house/small_prairie_house_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("material_b_from_wda_small_prairie_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/small_prairie_house/small_prairie_house_normal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.BROKEN_STAR_BIG.get()));
+        add("material_a_from_wda_small_prairie_house", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/small_prairie_house/small_prairie_house_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.MYSTERY_AMETHYST.get()));
+
         add("weapon_from_wda_1", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/abandoned_temple/abandoned_temple_top")).build(),
                 LootItemRandomChanceCondition.randomChance(0.5f).build(),
@@ -633,8 +927,24 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
         }, ModItems.STORM_AXE.get()));
         add("weapon_from_wda_13", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mushroom_house/mushroom_house_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+                LootItemRandomChanceCondition.randomChance(1f).build(),
         }, ModItems.BIG_FIRED_CHICKEN.get()));
+        add("weapon_from_wda_14", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mushroom_mines/mushroom_mines_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(1f).build(),
+        }, ModItems.GOLDEN_SPEAR.get()));
+        add("weapon_from_wda_15", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/mushroom_village/mushroom_village_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.BAMBOO_SWORD.get()));
+        add("weapon_from_wda_15", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/thornborn_towers/thornborn_towers_top_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.8f).build(),
+        }, ModItems.LANTERN_SWORD.get()));
+        add("weapon_from_wda_16", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("dungeons_arise:chests/lighthouse/lighthouse_top")).build(),
+                LootItemRandomChanceCondition.randomChance(1f).build(),
+        }, ModItems.LANTERN_SWORD.get()));
 
         //================================================================================
 
@@ -797,6 +1107,18 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/wither")).build(),
                 LootItemRandomChanceCondition.randomChance(1f).build()
         }, ModItems.STAR.get()));
+        add("star_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build()
+        }, ModItems.STAR.get()));
+        add("star_from_bastion_hoglin_stable", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_hoglin_stable")).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build()
+        }, ModItems.STAR.get()));
+        add("star_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build()
+        }, ModItems.STAR.get()));
 
         add("mystery_amethyst_from_armorer_gift", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("gameplay/hero_of_the_village/armorer_gift")).build(),
@@ -805,6 +1127,26 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
         add("mystery_amethyst_from_elder_guardian", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/elder_guardian")).build(),
                 LootItemRandomChanceCondition.randomChance(1f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_amethyst_from_wither", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/wither")).build(),
+                LootItemRandomChanceCondition.randomChance(1f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_amethyst_from_ender_dragon", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/ender_dragon")).build(),
+                LootItemRandomChanceCondition.randomChance(1f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_amethyst_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_amethyst_from_bastion_hoglin_stable", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_hoglin_stable")).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_amethyst_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build()
         }, ModItems.MYSTERY_AMETHYST.get()));
 
         // LEGENDARY WEAPON=======================================
@@ -907,13 +1249,47 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
                 LootItemRandomChanceCondition.randomChance(0.8f).build(),
         }, ModItems.ROUND_SWORD.get()));
 
+        add("lava_sword_from_ruined_portal", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/ruined_portal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+        }, ModItems.LAVA_SWORD.get()));
+
+        add("storm_axe_from_desert_pyramid", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/desert_pyramid")).build(),
+                LootItemRandomChanceCondition.randomChance(0.4f).build(),
+        }, ModItems.STORM_AXE.get()));
+
+        add("flint_hand_from_stronghold_corridor", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/stronghold_corridor")).build(),
+                LootItemRandomChanceCondition.randomChance(0.4f).build(),
+        }, ModItems.FLINT_HAND.get()));
+        add("king_axe_from_woodland_mansion", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/woodland_mansion")).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build(),
+        }, ModItems.KING_AXE.get()));
+        add("bamboo_sword_from_simple_dungeon", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/simple_dungeon")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BAMBOO_SWORD.get()));
+        add("lantern_sword_from_abandoned_mineshaft", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/abandoned_mineshaft")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.LANTERN_SWORD.get()));
 
         add("big_fired_chicken_from_chicken", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/chicken")).build(),
                 LootItemRandomChanceCondition.randomChance(0.05f).build(),
         }, ModItems.BIG_FIRED_CHICKEN.get()));
 
+        add("golden_spear_from_elder_guardian", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/elder_guardian")).build(),
+                LootItemRandomChanceCondition.randomChance(1f).build(),
+        }, ModItems.GOLDEN_SPEAR.get()));
 
+        add("wither_sword_from_wither", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/wither")).build(),
+                LootItemRandomChanceCondition.randomChance(1f).build(),
+        }, ModItems.WITHER_SWORD.get()));
 
         add("shaped_amethyst_from_buried_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/buried_treasure")).build(),

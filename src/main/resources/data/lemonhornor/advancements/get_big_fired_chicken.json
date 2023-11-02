@@ -1,0 +1,32 @@
+{
+  "parent": "lemonhornor:weapon",
+  "display": {
+    "icon": {
+      "item": "lemonhornor:big_fired_chicken"
+    },
+    "title": {
+      "translate": "lemonhornor.adtitle.big_fired_chicken"
+    },
+    "description": {
+      "translate": "lemonhornor.ad.big_fired_chicken"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lemonhornor:big_fired_chicken"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "lemonhornor:weapon",
+  "display": {
+    "icon": {
+      "item": "lemonhornor:samon_sword"
+    },
+    "title": {
+      "translate": "lemonhornor.adtitle.samon_sword"
+    },
+    "description": {
+      "translate": "lemonhornor.ad.samon_sword"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lemonhornor:samon_sword"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}
