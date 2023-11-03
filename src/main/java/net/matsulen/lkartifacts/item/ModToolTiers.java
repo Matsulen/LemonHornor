@@ -16,14 +16,14 @@ public class ModToolTiers {
     public static final Tier Evolve = TierSortingRegistry.registerTier(
             new ForgeTier(3,800,1f,2f,15,
                     BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModItems.DIAMOND_DUST.get())),
-            new ResourceLocation(LKArtifacts.MOD_ID,"evolve"), List.of(), List.of(Tiers.DIAMOND));
+            new ResourceLocation(LKArtifacts.MOD_ID,"evolve"), List.of(), List.of());
     public static final Tier BAMBOO = TierSortingRegistry.registerTier(
             new ForgeTier(2,300,1f,2f,20,
                     BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(ModItems.DIAMOND_DUST.get())),
-            new ResourceLocation(LKArtifacts.MOD_ID,"bamboo"), List.of(), List.of(Tiers.IRON));
+            new ResourceLocation(LKArtifacts.MOD_ID,"bamboo"), List.of(), List.of());
     public static final Tier Totem = TierSortingRegistry.registerTier(
-            new ForgeTier(5,1800,1f,2f,30,
-                    BlockTags.NEEDS_DIAMOND_TOOL, () -> Ingredient.of(Items.EMERALD)),
-            new ResourceLocation(LKArtifacts.MOD_ID,"totem"), List.of(Tiers.DIAMOND), List.of());
+            new ForgeTier(3,1800,1f,2f,30,
+                    BlockTags.NEEDS_IRON_TOOL, () -> Ingredient.of(Items.EMERALD)),
+            new ResourceLocation(LKArtifacts.MOD_ID,"totem"), List.of(), List.of());
 
 }

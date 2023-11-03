@@ -35,8 +35,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 //        this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
 //                .add(ModBlocks.EVOLVE_ANVIL.get());
 //
-//        this.tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
-//                .add(ModBlocks.EVOLVE_ANVIL.get());
 
 
 
