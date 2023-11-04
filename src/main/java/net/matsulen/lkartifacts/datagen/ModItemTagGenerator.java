@@ -26,7 +26,16 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(ModItems.KNIGHT_HELMET.get(),
                         ModItems.KNIGHT_CHESTPLATE.get(),
                         ModItems.KNIGHT_LEGGINGS.get(),
-                        ModItems.KNIGHT_BOOTS.get());
+                        ModItems.KNIGHT_BOOTS.get(),
+                        ModItems.SLAYER_HELMET.get(),
+                        ModItems.SLAYER_CHESTPLATE.get(),
+                        ModItems.SLAYER_LEGGINGS.get(),
+                        ModItems.SLAYER_BOOTS.get(),
+                        ModItems.LAVA_HELMET.get(),
+                        ModItems.LAVA_CHESTPLATE.get(),
+                        ModItems.LAVA_LEGGINGS.get(),
+                        ModItems.LAVA_BOOTS.get()
+                );
 
         this.tag(ModTags.Items.NORMAL_ITEM_TAG)
                 .add(ModItems.IRON_SICKLE.get(),

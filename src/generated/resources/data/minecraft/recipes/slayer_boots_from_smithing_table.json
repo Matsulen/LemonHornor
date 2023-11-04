@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "lkartifacts:broken_star_long"
+  },
+  "base": {
+    "item": "minecraft:diamond_boots"
+  },
+  "result": {
+    "item": "lkartifacts:slayer_boots"
+  },
+  "template": {
+    "item": "lkartifacts:slayer_upgrade_smithing_template"
+  }
+}

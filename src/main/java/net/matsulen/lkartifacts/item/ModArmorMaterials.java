@@ -8,15 +8,24 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.Map;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    KNIGHT("knight", 27, new int[]{ 3, 7, 5, 3 }, 15,
-            SoundEvents.ARMOR_EQUIP_IRON, 2f, 0.05f, () -> Ingredient.of(ModItems.DIAMOND_DUST.get()),
-            Map.of(Attributes.MAX_HEALTH, new AttributeModifier("MAX_HEALTH", 2.5,AttributeModifier.Operation.ADDITION)));
+    KNIGHT("knight", 27, new int[]{ 3, 7, 5, 3 }, 9,
+            SoundEvents.ARMOR_EQUIP_IRON, 2f, 0.05f, () -> Ingredient.of(Items.IRON_INGOT),
+            Map.of(Attributes.MAX_HEALTH, new AttributeModifier("MAX_HEALTH", 2.5,AttributeModifier.Operation.ADDITION))),
+    SLAYER ("slayer", 45, new int[]{ 3, 8, 6, 3 }, 10,
+            SoundEvents.ARMOR_EQUIP_DIAMOND, 3f, 0.05f, () -> Ingredient.of(Items.DIAMOND),
+            Map.of(Attributes.MAX_HEALTH, new AttributeModifier("MAX_HEALTH", 4,AttributeModifier.Operation.ADDITION))),
+    LAVA ("lava", 60, new int[]{ 4, 9, 7, 4 }, 15,
+    SoundEvents.ARMOR_EQUIP_NETHERITE, 3f, 0.1f, () -> Ingredient.of(Items.NETHERITE_INGOT),
+            Map.of(Attributes.MAX_HEALTH, new AttributeModifier("MAX_HEALTH", 7,AttributeModifier.Operation.ADDITION)));
+
+
 //    DIAMOND_DUST("Knight", 26, new int[]{ 5, 7, 5, 4 }, 25,
 //    SoundEvents.ARMOR_EQUIP_IRON, 1f, 0.5f, () -> Ingredient.of(ModItems.DIAMOND_DUST.get())),
 //    DIAMOND_DUST("Knight", 26, new int[]{ 5, 7, 5, 4 }, 25,

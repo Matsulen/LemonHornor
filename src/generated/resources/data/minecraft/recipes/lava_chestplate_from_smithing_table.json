@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "lkartifacts:broken_star_big"
+  },
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "result": {
+    "item": "lkartifacts:lava_chestplate"
+  },
+  "template": {
+    "item": "lkartifacts:lava_upgrade_smithing_template"
+  }
+}

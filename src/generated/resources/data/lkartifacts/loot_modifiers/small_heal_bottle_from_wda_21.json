@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "dungeons_arise:chests/greenwood_pub/greenwood_pub_normal"
+    },
+    {
+      "chance": 0.3,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "lkartifacts:small_heal_bottle"
+}

@@ -2,7 +2,11 @@ package net.matsulen.lkartifacts.item;
 
 
 import net.matsulen.lkartifacts.LKArtifacts;
+import net.matsulen.lkartifacts.item.armor.KnightArmorItem;
+import net.matsulen.lkartifacts.item.armor.LavaArmorItem;
+import net.matsulen.lkartifacts.item.armor.SlayerArmorItem;
 import net.matsulen.lkartifacts.item.custom.*;
+import net.matsulen.lkartifacts.item.templates.ModTemplates;
 import net.matsulen.lkartifacts.item.useitem.BigHealBottleItem;
 import net.matsulen.lkartifacts.item.useitem.SmallHealBottleItem;
 import net.minecraft.world.item.*;
@@ -10,6 +14,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import static net.minecraft.world.item.Items.registerItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -35,6 +41,14 @@ public class ModItems {
             () -> new SmallHealBottleItem(new Item.Properties()));
     public static final RegistryObject<Item> BIG_HEAL_BOTTLE = ITEMS.register("big_heal_bottle",
             () -> new BigHealBottleItem(new Item.Properties()));
+    public static final RegistryObject<Item> EVOLVE_TEMPLATE = ITEMS.register("evolve_upgrade_smithing_template",
+            ModTemplates::createEvolveTemplate);
+    public static final RegistryObject<Item> KNIGHT_TEMPLATE = ITEMS.register("knight_upgrade_smithing_template",
+            ModTemplates::createKnightTemplate);
+    public static final RegistryObject<Item> SLAYER_TEMPLATE = ITEMS.register("slayer_upgrade_smithing_template",
+            ModTemplates::createSlayerTemplate);
+    public static final RegistryObject<Item> LAVA_TEMPLATE = ITEMS.register("lava_upgrade_smithing_template",
+            ModTemplates::createLavaTemplate);
 
     public static final RegistryObject<Item> IRON_SICKLE = ITEMS.register("iron_sickle",
             () -> new IronSickleItem(ModToolTiers.Evolve, 4,-2.8f
@@ -576,6 +590,25 @@ public class ModItems {
             () -> new KnightArmorItem(ModArmorMaterials.KNIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> KNIGHT_BOOTS = ITEMS.register("knight_boots",
             () -> new KnightArmorItem(ModArmorMaterials.KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> SLAYER_HELMET = ITEMS.register("slayer_helmet",
+            () -> new SlayerArmorItem(ModArmorMaterials.SLAYER, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> SLAYER_CHESTPLATE = ITEMS.register("slayer_chestplate",
+            () -> new SlayerArmorItem(ModArmorMaterials.SLAYER, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> SLAYER_LEGGINGS = ITEMS.register("slayer_leggings",
+            () -> new SlayerArmorItem(ModArmorMaterials.SLAYER, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> SLAYER_BOOTS = ITEMS.register("slayer_boots",
+            () -> new SlayerArmorItem(ModArmorMaterials.SLAYER, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> LAVA_HELMET = ITEMS.register("lava_helmet",
+            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> LAVA_CHESTPLATE = ITEMS.register("lava_chestplate",
+            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> LAVA_LEGGINGS = ITEMS.register("lava_leggings",
+            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> LAVA_BOOTS = ITEMS.register("lava_boots",
+            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.BOOTS, new Item.Properties()));
+
 
 
     public static void register(IEventBus eventBus) {

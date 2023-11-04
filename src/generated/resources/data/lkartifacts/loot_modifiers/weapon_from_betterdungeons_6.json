@@ -6,7 +6,7 @@
       "loot_table_id": "betterdungeons:zombie_dungeon/chests/tombstone"
     },
     {
-      "chance": 0.08,
+      "chance": 0.2,
       "condition": "minecraft:random_chance"
     }
   ],

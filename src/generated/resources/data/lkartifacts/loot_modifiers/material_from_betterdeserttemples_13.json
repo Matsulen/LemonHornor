@@ -10,5 +10,5 @@
       "condition": "minecraft:random_chance"
     }
   ],
-  "item": "lkartifacts:broken_star_big"
+  "item": "lkartifacts:big_heal_bottle"
 }

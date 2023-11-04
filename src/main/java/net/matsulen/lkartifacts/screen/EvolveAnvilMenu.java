@@ -2,21 +2,40 @@ package net.matsulen.lkartifacts.screen;
 
 import net.matsulen.lkartifacts.block.ModBlocks;
 import net.matsulen.lkartifacts.block.entity.EvolveAnvilBlockEntity;
+import net.matsulen.lkartifacts.item.custom.AllArmorItem;
+import net.matsulen.lkartifacts.item.custom.AmethystItem;
+import net.matsulen.lkartifacts.item.custom.StarItem;
+import net.matsulen.lkartifacts.recipe.EvolveAnvilRecipe;
+import net.matsulen.lkartifacts.recipe.ModRecipe;
+import net.matsulen.lkartifacts.util.ModTags;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.*;
-import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.*;
+import net.minecraft.world.item.crafting.RecipeType;
+import net.minecraft.world.item.crafting.SmithingRecipe;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.SlotItemHandler;
+import org.jetbrains.annotations.NotNull;
+
+import java.util.List;
+import java.util.Optional;
 
 public class EvolveAnvilMenu extends AbstractContainerMenu {
 
     public final EvolveAnvilBlockEntity blockEntity;
     private final Level level;
     private final ContainerData data;
+
+
+
+    private Slot customSlot1;
+    private Slot customSlot2;
+    private Slot customSlot3;
     public EvolveAnvilMenu(int pContainerId, Inventory inv, FriendlyByteBuf extraData) {
         this(pContainerId, inv, inv.player.level().getBlockEntity(extraData.readBlockPos()), new SimpleContainerData(2));
     }
@@ -28,16 +47,38 @@ public class EvolveAnvilMenu extends AbstractContainerMenu {
         this.level = inv.player.level();
         this.data = data;
 
+
         addPlayerInventory(inv);
         addPlayerHotbar(inv);
 
         this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(iItemHandler ->{
-            this.addSlot(new SlotItemHandler(iItemHandler,0,80,11));//上面的插槽
-            this.addSlot(new SlotItemHandler(iItemHandler,1,80,59));//下面的插槽
-            this.addSlot(new SlotItemHandler(iItemHandler,2,57,34));//左面的插槽
+            this.customSlot1 = new SlotItemHandler(iItemHandler, 0, 80, 11) {
+                @Override
+                public boolean mayPlace(@NotNull ItemStack stack) {
+                    return (stack.getItem() instanceof SwordItem) ||
+                            (stack.getItem() instanceof AxeItem) ||
+                            (stack.getItem() instanceof PickaxeItem) ||
+                            (stack.getItem() instanceof HoeItem) ||
+                            (stack.getItem() instanceof ShovelItem)
+                            ||(stack.getItem() instanceof AllArmorItem);
+                }
+            };
+            this.customSlot2 = new SlotItemHandler(iItemHandler, 1, 80, 59);
+            this.customSlot3 = new SlotItemHandler(iItemHandler, 2, 57, 34){
+                @Override
+                public boolean mayPlace(@NotNull ItemStack stack) {
+                    return (stack.getItem() instanceof AmethystItem) ||
+                            (stack.getItem() instanceof StarItem) ;
+                }
+            };
+            this.addSlot(this.customSlot1);//上面的插槽
+            this.addSlot(this.customSlot2);//下面的插槽
+            this.addSlot(this.customSlot3);//左面的插槽
         });
         addDataSlots(data);
     }
+
+
     //确定正在制作
     public boolean isCrafting() {
         return data.get(0) > 0;
@@ -121,6 +162,19 @@ public class EvolveAnvilMenu extends AbstractContainerMenu {
         for (int i = 0; i < 9; ++i) {
             this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 142));
         }
+    }
+
+
+    public Slot getCustomSlot1() {
+        return customSlot1;
+    }
+
+    public Slot getCustomSlot2() {
+        return customSlot2;
+    }
+
+    public Slot getCustomSlot3() {
+        return customSlot3;
     }
 
 }

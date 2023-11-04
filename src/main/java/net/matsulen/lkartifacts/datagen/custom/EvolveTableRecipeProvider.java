@@ -21,13 +21,13 @@ import net.minecraftforge.registries.ForgeRegistries;
 import javax.annotation.Nullable;
 import java.util.function.Consumer;
 
-public class EvolveTableRecipe implements RecipeBuilder{
+public class EvolveTableRecipeProvider implements RecipeBuilder{
     private final Item result;
     private final Ingredient ingredient;
     private final int count;
     private final Advancement.Builder advancement = Advancement.Builder.advancement();
 
-    public EvolveTableRecipe(ItemLike ingredient, ItemLike material, ItemLike result, int count) {
+    public EvolveTableRecipeProvider(ItemLike ingredient, ItemLike material, ItemLike result, int count) {
         this.ingredient = Ingredient.of(ingredient, material);
         this.result = result.asItem();
         this.count = count;

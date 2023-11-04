@@ -3,6 +3,14 @@
     "lkartifacts:knight_helmet",
     "lkartifacts:knight_chestplate",
     "lkartifacts:knight_leggings",
-    "lkartifacts:knight_boots"
+    "lkartifacts:knight_boots",
+    "lkartifacts:slayer_helmet",
+    "lkartifacts:slayer_chestplate",
+    "lkartifacts:slayer_leggings",
+    "lkartifacts:slayer_boots",
+    "lkartifacts:lava_helmet",
+    "lkartifacts:lava_chestplate",
+    "lkartifacts:lava_leggings",
+    "lkartifacts:lava_boots"
   ]
 }

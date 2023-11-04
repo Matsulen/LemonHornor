@@ -41,6 +41,7 @@ public class ModTags {
         public static final TagKey<Item> GOLDEN_SPEAR_TAG = tag("golden_spear");
         public static final TagKey<Item> BAMBOO_SWORD_TAG = tag("bamboo_sword");
         public static final TagKey<Item> LANTERN_SWORD_TAG = tag("lantern_sword");
+        public static final TagKey<Item> EVOLVABLE_WEAPON_TAG = tag("evolvable_weapon_tag");
 
 
 

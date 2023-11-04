@@ -6,7 +6,7 @@
       "loot_table_id": "betterwitchhuts:/chests/hut_0"
     },
     {
-      "chance": 0.6,
+      "chance": 0.3,
       "condition": "minecraft:random_chance"
     }
   ],

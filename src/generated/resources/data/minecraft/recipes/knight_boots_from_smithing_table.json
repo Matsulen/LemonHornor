@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "lkartifacts:broken_star_small"
+  },
+  "base": {
+    "item": "minecraft:iron_boots"
+  },
+  "result": {
+    "item": "lkartifacts:knight_boots"
+  },
+  "template": {
+    "item": "lkartifacts:knight_upgrade_smithing_template"
+  }
+}

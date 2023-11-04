@@ -1,6 +1,7 @@
-package net.matsulen.lkartifacts.item.custom;
+package net.matsulen.lkartifacts.item.armor;
 
 import net.matsulen.lkartifacts.item.ModArmorMaterials;
+import net.matsulen.lkartifacts.item.custom.AllArmorItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
@@ -11,20 +12,20 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class KnightArmorItem extends AllArmorItem{
-    public KnightArmorItem(ModArmorMaterials material, Type type, Properties settings) {
+public class LavaArmorItem extends AllArmorItem {
+    public LavaArmorItem(ModArmorMaterials material, Type type, Properties settings) {
         super(material, type, settings);
     }
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
 
         if (Screen.hasShiftDown()){
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.knight_armor.tooltip.shift1").withStyle(ChatFormatting.DARK_GRAY));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.knight_armor.tooltip.shift2").withStyle(ChatFormatting.DARK_GRAY));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.knight_armor.tooltip.shift3").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.lava_armor.tooltip.shift1").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.lava_armor.tooltip.shift2").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.lava_armor.tooltip.shift3").withStyle(ChatFormatting.DARK_GRAY));
         } else if (Screen.hasControlDown()) {
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.knight_armor.tooltip.control1").withStyle(ChatFormatting.LIGHT_PURPLE));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.knight_armor.tooltip.control2").withStyle(ChatFormatting.LIGHT_PURPLE));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.lava_armor.tooltip.control1").withStyle(ChatFormatting.LIGHT_PURPLE));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.lava_armor.tooltip.control2").withStyle(ChatFormatting.LIGHT_PURPLE));
 
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.tooltip.default1"));

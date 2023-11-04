@@ -102,11 +102,25 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SMITHING_HAMMER);
         simpleItem(ModItems.SMALL_HEAL_BOTTLE);
         simpleItem(ModItems.BIG_HEAL_BOTTLE);
+        simpleItem(ModItems.EVOLVE_TEMPLATE);
+        simpleItem(ModItems.KNIGHT_TEMPLATE);
+        simpleItem(ModItems.SLAYER_TEMPLATE);
+        simpleItem(ModItems.LAVA_TEMPLATE);
 
         trimmedArmorItem(ModItems.KNIGHT_HELMET);
         trimmedArmorItem(ModItems.KNIGHT_CHESTPLATE);
         trimmedArmorItem(ModItems.KNIGHT_LEGGINGS);
         trimmedArmorItem(ModItems.KNIGHT_BOOTS);
+
+        trimmedArmorItem(ModItems.SLAYER_HELMET);
+        trimmedArmorItem(ModItems.SLAYER_CHESTPLATE);
+        trimmedArmorItem(ModItems.SLAYER_LEGGINGS);
+        trimmedArmorItem(ModItems.SLAYER_BOOTS);
+
+        trimmedArmorItem(ModItems.LAVA_HELMET);
+        trimmedArmorItem(ModItems.LAVA_CHESTPLATE);
+        trimmedArmorItem(ModItems.LAVA_LEGGINGS);
+        trimmedArmorItem(ModItems.LAVA_BOOTS);
 
         tagWeaponItem(ModItems.IRON_SICKLE, ModTags.Items.IRON_SICKLE_TAG);
         tagWeaponItem(ModItems.IRON_SICKLE_1, ModTags.Items.IRON_SICKLE_TAG);

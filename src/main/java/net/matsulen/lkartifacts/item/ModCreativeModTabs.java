@@ -28,6 +28,10 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.STAR.get());
                         pOutput.accept(ModItems.DIAMOND_DUST.get());
 
+                        pOutput.accept(ModItems.KNIGHT_TEMPLATE.get());
+                        pOutput.accept(ModItems.SLAYER_TEMPLATE.get());
+                        pOutput.accept(ModItems.LAVA_TEMPLATE.get());
+
                         pOutput.accept(ModItems.MYSTERY_AMETHYST.get());
                         pOutput.accept(ModItems.MYSTERY_PLATE.get());
 
@@ -38,6 +42,16 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.KNIGHT_CHESTPLATE.get());
                         pOutput.accept(ModItems.KNIGHT_LEGGINGS.get());
                         pOutput.accept(ModItems.KNIGHT_BOOTS.get());
+
+                        pOutput.accept(ModItems.SLAYER_HELMET.get());
+                        pOutput.accept(ModItems.SLAYER_CHESTPLATE.get());
+                        pOutput.accept(ModItems.SLAYER_LEGGINGS.get());
+                        pOutput.accept(ModItems.SLAYER_BOOTS.get());
+
+                        pOutput.accept(ModItems.LAVA_HELMET.get());
+                        pOutput.accept(ModItems.LAVA_CHESTPLATE.get());
+                        pOutput.accept(ModItems.LAVA_LEGGINGS.get());
+                        pOutput.accept(ModItems.LAVA_BOOTS.get());
 
                     })
                     .build());
