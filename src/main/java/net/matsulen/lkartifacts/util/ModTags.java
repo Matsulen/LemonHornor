@@ -17,7 +17,7 @@ public class ModTags {
 
     public static class Items {
         public static final TagKey<Item> IRON_SICKLE_TAG = tag("iron_sickle");
-        public static final TagKey<Item> NORMAL_ITEM_TAG = tag("normal_item");
+
         public static final TagKey<Item> IRON_BLADE_TAG = tag("iron_blade");
         public static final TagKey<Item> BAYSWORD_TAG = tag("baysword");
         public static final TagKey<Item> SPARE_TAG = tag("spare");
@@ -41,8 +41,8 @@ public class ModTags {
         public static final TagKey<Item> GOLDEN_SPEAR_TAG = tag("golden_spear");
         public static final TagKey<Item> BAMBOO_SWORD_TAG = tag("bamboo_sword");
         public static final TagKey<Item> LANTERN_SWORD_TAG = tag("lantern_sword");
-        public static final TagKey<Item> EVOLVABLE_WEAPON_TAG = tag("evolvable_weapon_tag");
-
+        public static final TagKey<Item> LEGENDARY_WEAPON_TAG = tag("legendary_weapon");
+        public static final TagKey<Item> NORMAL_WEAPON_TAG = tag("normal_weapon");
 
 
         private static TagKey<Item> tag(String name) {

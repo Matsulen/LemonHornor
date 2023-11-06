@@ -55,12 +55,8 @@ public class EvolveAnvilMenu extends AbstractContainerMenu {
             this.customSlot1 = new SlotItemHandler(iItemHandler, 0, 80, 11) {
                 @Override
                 public boolean mayPlace(@NotNull ItemStack stack) {
-                    return (stack.getItem() instanceof SwordItem) ||
-                            (stack.getItem() instanceof AxeItem) ||
-                            (stack.getItem() instanceof PickaxeItem) ||
-                            (stack.getItem() instanceof HoeItem) ||
-                            (stack.getItem() instanceof ShovelItem)
-                            ||(stack.getItem() instanceof AllArmorItem);
+                    return stack.is(ModTags.Items.NORMAL_WEAPON_TAG) ||
+                            stack.is(ModTags.Items.LEGENDARY_WEAPON_TAG);
                 }
             };
             this.customSlot2 = new SlotItemHandler(iItemHandler, 1, 80, 59);

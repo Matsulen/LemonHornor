@@ -3,6 +3,7 @@ package net.matsulen.lkartifacts.screen;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.matsulen.lkartifacts.LKArtifacts;
 import net.matsulen.lkartifacts.item.custom.StarItem;
+import net.matsulen.lkartifacts.util.ModTags;
 import net.matsulen.lkartifacts.util.MouseUtil;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
@@ -30,7 +31,10 @@ public class EvolveAnvilScreen extends AbstractContainerScreen<EvolveAnvilMenu> 
     private static final ResourceLocation EMPTY_SLOT_SMALL_BIG = new ResourceLocation(LKArtifacts.MOD_ID,"item/empty_slot_star_big");
     private static final ResourceLocation EMPTY_SLOT_STAR = new ResourceLocation(LKArtifacts.MOD_ID,"item/empty_slot_star");
     private static final List<ResourceLocation> EMPTY_SLOT_MATERIAL = List.of(EMPTY_SLOT_SMALL_STAR,
-            EMPTY_SLOT_SMALL_LONG,  EMPTY_SLOT_SMALL_BIG, EMPTY_SLOT_STAR, EMPTY_SLOT_MYSTERY_AMETHYST, EMPTY_SLOT_MYSTERY_PLATE);
+            EMPTY_SLOT_SMALL_LONG,EMPTY_SLOT_SMALL_BIG, EMPTY_SLOT_STAR, EMPTY_SLOT_MYSTERY_AMETHYST, EMPTY_SLOT_MYSTERY_PLATE);
+
+    private static final List<ResourceLocation> EMPTY_SLOT_LEGENDARY = List.of(EMPTY_SLOT_MYSTERY_AMETHYST, EMPTY_SLOT_MYSTERY_PLATE);
+    private static final List<ResourceLocation> EMPTY_SLOT_NORMAL = List.of(EMPTY_SLOT_SMALL_STAR, EMPTY_SLOT_SMALL_LONG,EMPTY_SLOT_SMALL_BIG, EMPTY_SLOT_STAR);
     private static final List<ResourceLocation> EMPTY_SLOT_WEAPON_LIST = List.of(EMPTY_SLOT_WEAPON);
 
     private static final ResourceLocation TEXTURE =
@@ -47,11 +51,17 @@ public class EvolveAnvilScreen extends AbstractContainerScreen<EvolveAnvilMenu> 
         ItemStack itemstack2= this.menu.getCustomSlot3().getItem();
         if (itemstack.isEmpty()) {
             this.weaponIcon.tick(EMPTY_SLOT_WEAPON_LIST);
+
         } else {
             this.weaponIcon.tick(List.of()); // 不渲染图标时，重置图标状态
         }
         if (itemstack2.isEmpty()) {
-            this.additionalIcon.tick(EMPTY_SLOT_MATERIAL);
+            if (itemstack.isEmpty()){
+                this.additionalIcon.tick(EMPTY_SLOT_MATERIAL);
+            }else if (itemstack.is(ModTags.Items.LEGENDARY_WEAPON_TAG))
+            this.additionalIcon.tick(EMPTY_SLOT_LEGENDARY);
+        } else if (itemstack.is(ModTags.Items.NORMAL_WEAPON_TAG)) {
+            this.additionalIcon.tick(EMPTY_SLOT_NORMAL);
         } else {
             this.additionalIcon.tick(List.of()); // 不渲染图标时，重置图标状态
         }

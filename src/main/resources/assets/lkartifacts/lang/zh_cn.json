@@ -97,19 +97,19 @@
   "item.lkaritifacts.lava_upgrade.base_slot": "放入下界合金盔甲",
   "item.lkaritifacts.lava_upgrade.additions_slot": "放入大块破碎星星",
 
-  "item.lkartifacts.small_heal_bottle": "§d小型炼金生命药水",
+  "item.lkartifacts.small_heal_bottle": "§d小瓶炼金生命药水",
   "tooltip.lkartifacts.small_heal_bottle.tooltip.shift1": "古代炼金术的接近，将能够",
   "tooltip.lkartifacts.small_heal_bottle.tooltip.shift2": "恢复生命值的物质浓缩在可",
-  "tooltip.lkartifacts.small_heal_bottle.tooltip.shift3": "多次使用的药瓶中",
-  "tooltip.lkartifacts.small_heal_bottle.tooltip.control1": "使用后瞬间回复4点生命值",
-  "tooltip.lkartifacts.small_heal_bottle.tooltip.control2": "可以使用3次",
+  "tooltip.lkartifacts.small_heal_bottle.tooltip.shift3": "的药瓶中，可以堆叠",
+  "tooltip.lkartifacts.small_heal_bottle.tooltip.control1": "使用后瞬间回复8点生命值",
+  "tooltip.lkartifacts.small_heal_bottle.tooltip.control2": "额外获得1.5秒伤害吸收II",
 
-  "item.lkartifacts.big_heal_bottle": "§d大型炼金生命药水",
+  "item.lkartifacts.big_heal_bottle": "§d大瓶炼金生命药水",
   "tooltip.lkartifacts.big_heal_bottle.tooltip.shift1": "古代炼金术的接近，将能够",
   "tooltip.lkartifacts.big_heal_bottle.tooltip.shift2": "恢复生命值的物质浓缩在可",
-  "tooltip.lkartifacts.big_heal_bottle.tooltip.shift3": "多次使用的药瓶中",
-  "tooltip.lkartifacts.big_heal_bottle.tooltip.control1": "使用后瞬间回复4点生命值",
-  "tooltip.lkartifacts.big_heal_bottle.tooltip.control2": "可以使用6次",
+  "tooltip.lkartifacts.big_heal_bottle.tooltip.shift3": "的药瓶中，可以堆叠",
+  "tooltip.lkartifacts.big_heal_bottle.tooltip.control1": "使用后瞬间回复16点生命值",
+  "tooltip.lkartifacts.big_heal_bottle.tooltip.control2": "额外获得1.5秒伤害吸收III",
 
 
   "tooltip.lkartifacts.missing_weapon": "放入需要强化的武器",

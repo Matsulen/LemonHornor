@@ -6,6 +6,9 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.protocol.Packet;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
+import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.Containers;
@@ -33,7 +36,15 @@ import java.util.Optional;
 public class EvolveAnvilBlockEntity extends BlockEntity implements MenuProvider {
 
     //存储空间
-    private final ItemStackHandler itemStackHandler = new ItemStackHandler(3);
+    private final ItemStackHandler itemStackHandler = new ItemStackHandler(3) {
+        @Override
+        protected void onContentsChanged(int slot) {
+            setChanged();
+            if (!level.isClientSide()) {
+                level.sendBlockUpdated(getBlockPos(),getBlockState(),getBlockState(),3);
+            }
+        }
+    };
     private static final int INPUT_SLOT = 0;
 
     private static final int OUTPUT_SLOT = 1;
@@ -73,7 +84,13 @@ public class EvolveAnvilBlockEntity extends BlockEntity implements MenuProvider 
             }
         };
     }
-
+    public ItemStack getRenderStack() {
+        if (itemStackHandler.getStackInSlot(OUTPUT_SLOT).isEmpty()) {
+            return itemStackHandler.getStackInSlot(INPUT_SLOT);
+        }else {
+            return itemStackHandler.getStackInSlot(OUTPUT_SLOT);
+        }
+    }
     @Override
     public @NotNull <T> LazyOptional<T> getCapability(@NotNull Capability<T> cap, @Nullable Direction side) {
         //告诉游戏这个方块有特殊效果
@@ -213,5 +230,16 @@ public class EvolveAnvilBlockEntity extends BlockEntity implements MenuProvider 
         if (level != null) {
             level.playSound(null, pos, SoundEvents.SMITHING_TABLE_USE, SoundSource.BLOCKS, 1.0f, 1.0f);
         }
+    }
+
+    @Nullable
+    @Override
+    public Packet<ClientGamePacketListener> getUpdatePacket() {
+        return ClientboundBlockEntityDataPacket.create(this); //1.20.1 using
+    }
+
+    @Override
+    public CompoundTag getUpdateTag() {
+        return saveWithoutMetadata();
     }
 }

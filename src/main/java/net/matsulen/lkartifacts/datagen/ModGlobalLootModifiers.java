@@ -1994,7 +1994,19 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
         }, ModItems.BROKEN_STAR_LONG.get()));
         add("broken_star_long_from_woodland_mansion", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/woodland_mansion")).build(),
-                LootItemRandomChanceCondition.randomChance(0.4f).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("broken_star_long_from_pillager_outpost", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/pillager_outpost")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("broken_star_long_from_nether_bridge", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/nether_bridge")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.BROKEN_STAR_LONG.get()));
+        add("broken_star_long_from_nether_bridge", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/stronghold_corridor")).build(),
+                LootItemRandomChanceCondition.randomChance(0.15f).build(),
         }, ModItems.BROKEN_STAR_LONG.get()));
 
         add("broken_star_long_from_wither_skeleton", new AddItemModifier(new LootItemCondition[]{
@@ -2023,29 +2035,30 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
         }, ModItems.BROKEN_STAR_LONG.get()));
 
 
+
         add("broken_star_big_from_end_city_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
         }, ModItems.BROKEN_STAR_BIG.get()));
         add("broken_star_big_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+                LootItemRandomChanceCondition.randomChance(0.08f).build(),
         }, ModItems.BROKEN_STAR_BIG.get()));
         add("broken_star_big_from_desert_pyramid", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/desert_pyramid")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build(),
         }, ModItems.BROKEN_STAR_BIG.get()));
         add("broken_star_big_from_shipwreck_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+                LootItemRandomChanceCondition.randomChance(0.14f).build(),
         }, ModItems.BROKEN_STAR_BIG.get()));
         add("broken_star_big_from_stronghold_library", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/stronghold_library")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/stronghold_crossing")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
         }, ModItems.BROKEN_STAR_BIG.get()));
         add("broken_star_big_from_jungle_temple", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
         }, ModItems.BROKEN_STAR_BIG.get()));
         add("broken_star_big_from_bastion_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_treasure")).build(),
@@ -2053,7 +2066,7 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
         }, ModItems.BROKEN_STAR_BIG.get()));
         add("broken_star_big_from_woodland_mansion", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/woodland_mansion")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build(),
+                LootItemRandomChanceCondition.randomChance(0.09f).build(),
         }, ModItems.BROKEN_STAR_BIG.get()));
 
         add("star_from_entities", new AddItemModifier(new LootItemCondition[]{
@@ -2065,21 +2078,21 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
                 LootItemRandomChanceCondition.randomChance(1f).build()
         }, ModItems.STAR.get()));
         add("star_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.03f).build()
         }, ModItems.STAR.get()));
         add("star_from_bastion_hoglin_stable", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_hoglin_stable")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
+                LootItemRandomChanceCondition.randomChance(0.04f).build()
         }, ModItems.STAR.get()));
         add("star_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build(),
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_treasure")).build(),
                 LootItemRandomChanceCondition.randomChance(0.2f).build()
         }, ModItems.STAR.get()));
 
         add("mystery_amethyst_from_armorer_gift", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("gameplay/hero_of_the_village/armorer_gift")).build(),
-                LootItemRandomChanceCondition.randomChance(1f).build()
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
         }, ModItems.MYSTERY_AMETHYST.get()));
         add("mystery_amethyst_from_elder_guardian", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/elder_guardian")).build(),
@@ -2105,6 +2118,36 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build(),
                 LootItemRandomChanceCondition.randomChance(0.1f).build()
         }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_amethyst_from_bastion_treasure", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.4f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_amethyst_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
+                LootItemRandomChanceCondition.randomChance(0.08f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_amethyst_from_end_city_treasure", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.07f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_plate_from_woodland_mansion", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/woodland_mansion")).build(),
+                LootItemRandomChanceCondition.randomChance(0.08f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+
+        add("mystery_plate_from_end_city_treasure", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.05f).build()
+        }, ModItems.MYSTERY_PLATE.get()));
+        add("mystery_plate_from_buried_treasure", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/buried_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.25f).build()
+        }, ModItems.MYSTERY_PLATE.get()));
+        add("mystery_plate_from_woodland_mansion", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/woodland_mansion")).build(),
+                LootItemRandomChanceCondition.randomChance(0.03f).build()
+        }, ModItems.MYSTERY_PLATE.get()));
+
 
         add("knight_template_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build(),
