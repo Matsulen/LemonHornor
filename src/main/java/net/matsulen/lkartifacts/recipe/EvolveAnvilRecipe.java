@@ -5,6 +5,8 @@ import com.google.gson.JsonObject;
 import net.matsulen.lkartifacts.LKArtifacts;
 import net.minecraft.core.NonNullList;
 import net.minecraft.core.RegistryAccess;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.nbt.ListTag;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.GsonHelper;
@@ -41,7 +43,16 @@ public class EvolveAnvilRecipe implements Recipe<SimpleContainer> {
 
     @Override
     public ItemStack assemble(SimpleContainer pContainer, RegistryAccess pRegistryAccess) {
-        return output.copy();
+        // not work
+        ItemStack itemstack = this.output.copy();
+        CompoundTag compoundtag = pContainer.getItem(0).getTag();
+        if (compoundtag != null) {
+            itemstack.setTag(compoundtag.copy());
+        }
+
+        return itemstack;
+
+
     }
 
     @Override
@@ -51,7 +62,7 @@ public class EvolveAnvilRecipe implements Recipe<SimpleContainer> {
 
     @Override
     public ItemStack getResultItem(RegistryAccess pRegistryAccess) {
-        return output.copy();
+        return output;
     }
 
     @Override
