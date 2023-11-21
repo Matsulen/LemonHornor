@@ -310,6 +310,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         tagWeaponItem(ModItems.LANTERN_SWORD_4, ModTags.Items.LANTERN_SWORD_TAG);
         tagWeaponItem(ModItems.LANTERN_SWORD_5, ModTags.Items.LANTERN_SWORD_TAG);
 
+        tagWeaponItem(ModItems.CHAINSAW_SWORD, ModTags.Items.CHAINSAW_SWORD_TAG);
+        tagWeaponItem(ModItems.CHAINSAW_SWORD_1, ModTags.Items.CHAINSAW_SWORD_TAG);
+        tagWeaponItem(ModItems.CHAINSAW_SWORD_2, ModTags.Items.CHAINSAW_SWORD_TAG);
+        tagWeaponItem(ModItems.CHAINSAW_SWORD_3, ModTags.Items.CHAINSAW_SWORD_TAG);
+        tagWeaponItem(ModItems.CHAINSAW_SWORD_4, ModTags.Items.CHAINSAW_SWORD_TAG);
+        tagWeaponItem(ModItems.CHAINSAW_SWORD_5, ModTags.Items.CHAINSAW_SWORD_TAG);
+
 
         complexBlock(ModBlocks.EVOLVE_ANVIL.get());
 

@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "betterdeserttemples:/chests/pot"
+    },
+    {
+      "chance": 0.2,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "lkartifacts:small_heal_bottle"
+}

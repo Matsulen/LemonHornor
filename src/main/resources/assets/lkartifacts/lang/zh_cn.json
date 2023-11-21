@@ -14,11 +14,11 @@
   "lkartifacts.adtitle.star": "§6美到出神",
   "lkartifacts.ad.star": "§b强化普通武器到最终阶段",
   "lkartifacts.adtitle.broken_star_small": "§6神秘的小碎片",
-  "lkartifacts.ad.broken_star_small": "§b强化普通武器到+3",
+  "lkartifacts.ad.broken_star_small": "§b能强化普通武器到+3",
   "lkartifacts.adtitle.broken_star_long": "§6神秘的大碎片",
-  "lkartifacts.ad.broken_star_long": "§b强化普通武器到+6",
-  "lkartifacts.adtitle.broken_star_big": "§6大块__",
-  "lkartifacts.ad.broken_star_big": "§b强化普通武器到+9",
+  "lkartifacts.ad.broken_star_long": "§b能强化普通武器到+6",
+  "lkartifacts.adtitle.broken_star_big": "§6大块余烬？！",
+  "lkartifacts.ad.broken_star_big": "§b能强化普通武器到+9",
 
   "lkartifacts.adtitle.weapon": "§d传说武器",
   "lkartifacts.ad.weapon": "§b地牢！钓鱼！冒险！",
@@ -62,6 +62,8 @@
   "lkartifacts.ad.golden_spear": "§b获得饰金长枪",
   "lkartifacts.adtitle.lantern_sword": "§6失物招领",
   "lkartifacts.ad.lantern_sword": "§b获得灯笼剑",
+  "lkartifacts.ad.chainsaw_sword": "§b获得圆形锯剑",
+  "lkartifacts.adtitle.chainsaw_sword": "§6电锯人！启动！",
 
   "item.lkartifacts.broken_star_small": "§2破碎星星碎片",
   "item.lkartifacts.broken_star_long": "§b破碎星星长碎片",
@@ -72,6 +74,25 @@
   "item.lkartifacts.diamond_dust": "钻石粉",
   "item.lkartifacts.smithing_hammer": "§c锻锤",
   "tooltip.lkartifacts.healitem.tooltip": "治疗物品",
+
+  "block.lkartifacts.evolve_anvil": "武器强化台",
+
+  "tooltip.lkartifacts.tooltip.default1": "[§eSHIFT§r] 展开物品描述",
+  "tooltip.lkartifacts.tooltip.default2": "[§cCTRL§r] 查看特殊效果",
+
+  "tooltip.lkartifacts.tooltip.epic": "史诗物品",
+
+  "tooltip.lkartifacts.star_item.tooltip.shift1": "蕴含星星力量的碎片",
+  "tooltip.lkartifacts.star_item.tooltip.shift2": "可以用于强化普通武器",
+  "tooltip.lkartifacts.star_item.tooltip.shift3": "[破碎星星碎片]强化至+3",
+  "tooltip.lkartifacts.star_item.tooltip.shift4": "[破碎星星长碎片]强化至+6",
+  "tooltip.lkartifacts.star_item.tooltip.shift5": "[大块破碎星星]强化至+9",
+  "tooltip.lkartifacts.star_item.tooltip.shift6": "[坠落星星]强化至+10",
+
+  "tooltip.lkartifacts.amethyst_item.tooltip.shift1": "曾用于祭祀的神秘水晶",
+  "tooltip.lkartifacts.amethyst_item.tooltip.shift2": "可用于强化传说武器",
+  "tooltip.lkartifacts.amethyst_item.tooltip.shift3": "[仪式水晶]强化至+4",
+  "tooltip.lkartifacts.amethyst_item.tooltip.shift4": "[水晶原盘]强化至+5",
 
   "item.lkaritifacts.evolve_upgrade.name": "进化盔甲",
   "item.lkaritifacts.evolve_upgrade.applies_to": "下界合金装备",
@@ -224,16 +245,6 @@
   "item.lkartifacts.soul_fire_4": "§6灵魂光辉+4",
   "item.lkartifacts.soul_fire_5": "§6灵魂光辉+5",
 
-  "block.lkartifacts.evolve_anvil": "武器强化台",
-
-  "tooltip.lkartifacts.tooltip.default1": "[§eSHIFT§r] 展开物品描述",
-  "tooltip.lkartifacts.tooltip.default2": "[§cCTRL§r] 查看特殊效果",
-
-  "tooltip.lkartifacts.star_item.tooltip.shift1": "蕴含星星力量的碎片",
-  "tooltip.lkartifacts.star_item.tooltip.shift2": "可以用于强化特殊武器",
-  "tooltip.lkartifacts.amethyst_item.tooltip.shift1": "史诗物品",
-  "tooltip.lkartifacts.amethyst_item.tooltip.shift2": "曾用于祭祀的柱状水晶",
-  "tooltip.lkartifacts.amethyst_item.tooltip.shift3": "可用于强化传说武器",
 
   "tooltip.lkartifacts.iron_sickle.tooltip.shift1": "一把很好用的镰刀",
   "tooltip.lkartifacts.iron_sickle.tooltip.shift2": "可以通过星星强化",
@@ -463,6 +474,18 @@
   "tooltip.lkartifacts.lantern_sword.tooltip.shift4": "并不知道制成这样的缘由",
   "tooltip.lkartifacts.lantern_sword.tooltip.control1": "右键使用，使自己发光",
   "tooltip.lkartifacts.lantern_sword.tooltip.control2": "同时短时间获得夜视",
+  
+  "item.lkartifacts.chainsaw_sword": "§6圆形锯剑",
+  "item.lkartifacts.chainsaw_sword_1": "§6圆形锯剑+1",
+  "item.lkartifacts.chainsaw_sword_2": "§6圆形锯剑+2",
+  "item.lkartifacts.chainsaw_sword_3": "§6圆形锯剑+3",
+  "item.lkartifacts.chainsaw_sword_4": "§6圆形锯剑+4",
+  "item.lkartifacts.chainsaw_sword_5": "§6圆形锯剑+5",
+  "tooltip.lkartifacts.chainsaw_sword.tooltip.shift2": "电锯在任何时代都是令人",
+  "tooltip.lkartifacts.chainsaw_sword.tooltip.shift3": "充满恐惧的事物，这把武器",
+  "tooltip.lkartifacts.chainsaw_sword.tooltip.shift4": "光是造型就令人胆寒",
+  "tooltip.lkartifacts.chainsaw_sword.tooltip.control1": "攻击敌人时连同敌人的武器",
+  "tooltip.lkartifacts.chainsaw_sword.tooltip.control2": "一同攻击，大幅削弱其攻击伤害",
 
 
   "tooltip.lkartifacts.iron_blade.tooltip.shift1": "标准的铁质刀刃，",

@@ -34,10 +34,14 @@ public class StarItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-
+        pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.tooltip.epic").withStyle(ChatFormatting.LIGHT_PURPLE));
         if (Screen.hasShiftDown()){
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.star_item.tooltip.shift1").withStyle(ChatFormatting.DARK_GRAY));
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.star_item.tooltip.shift2").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.star_item.tooltip.shift3").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.star_item.tooltip.shift4").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.star_item.tooltip.shift5").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.star_item.tooltip.shift6").withStyle(ChatFormatting.DARK_GRAY));
 //        } else if (Screen.hasControlDown()) {
 //            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.iron_sickle.tooltip.control1").withStyle(ChatFormatting.Purple));
 

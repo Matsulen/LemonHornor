@@ -203,7 +203,13 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.LANTERN_SWORD_2.get(),
                         ModItems.LANTERN_SWORD_3.get(),
                         ModItems.LANTERN_SWORD_4.get(),
-                        ModItems.LANTERN_SWORD_5.get()
+                        ModItems.LANTERN_SWORD_5.get(),
+                        ModItems.CHAINSAW_SWORD.get(),
+                        ModItems.CHAINSAW_SWORD_1.get(),
+                        ModItems.CHAINSAW_SWORD_2.get(),
+                        ModItems.CHAINSAW_SWORD_3.get(),
+                        ModItems.CHAINSAW_SWORD_4.get(),
+                        ModItems.CHAINSAW_SWORD_5.get()
                 );
 
 
@@ -423,6 +429,15 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.LANTERN_SWORD_3.get(),
                         ModItems.LANTERN_SWORD_4.get(),
                         ModItems.LANTERN_SWORD_5.get()
+                );
+        
+        this.tag(ModTags.Items.CHAINSAW_SWORD_TAG)
+                .add(ModItems.CHAINSAW_SWORD.get(),
+                        ModItems.CHAINSAW_SWORD_1.get(),
+                        ModItems.CHAINSAW_SWORD_2.get(),
+                        ModItems.CHAINSAW_SWORD_3.get(),
+                        ModItems.CHAINSAW_SWORD_4.get(),
+                        ModItems.CHAINSAW_SWORD_5.get()
                 );
 
 

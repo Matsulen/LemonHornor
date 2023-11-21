@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_normal"
+    },
+    {
+      "chance": 0.6,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "lkartifacts:broken_star_small"
+}

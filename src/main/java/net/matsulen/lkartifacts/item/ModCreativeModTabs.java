@@ -246,6 +246,13 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.LANTERN_SWORD_3.get());
                         pOutput.accept(ModItems.LANTERN_SWORD_4.get());
                         pOutput.accept(ModItems.LANTERN_SWORD_5.get());
+
+                        pOutput.accept(ModItems.CHAINSAW_SWORD.get());
+                        pOutput.accept(ModItems.CHAINSAW_SWORD_1.get());
+                        pOutput.accept(ModItems.CHAINSAW_SWORD_2.get());
+                        pOutput.accept(ModItems.CHAINSAW_SWORD_3.get());
+                        pOutput.accept(ModItems.CHAINSAW_SWORD_4.get());
+                        pOutput.accept(ModItems.CHAINSAW_SWORD_5.get());
                         
                     })
                     .build());

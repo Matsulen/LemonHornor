@@ -1,0 +1,14 @@
+{
+  "type": "lkartifacts:evolve_anvil",
+  "ingredients": [
+    {
+      "item": "lkartifacts:chainsaw_sword_3"
+    },
+    {
+      "item": "lkartifacts:mystery_amethyst"
+    }
+  ],
+  "output": {
+    "item": "lkartifacts:chainsaw_sword_4"
+  }
+}

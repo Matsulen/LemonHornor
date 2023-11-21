@@ -38,20 +38,14 @@ public class EvolveAnvilRecipe implements Recipe<SimpleContainer> {
         //判定是否匹配配方
         //                                           获取0号插槽物品
         //    读取recipe的ingredients
-        return inputItems.get(0).test(pContainer.getItem(0)) && inputItems.get(1).test(pContainer.getItem(2));
+        return inputItems.get(0).test(pContainer.getItem(0)) && inputItems.get(1).test(pContainer.getItem(1));
     }
 
     @Override
     public ItemStack assemble(SimpleContainer pContainer, RegistryAccess pRegistryAccess) {
         // not work
         ItemStack itemstack = this.output.copy();
-        CompoundTag compoundtag = pContainer.getItem(0).getTag();
-        if (compoundtag != null) {
-            itemstack.setTag(compoundtag.copy());
-        }
-
         return itemstack;
-
 
     }
 

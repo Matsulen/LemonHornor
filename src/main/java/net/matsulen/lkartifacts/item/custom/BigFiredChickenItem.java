@@ -58,9 +58,9 @@ public class BigFiredChickenItem extends SwordItem {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-
+        pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.legendary.tooltip.shift").withStyle(ChatFormatting.GOLD));
         if (Screen.hasShiftDown()){
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.legendary.tooltip.shift").withStyle(ChatFormatting.GOLD));
+
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.big_fired_chicken.tooltip.shift2").withStyle(ChatFormatting.DARK_GRAY));
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.big_fired_chicken.tooltip.shift3").withStyle(ChatFormatting.DARK_GRAY));
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.big_fired_chicken.tooltip.shift4").withStyle(ChatFormatting.DARK_GRAY));

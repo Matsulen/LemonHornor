@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-04T21:17:06.9688378	Item Models: lkartifacts
+// 1.20.1	2023-11-22T00:57:48.1652591	Item Models: lkartifacts
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword.json
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword_1.json
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword_2.json
@@ -32,6 +32,12 @@ f225e4865f383b47d5500733d019db4b1a799140 assets/lkartifacts/models/item/camp_fir
 f225e4865f383b47d5500733d019db4b1a799140 assets/lkartifacts/models/item/camp_fire_sword_3.json
 f225e4865f383b47d5500733d019db4b1a799140 assets/lkartifacts/models/item/camp_fire_sword_4.json
 f225e4865f383b47d5500733d019db4b1a799140 assets/lkartifacts/models/item/camp_fire_sword_5.json
+bd3d6e0313f575a1eb25009d838b54e61e87a3be assets/lkartifacts/models/item/chainsaw_sword.json
+bd3d6e0313f575a1eb25009d838b54e61e87a3be assets/lkartifacts/models/item/chainsaw_sword_1.json
+bd3d6e0313f575a1eb25009d838b54e61e87a3be assets/lkartifacts/models/item/chainsaw_sword_2.json
+bd3d6e0313f575a1eb25009d838b54e61e87a3be assets/lkartifacts/models/item/chainsaw_sword_3.json
+bd3d6e0313f575a1eb25009d838b54e61e87a3be assets/lkartifacts/models/item/chainsaw_sword_4.json
+bd3d6e0313f575a1eb25009d838b54e61e87a3be assets/lkartifacts/models/item/chainsaw_sword_5.json
 1c40a53ad09a45d24f80f3a7047c420ffbf5f968 assets/lkartifacts/models/item/diamond_dust.json
 2922f75a5e3f55ef89916ad0bd66b33af8c0c84c assets/lkartifacts/models/item/dragon_tear.json
 2922f75a5e3f55ef89916ad0bd66b33af8c0c84c assets/lkartifacts/models/item/dragon_tear_1.json

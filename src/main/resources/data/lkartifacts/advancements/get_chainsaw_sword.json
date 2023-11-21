@@ -1,0 +1,32 @@
+{
+  "parent": "lkartifacts:weapon",
+  "display": {
+    "icon": {
+      "item": "lkartifacts:chainsaw_sword"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.chainsaw_sword"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.chainsaw_sword"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lkartifacts:chainsaw_sword"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

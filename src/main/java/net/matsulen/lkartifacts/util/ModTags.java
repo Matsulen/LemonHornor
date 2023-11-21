@@ -41,9 +41,11 @@ public class ModTags {
         public static final TagKey<Item> GOLDEN_SPEAR_TAG = tag("golden_spear");
         public static final TagKey<Item> BAMBOO_SWORD_TAG = tag("bamboo_sword");
         public static final TagKey<Item> LANTERN_SWORD_TAG = tag("lantern_sword");
+        public static final TagKey<Item> CHAINSAW_SWORD_TAG = tag("chainsaw_sword");
+
+//=======================================
         public static final TagKey<Item> LEGENDARY_WEAPON_TAG = tag("legendary_weapon");
         public static final TagKey<Item> NORMAL_WEAPON_TAG = tag("normal_weapon");
-
 
         private static TagKey<Item> tag(String name) {
             return ItemTags.create(new ResourceLocation(LKArtifacts.MOD_ID, name));

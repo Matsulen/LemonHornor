@@ -567,6 +567,25 @@ public class ModItems {
             () -> new LanternSwordItem(ModToolTiers.Evolve, 25,-2.5f
                     , new Item.Properties()));
 
+    public static final RegistryObject<Item> CHAINSAW_SWORD = ITEMS.register("chainsaw_sword",
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 5,-2.9f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> CHAINSAW_SWORD_1 = ITEMS.register("chainsaw_sword_1",
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 9,-2.9f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> CHAINSAW_SWORD_2 = ITEMS.register("chainsaw_sword_2",
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 14,-2.9f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> CHAINSAW_SWORD_3 = ITEMS.register("chainsaw_sword_3",
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 19,-2.9f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> CHAINSAW_SWORD_4 = ITEMS.register("chainsaw_sword_4",
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 23,-2.9f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> CHAINSAW_SWORD_5 = ITEMS.register("chainsaw_sword_5",
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 28,-2.9f
+                    , new Item.Properties()));
+    
 
 //    public static final RegistryObject<Item> DIAMOND_WAND = ITEMS.register("DIAMOND_WAND",
 //            () -> new DiamondWandItem(new Item.Properties()));
@@ -601,13 +620,13 @@ public class ModItems {
             () -> new SlayerArmorItem(ModArmorMaterials.SLAYER, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static final RegistryObject<Item> LAVA_HELMET = ITEMS.register("lava_helmet",
-            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.HELMET, new Item.Properties()));
+            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.HELMET, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> LAVA_CHESTPLATE = ITEMS.register("lava_chestplate",
-            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.CHESTPLATE, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> LAVA_LEGGINGS = ITEMS.register("lava_leggings",
-            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> LAVA_BOOTS = ITEMS.register("lava_boots",
-            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.BOOTS, new Item.Properties()));
+            () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant()));
 
 
 
