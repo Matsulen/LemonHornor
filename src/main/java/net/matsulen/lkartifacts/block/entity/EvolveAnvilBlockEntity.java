@@ -48,7 +48,6 @@ public class EvolveAnvilBlockEntity extends BlockEntity implements MenuProvider 
     private static final int INPUT_SLOT = 0;
     private static final int MATERIAL_SLOT = 1;
     private static final int OUTPUT_SLOT = 2;
-
     private LazyOptional<IItemHandler> lazyItemHandler = LazyOptional.empty();
 
     protected final ContainerData data;
@@ -173,12 +172,13 @@ public class EvolveAnvilBlockEntity extends BlockEntity implements MenuProvider 
         ItemStack result = recipe.get().getResultItem(null);
         CompoundTag compoundtag = this.itemStackHandler.getStackInSlot(INPUT_SLOT).getTag();
 
-        ItemStack newResult = new ItemStack(result.getItem(),
+        ItemStack newResult = new ItemStack(result.copy().getItem(),
                 this.itemStackHandler.getStackInSlot(OUTPUT_SLOT).getCount() + result.getCount());
         if (compoundtag != null) {
             newResult.setTag(compoundtag.copy());
             newResult.setDamageValue(0);
         }
+
         this.itemStackHandler.extractItem(INPUT_SLOT, 1, false);
         this.itemStackHandler.extractItem(MATERIAL_SLOT, 1, false);
 

@@ -29,7 +29,6 @@ public class ChainsawSwordItem extends SwordItem {
     public boolean onLeftClickEntity(ItemStack stack, Player player, Entity entity) {
         if(entity instanceof LivingEntity livingEntity) {
                 livingEntity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 40,2), player);
-                livingEntity.playSound(SoundEvents.UI_STONECUTTER_TAKE_RESULT);
         }
 
         return super.onLeftClickEntity(stack, player, entity);
