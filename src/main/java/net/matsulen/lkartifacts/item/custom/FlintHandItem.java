@@ -14,7 +14,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class FlintHandItem extends PickaxeItem implements DistanceItem, ExtraHealthItem{
+public class FlintHandItem extends PickaxeItem implements DistanceItem{
 
     public FlintHandItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
         super(pTier, pAttackDamageModifier, pAttackSpeedModifier, pProperties);
