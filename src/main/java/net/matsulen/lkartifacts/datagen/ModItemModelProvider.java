@@ -126,7 +126,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         
         trimmedArmorItem(ModItems.DRAGON_HELMET);
         trimmedArmorItem(ModItems.DRAGON_CHESTPLATE);
-        simpleItem(ModItems.DRAGON_ELYTRA_CHESTPLATE);
+        trimmedArmorItem(ModItems.DRAGON_ELYTRA_CHESTPLATE);
         trimmedArmorItem(ModItems.DRAGON_LEGGINGS);
         trimmedArmorItem(ModItems.DRAGON_BOOTS);
 

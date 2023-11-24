@@ -182,7 +182,14 @@
   "tooltip.lkartifacts.dragon_armor.tooltip.shift3": "锻造技术已经失传",
   "tooltip.lkartifacts.dragon_armor.tooltip.control1": "能够为使用者提供额外生命值，",
   "tooltip.lkartifacts.dragon_armor.tooltip.control2": "靴子可以随意跨越一格高度",
-  
+
+  "item.lkartifacts.dragon_elytra_chestplate": "龙息合金胸甲 附鞘翅",
+  "tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.shift1": "与龙息融合材质所制的下界套装",
+  "tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.shift2": "与鞘翅通过特殊技术连接在一起",
+  "tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.shift3": "锻造技术已经失传",
+  "tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.control1": "能够为使用者提供额外生命值，",
+  "tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.control2": "并且和鞘翅用法相同。",
+
   "item.lkartifacts.iron_sickle": "铁镰刀",
   "item.lkartifacts.iron_sickle_1": "铁镰刀+1",
   "item.lkartifacts.iron_sickle_2": "铁镰刀+2",
@@ -195,17 +202,20 @@
   "item.lkartifacts.iron_sickle_9": "铁镰刀+9",
   "item.lkartifacts.iron_sickle_10": "铁镰刀+10",
 
-  "item.lkartifacts.iron_blade": "铁唐刀",
-  "item.lkartifacts.iron_blade_1": "铁唐刀+1",
-  "item.lkartifacts.iron_blade_2": "铁唐刀+2",
-  "item.lkartifacts.iron_blade_3": "铁唐刀+3",
-  "item.lkartifacts.iron_blade_4": "铁唐刀+4",
-  "item.lkartifacts.iron_blade_5": "铁唐刀+5",
-  "item.lkartifacts.iron_blade_6": "铁唐刀+6",
-  "item.lkartifacts.iron_blade_7": "铁唐刀+7",
-  "item.lkartifacts.iron_blade_8": "铁唐刀+8",
-  "item.lkartifacts.iron_blade_9": "铁唐刀+9",
-  "item.lkartifacts.iron_blade_10": "铁唐刀+10",
+  "item.lkartifacts.iron_blade": "铁刀",
+  "item.lkartifacts.iron_blade_1": "铁刀+1",
+  "item.lkartifacts.iron_blade_2": "铁刀+2",
+  "item.lkartifacts.iron_blade_3": "铁刀+3",
+  "item.lkartifacts.iron_blade_4": "铁刀+4",
+  "item.lkartifacts.iron_blade_5": "铁刀+5",
+  "item.lkartifacts.iron_blade_6": "铁刀+6",
+  "item.lkartifacts.iron_blade_7": "铁刀+7",
+  "item.lkartifacts.iron_blade_8": "铁刀+8",
+  "item.lkartifacts.iron_blade_9": "铁刀+9",
+  "item.lkartifacts.iron_blade_10": "铁刀+10",
+  "tooltip.lkartifacts.iron_blade.tooltip.shift1": "标准的铁质刀刃，",
+  "tooltip.lkartifacts.iron_blade.tooltip.shift2": "劈砍性能比剑更佳",
+  "tooltip.lkartifacts.iron_blade.tooltip.control1": "似乎比普通的剑更轻快",
 
   "item.lkartifacts.baysword": "刺剑",
   "item.lkartifacts.baysword_1": "刺剑+1",
@@ -505,9 +515,6 @@
   "tooltip.lkartifacts.chainsaw_sword.tooltip.control2": "一同攻击，大幅削弱其攻击伤害",
 
 
-  "tooltip.lkartifacts.iron_blade.tooltip.shift1": "标准的铁质刀刃，",
-  "tooltip.lkartifacts.iron_blade.tooltip.shift2": "劈砍性能比剑更佳",
-  "tooltip.lkartifacts.iron_blade.tooltip.control1": "似乎比普通的剑更轻快",
 
   "creativetab.lemon_kindom_item": "柠檬王国物品",
   "creativetab.lemon_kindom_weapon": "柠檬王国武器"

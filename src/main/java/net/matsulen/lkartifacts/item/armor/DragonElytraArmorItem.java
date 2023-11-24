@@ -43,10 +43,7 @@ public class DragonElytraArmorItem extends AllArmorItem {
         return pRepair.is(ModItems.DRAGON_BREATH_POWDER.get());
     }
 
-    /**
-     * Called to trigger the item's "innate" right click behavior. To handle when this item is used on a Block, see
-     * {@link #onItemUse}.
-     */
+
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pHand) {
         return this.swapWithEquipmentSlot(this, pLevel, pPlayer, pHand);
     }
@@ -78,21 +75,21 @@ public class DragonElytraArmorItem extends AllArmorItem {
         return EquipmentSlot.CHEST;
     }
 
-    @Nullable
-    public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-        return "lkartifacts:textures/models/armor/dragon_elytra_chestplate.png";
-    }
+//    @Nullable
+//    public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+//        return "lkartifacts:textures/models/armor/dragon_elytra_chestplate.png";
+//    }
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
 
         if (Screen.hasShiftDown()){
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_armor.tooltip.shift1").withStyle(ChatFormatting.DARK_GRAY));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_armor.tooltip.shift2").withStyle(ChatFormatting.DARK_GRAY));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_armor.tooltip.shift3").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.shift1").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.shift2").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.shift3").withStyle(ChatFormatting.DARK_GRAY));
         } else if (Screen.hasControlDown()) {
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_armor.tooltip.control1").withStyle(ChatFormatting.LIGHT_PURPLE));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_armor.tooltip.control2").withStyle(ChatFormatting.LIGHT_PURPLE));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.control1").withStyle(ChatFormatting.LIGHT_PURPLE));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.control2").withStyle(ChatFormatting.LIGHT_PURPLE));
 
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.tooltip.default1"));
