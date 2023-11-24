@@ -72,6 +72,7 @@
   "item.lkartifacts.star": "§6坠落星星",
   "item.lkartifacts.mystery_plate": "§6水晶原盘",
   "item.lkartifacts.diamond_dust": "钻石粉",
+  "item.lkartifacts.dragon_breath_powder": "§d龙息研磨粉剂",
   "item.lkartifacts.smithing_hammer": "§c锻锤",
   "tooltip.lkartifacts.healitem.tooltip": "治疗物品",
 
@@ -117,6 +118,12 @@
   "item.lkaritifacts.lava_upgrade.ingredients": "大块破碎星星",
   "item.lkaritifacts.lava_upgrade.base_slot": "放入下界合金盔甲",
   "item.lkaritifacts.lava_upgrade.additions_slot": "放入大块破碎星星",
+
+  "item.lkaritifacts.dragon_upgrade.name": "进化下界合金盔甲",
+  "item.lkaritifacts.dragon_upgrade.applies_to": "下界装备",
+  "item.lkaritifacts.dragon_upgrade.ingredients": "龙息研磨粉剂",
+  "item.lkaritifacts.dragon_upgrade.base_slot": "放入下界合金盔甲",
+  "item.lkaritifacts.dragon_upgrade.additions_slot": "放入龙息研磨粉剂",
 
   "item.lkartifacts.small_heal_bottle": "§d小瓶炼金生命药水",
   "tooltip.lkartifacts.small_heal_bottle.tooltip.shift1": "古代炼金术的接近，将能够",
@@ -165,6 +172,16 @@
   "tooltip.lkartifacts.lava_armor.tooltip.shift3": "锻造技术已经失传",
   "tooltip.lkartifacts.lava_armor.tooltip.control1": "能够为使用者",
   "tooltip.lkartifacts.lava_armor.tooltip.control2": "提供额外生命值",
+
+  "item.lkartifacts.dragon_helmet": "龙息合金头盔",
+  "item.lkartifacts.dragon_chestplate": "龙息合金胸甲",
+  "item.lkartifacts.dragon_leggings": "龙息合金护腿",
+  "item.lkartifacts.dragon_boots": "龙息合金靴子",
+  "tooltip.lkartifacts.dragon_armor.tooltip.shift1": "与龙息融合材质所制的下界套装",
+  "tooltip.lkartifacts.dragon_armor.tooltip.shift2": "能大幅增强使用者的身体素质",
+  "tooltip.lkartifacts.dragon_armor.tooltip.shift3": "锻造技术已经失传",
+  "tooltip.lkartifacts.dragon_armor.tooltip.control1": "能够为使用者提供额外生命值，",
+  "tooltip.lkartifacts.dragon_armor.tooltip.control2": "靴子可以随意跨越一格高度",
   
   "item.lkartifacts.iron_sickle": "铁镰刀",
   "item.lkartifacts.iron_sickle_1": "铁镰刀+1",

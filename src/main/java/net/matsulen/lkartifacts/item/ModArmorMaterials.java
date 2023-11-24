@@ -10,6 +10,7 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraftforge.common.ForgeMod;
 
 import java.util.Map;
 import java.util.function.Supplier;
@@ -23,7 +24,11 @@ public enum ModArmorMaterials implements ArmorMaterial {
             Map.of(Attributes.MAX_HEALTH, new AttributeModifier("MAX_HEALTH", 4,AttributeModifier.Operation.ADDITION))),
     LAVA ("lava", 60, new int[]{ 4, 9, 7, 4 }, 15,
     SoundEvents.ARMOR_EQUIP_NETHERITE, 3f, 0.1f, () -> Ingredient.of(Items.NETHERITE_INGOT),
-            Map.of(Attributes.MAX_HEALTH, new AttributeModifier("MAX_HEALTH", 7,AttributeModifier.Operation.ADDITION)));
+            Map.of(Attributes.MAX_HEALTH, new AttributeModifier("MAX_HEALTH", 7,AttributeModifier.Operation.ADDITION))),
+    DRAGON ("dragon", 80, new int[]{ 5, 10, 8, 5 }, 18,
+    SoundEvents.ENDER_DRAGON_FLAP, 3.5f, 0.15f, () -> Ingredient.of(ModItems.DRAGON_BREATH_POWDER.get()),
+            Map.of(Attributes.MAX_HEALTH, new AttributeModifier("MAX_HEALTH", 9,AttributeModifier.Operation.ADDITION))
+            );
 
 
 //    DIAMOND_DUST("Knight", 26, new int[]{ 5, 7, 5, 4 }, 25,

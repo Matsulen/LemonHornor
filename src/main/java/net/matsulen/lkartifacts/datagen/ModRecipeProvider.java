@@ -79,6 +79,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         Ingredient.of(Items.NETHERITE_BOOTS),Ingredient.of(ModItems.BROKEN_STAR_BIG.get()),RecipeCategory.MISC,ModItems.LAVA_BOOTS.get())
                 .unlocks(getHasName(ModItems.LAVA_TEMPLATE.get()), has(ModItems.LAVA_TEMPLATE.get()))
                 .save(pWriter, "lava_boots_from_smithing_table");
+
+        SmithingTransformRecipeBuilder.smithing(Ingredient.of(ModItems.DRAGON_TEMPLATE.get()),
+                        Ingredient.of(Items.NETHERITE_HELMET),Ingredient.of(ModItems.DRAGON_BREATH_POWDER.get()),RecipeCategory.MISC,ModItems.DRAGON_HELMET.get())
+                .unlocks(getHasName(ModItems.DRAGON_TEMPLATE.get()), has(ModItems.DRAGON_TEMPLATE.get()))
+                .save(pWriter, "dragon_helmet_from_smithing_table");
+        SmithingTransformRecipeBuilder.smithing(Ingredient.of(ModItems.DRAGON_TEMPLATE.get()),
+                        Ingredient.of(Items.NETHERITE_CHESTPLATE),Ingredient.of(ModItems.DRAGON_BREATH_POWDER.get()),RecipeCategory.MISC,ModItems.DRAGON_CHESTPLATE.get())
+                .unlocks(getHasName(ModItems.DRAGON_TEMPLATE.get()), has(ModItems.DRAGON_TEMPLATE.get()))
+                .save(pWriter, "dragon_chestplate_from_smithing_table");
+        SmithingTransformRecipeBuilder.smithing(Ingredient.of(ModItems.DRAGON_TEMPLATE.get()),
+                        Ingredient.of(Items.NETHERITE_LEGGINGS),Ingredient.of(ModItems.DRAGON_BREATH_POWDER.get()),RecipeCategory.MISC,ModItems.DRAGON_LEGGINGS.get())
+                .unlocks(getHasName(ModItems.DRAGON_TEMPLATE.get()), has(ModItems.DRAGON_TEMPLATE.get()))
+                .save(pWriter, "dragon_leggings_from_smithing_table");
+        SmithingTransformRecipeBuilder.smithing(Ingredient.of(ModItems.DRAGON_TEMPLATE.get()),
+                        Ingredient.of(Items.NETHERITE_BOOTS),Ingredient.of(ModItems.DRAGON_BREATH_POWDER.get()),RecipeCategory.MISC,ModItems.DRAGON_BOOTS.get())
+                .unlocks(getHasName(ModItems.DRAGON_TEMPLATE.get()), has(ModItems.DRAGON_TEMPLATE.get()))
+                .save(pWriter, "dragon_boots_from_smithing_table");
         
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.EMERALD, 50)

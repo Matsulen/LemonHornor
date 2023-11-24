@@ -27,10 +27,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BROKEN_STAR_BIG.get());
                         pOutput.accept(ModItems.STAR.get());
                         pOutput.accept(ModItems.DIAMOND_DUST.get());
+                        pOutput.accept(ModItems.DRAGON_BREATH_POWDER.get());
 
                         pOutput.accept(ModItems.KNIGHT_TEMPLATE.get());
                         pOutput.accept(ModItems.SLAYER_TEMPLATE.get());
                         pOutput.accept(ModItems.LAVA_TEMPLATE.get());
+                        pOutput.accept(ModItems.DRAGON_TEMPLATE.get());
 
                         pOutput.accept(ModItems.MYSTERY_AMETHYST.get());
                         pOutput.accept(ModItems.MYSTERY_PLATE.get());
@@ -52,7 +54,12 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.LAVA_CHESTPLATE.get());
                         pOutput.accept(ModItems.LAVA_LEGGINGS.get());
                         pOutput.accept(ModItems.LAVA_BOOTS.get());
-
+                        
+                        pOutput.accept(ModItems.DRAGON_HELMET.get());
+                        pOutput.accept(ModItems.DRAGON_CHESTPLATE.get());
+                        pOutput.accept(ModItems.DRAGON_LEGGINGS.get());
+                        pOutput.accept(ModItems.DRAGON_BOOTS.get());
+                        
                     })
                     .build());
     public static final RegistryObject<CreativeModeTab> LEMON_KINDOM_WEAPON = CREATIVE_MODE_TABS.register("lemon_kindom_weapon",

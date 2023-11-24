@@ -99,6 +99,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.STAR);
         simpleItem(ModItems.MYSTERY_PLATE);
         simpleItem(ModItems.DIAMOND_DUST);
+        simpleItem(ModItems.DRAGON_BREATH_POWDER);
         simpleItem(ModItems.SMITHING_HAMMER);
         simpleItem(ModItems.SMALL_HEAL_BOTTLE);
         simpleItem(ModItems.BIG_HEAL_BOTTLE);
@@ -106,6 +107,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.KNIGHT_TEMPLATE);
         simpleItem(ModItems.SLAYER_TEMPLATE);
         simpleItem(ModItems.LAVA_TEMPLATE);
+        simpleItem(ModItems.DRAGON_TEMPLATE);
 
         trimmedArmorItem(ModItems.KNIGHT_HELMET);
         trimmedArmorItem(ModItems.KNIGHT_CHESTPLATE);
@@ -121,6 +123,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.LAVA_CHESTPLATE);
         trimmedArmorItem(ModItems.LAVA_LEGGINGS);
         trimmedArmorItem(ModItems.LAVA_BOOTS);
+        
+        trimmedArmorItem(ModItems.DRAGON_HELMET);
+        trimmedArmorItem(ModItems.DRAGON_CHESTPLATE);
+        simpleItem(ModItems.DRAGON_ELYTRA_CHESTPLATE);
+        trimmedArmorItem(ModItems.DRAGON_LEGGINGS);
+        trimmedArmorItem(ModItems.DRAGON_BOOTS);
 
         tagWeaponItem(ModItems.IRON_SICKLE, ModTags.Items.IRON_SICKLE_TAG);
         tagWeaponItem(ModItems.IRON_SICKLE_1, ModTags.Items.IRON_SICKLE_TAG);

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "lkartifacts:dragon_breath_powder"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": {
+    "item": "lkartifacts:dragon_leggings"
+  },
+  "template": {
+    "item": "lkartifacts:dragon_upgrade_smithing_template"
+  }
+}

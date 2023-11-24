@@ -64,6 +64,14 @@ public class ModTemplates  extends  SmithingTemplateItem{
                 Component.translatable("item.lkaritifacts.lava_upgrade.additions_slot"),
                 createEvolveIconList(), createEvolveMaterialList());
     }
+    public static ModTemplates createDragonTemplate() {
+        return new ModTemplates(Component.translatable("item.lkaritifacts.dragon_upgrade.applies_to").withStyle(DESCRIPTION_FORMAT),
+                Component.translatable("item.lkaritifacts.dragon_upgrade.ingredients").withStyle(DESCRIPTION_FORMAT),
+                Component.translatable("item.lkaritifacts.dragon_upgrade.name").withStyle(TITLE_FORMAT),
+                Component.translatable("item.lkaritifacts.dragon_upgrade.base_slot"),
+                Component.translatable("item.lkaritifacts.dragon_upgrade.additions_slot"),
+                createEvolveIconList(), createEvolveMaterialList());
+    }
 
     private static List<ResourceLocation> createEvolveIconList() {
         return List.of(EMPTY_SLOT_HELMET, EMPTY_SLOT_CHESTPLATE, EMPTY_SLOT_LEGGINGS, EMPTY_SLOT_BOOTS);

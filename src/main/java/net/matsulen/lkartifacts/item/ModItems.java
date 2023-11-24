@@ -2,9 +2,7 @@ package net.matsulen.lkartifacts.item;
 
 
 import net.matsulen.lkartifacts.LKArtifacts;
-import net.matsulen.lkartifacts.item.armor.KnightArmorItem;
-import net.matsulen.lkartifacts.item.armor.LavaArmorItem;
-import net.matsulen.lkartifacts.item.armor.SlayerArmorItem;
+import net.matsulen.lkartifacts.item.armor.*;
 import net.matsulen.lkartifacts.item.custom.*;
 import net.matsulen.lkartifacts.item.templates.ModTemplates;
 import net.matsulen.lkartifacts.item.useitem.BigHealBottleItem;
@@ -31,6 +29,8 @@ public class ModItems {
             () -> new StarItem(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> DIAMOND_DUST = ITEMS.register("diamond_dust",
             () -> new Item(new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<Item> DRAGON_BREATH_POWDER = ITEMS.register("dragon_breath_powder",
+            () -> new Item(new Item.Properties().stacksTo(16)));
     public static final RegistryObject<Item> MYSTERY_AMETHYST = ITEMS.register("mystery_amethyst",
             () -> new AmethystItem(new Item.Properties().stacksTo(5)));
     public static final RegistryObject<Item> MYSTERY_PLATE = ITEMS.register("mystery_plate",
@@ -49,6 +49,8 @@ public class ModItems {
             ModTemplates::createSlayerTemplate);
     public static final RegistryObject<Item> LAVA_TEMPLATE = ITEMS.register("lava_upgrade_smithing_template",
             ModTemplates::createLavaTemplate);
+    public static final RegistryObject<Item> DRAGON_TEMPLATE = ITEMS.register("dragon_upgrade_smithing_template",
+            ModTemplates::createDragonTemplate);
 
     public static final RegistryObject<Item> IRON_SICKLE = ITEMS.register("iron_sickle",
             () -> new IronSickleItem(ModToolTiers.Evolve, 4,-2.8f
@@ -628,6 +630,17 @@ public class ModItems {
     public static final RegistryObject<Item> LAVA_BOOTS = ITEMS.register("lava_boots",
             () -> new LavaArmorItem(ModArmorMaterials.LAVA, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant()));
 
+    public static final RegistryObject<Item> DRAGON_HELMET = ITEMS.register("dragon_helmet",
+            () -> new DragonArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.HELMET, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> DRAGON_CHESTPLATE = ITEMS.register("dragon_chestplate",
+            () -> new DragonArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.CHESTPLATE, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> DRAGON_LEGGINGS = ITEMS.register("dragon_leggings",
+            () -> new DragonArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.LEGGINGS, new Item.Properties().fireResistant()));
+    public static final RegistryObject<Item> DRAGON_BOOTS = ITEMS.register("dragon_boots",
+            () -> new DragonArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.BOOTS, new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<Item> DRAGON_ELYTRA_CHESTPLATE = ITEMS.register("dragon_elytra_chestplate",
+            () -> new DragonElytraArmorItem(ModArmorMaterials.DRAGON, ArmorItem.Type.CHESTPLATE, new Item.Properties().fireResistant()));
 
 
     public static void register(IEventBus eventBus) {
