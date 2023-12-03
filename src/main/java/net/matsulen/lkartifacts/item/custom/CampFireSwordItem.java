@@ -43,8 +43,8 @@ public class CampFireSwordItem extends SwordItem {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.camp_fire_sword.tooltip.shift3").withStyle(ChatFormatting.DARK_GRAY));
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.camp_fire_sword.tooltip.shift4").withStyle(ChatFormatting.DARK_GRAY));
         } else if (Screen.hasControlDown()) {
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.camp_fire_sword.tooltip.control1").withStyle(ChatFormatting.LIGHT_PURPLE));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.camp_fire_sword.tooltip.control2").withStyle(ChatFormatting.LIGHT_PURPLE));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.camp_fire_sword.tooltip.control1").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.camp_fire_sword.tooltip.control2").withStyle(ChatFormatting.DARK_GRAY));
 
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.tooltip.default1"));

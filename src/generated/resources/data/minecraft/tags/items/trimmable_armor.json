@@ -11,6 +11,11 @@
     "lkartifacts:lava_helmet",
     "lkartifacts:lava_chestplate",
     "lkartifacts:lava_leggings",
-    "lkartifacts:lava_boots"
+    "lkartifacts:lava_boots",
+    "lkartifacts:dragon_helmet",
+    "lkartifacts:dragon_chestplate",
+    "lkartifacts:dragon_leggings",
+    "lkartifacts:dragon_boots",
+    "lkartifacts:dragon_elytra_chestplate"
   ]
 }

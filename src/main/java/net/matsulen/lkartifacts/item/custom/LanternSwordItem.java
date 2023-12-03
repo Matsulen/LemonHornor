@@ -31,7 +31,7 @@ public class LanternSwordItem extends SwordItem {
         pPlayer.getCooldowns().addCooldown(this, 500);
         if (!pLevel.isClientSide()) {
             pPlayer.addEffect(new MobEffectInstance(MobEffects.GLOWING, 500,1),pPlayer);
-            pPlayer.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 200,1),pPlayer);
+            pPlayer.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 200,1, false, false,true),pPlayer);
         }
         pPlayer.playSound(SoundEvents.EXPERIENCE_ORB_PICKUP);
         pPlayer.awardStat(Stats.ITEM_USED.get(this));
@@ -50,8 +50,8 @@ public class LanternSwordItem extends SwordItem {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.lantern_sword.tooltip.shift3").withStyle(ChatFormatting.DARK_GRAY));
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.lantern_sword.tooltip.shift4").withStyle(ChatFormatting.DARK_GRAY));
         } else if (Screen.hasControlDown()) {
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.lantern_sword.tooltip.control1").withStyle(ChatFormatting.LIGHT_PURPLE));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.lantern_sword.tooltip.control2").withStyle(ChatFormatting.LIGHT_PURPLE));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.lantern_sword.tooltip.control1").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.lantern_sword.tooltip.control2").withStyle(ChatFormatting.DARK_GRAY));
 
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.tooltip.default1"));

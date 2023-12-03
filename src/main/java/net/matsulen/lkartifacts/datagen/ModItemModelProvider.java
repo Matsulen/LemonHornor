@@ -255,12 +255,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         tagWeaponItem(ModItems.SHAPED_AMETHYST_4, ModTags.Items.SHAPED_AMETHYST_TAG);
         tagWeaponItem(ModItems.SHAPED_AMETHYST_5, ModTags.Items.SHAPED_AMETHYST_TAG);
 
-        tagWeaponItem(ModItems.FLINT_HAND, ModTags.Items.FLINT_HAND_TAG);
-        tagWeaponItem(ModItems.FLINT_HAND_1, ModTags.Items.FLINT_HAND_TAG);
-        tagWeaponItem(ModItems.FLINT_HAND_2, ModTags.Items.FLINT_HAND_TAG);
-        tagWeaponItem(ModItems.FLINT_HAND_3, ModTags.Items.FLINT_HAND_TAG);
-        tagWeaponItem(ModItems.FLINT_HAND_4, ModTags.Items.FLINT_HAND_TAG);
-        tagWeaponItem(ModItems.FLINT_HAND_5, ModTags.Items.FLINT_HAND_TAG);
+//        tagWeaponItem(ModItems.FLINT_HAND, ModTags.Items.FLINT_HAND_TAG);
+//        tagWeaponItem(ModItems.FLINT_HAND_1, ModTags.Items.FLINT_HAND_TAG);
+//        tagWeaponItem(ModItems.FLINT_HAND_2, ModTags.Items.FLINT_HAND_TAG);
+//        tagWeaponItem(ModItems.FLINT_HAND_3, ModTags.Items.FLINT_HAND_TAG);
+//        tagWeaponItem(ModItems.FLINT_HAND_4, ModTags.Items.FLINT_HAND_TAG);
+//        tagWeaponItem(ModItems.FLINT_HAND_5, ModTags.Items.FLINT_HAND_TAG);
 
         tagWeaponItem(ModItems.LAVA_SWORD, ModTags.Items.LAVA_SWORD_TAG);
         tagWeaponItem(ModItems.LAVA_SWORD_1, ModTags.Items.LAVA_SWORD_TAG);

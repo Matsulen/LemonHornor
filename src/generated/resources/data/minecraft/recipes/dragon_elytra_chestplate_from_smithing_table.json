@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "lkartifacts:dragon_breath_powder"
+  },
+  "base": {
+    "item": "lkartifacts:dragon_chestplate"
+  },
+  "result": {
+    "item": "lkartifacts:dragon_elytra_chestplate"
+  },
+  "template": {
+    "item": "minecraft:elytra"
+  }
+}

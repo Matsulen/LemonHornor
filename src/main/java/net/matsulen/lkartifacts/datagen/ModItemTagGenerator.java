@@ -34,9 +34,41 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.LAVA_HELMET.get(),
                         ModItems.LAVA_CHESTPLATE.get(),
                         ModItems.LAVA_LEGGINGS.get(),
+                        ModItems.LAVA_BOOTS.get(),
+                        ModItems.DRAGON_HELMET.get(),
+                        ModItems.DRAGON_CHESTPLATE.get(),
+                        ModItems.DRAGON_LEGGINGS.get(),
+                        ModItems.DRAGON_BOOTS.get(),
+                        ModItems.DRAGON_ELYTRA_CHESTPLATE.get()
+                );
+
+        this.tag(ModTags.Items.KNIGHT_ARMOR_TAG)
+                .add(ModItems.KNIGHT_HELMET.get(),
+                        ModItems.KNIGHT_CHESTPLATE.get(),
+                        ModItems.KNIGHT_LEGGINGS.get(),
+                        ModItems.KNIGHT_BOOTS.get()
+                );
+
+        this.tag(ModTags.Items.SLAYER_ARMOR_TAG)
+                .add(ModItems.SLAYER_HELMET.get(),
+                        ModItems.SLAYER_CHESTPLATE.get(),
+                        ModItems.SLAYER_LEGGINGS.get(),
+                        ModItems.SLAYER_BOOTS.get()
+                );
+
+        this.tag(ModTags.Items.LAVA_ARMOR_TAG)
+                .add(ModItems.LAVA_HELMET.get(),
+                        ModItems.LAVA_CHESTPLATE.get(),
+                        ModItems.LAVA_LEGGINGS.get(),
                         ModItems.LAVA_BOOTS.get()
                 );
 
+        this.tag(ModTags.Items.DRAGON_ARMOR_TAG)
+                .add(ModItems.DRAGON_HELMET.get(),
+                        ModItems.DRAGON_CHESTPLATE.get(),
+                        ModItems.DRAGON_LEGGINGS.get(),
+                        ModItems.DRAGON_BOOTS.get()
+                );
         this.tag(ModTags.Items.NORMAL_WEAPON_TAG)
                 .add(ModItems.IRON_SICKLE.get(),
                         ModItems.IRON_SICKLE_1.get(),

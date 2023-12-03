@@ -54,8 +54,8 @@ public class IronSickleItem extends SwordItem {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.iron_sickle.tooltip.shift1").withStyle(ChatFormatting.DARK_GRAY));
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.iron_sickle.tooltip.shift2").withStyle(ChatFormatting.DARK_GRAY));
         } else if (Screen.hasControlDown()) {
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.iron_sickle.tooltip.control1").withStyle(ChatFormatting.LIGHT_PURPLE));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.iron_sickle.tooltip.control2").withStyle(ChatFormatting.LIGHT_PURPLE));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.iron_sickle.tooltip.control1").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.iron_sickle.tooltip.control2").withStyle(ChatFormatting.DARK_GRAY));
 
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.tooltip.default1"));

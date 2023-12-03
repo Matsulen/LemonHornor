@@ -34,7 +34,7 @@ public class StarItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.tooltip.epic").withStyle(ChatFormatting.LIGHT_PURPLE));
+        pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.tooltip.epic").withStyle(ChatFormatting.DARK_GRAY));
         if (Screen.hasShiftDown()){
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.star_item.tooltip.shift1").withStyle(ChatFormatting.DARK_GRAY));
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.star_item.tooltip.shift2").withStyle(ChatFormatting.DARK_GRAY));

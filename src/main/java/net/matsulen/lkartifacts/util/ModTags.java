@@ -42,6 +42,11 @@ public class ModTags {
         public static final TagKey<Item> BAMBOO_SWORD_TAG = tag("bamboo_sword");
         public static final TagKey<Item> LANTERN_SWORD_TAG = tag("lantern_sword");
         public static final TagKey<Item> CHAINSAW_SWORD_TAG = tag("chainsaw_sword");
+        //====================================================================
+        public static final TagKey<Item> KNIGHT_ARMOR_TAG = tag("knight_armor_tag");
+        public static final TagKey<Item> SLAYER_ARMOR_TAG = tag("slayer_armor_tag");
+        public static final TagKey<Item> LAVA_ARMOR_TAG = tag("lava_armor_tag");
+        public static final TagKey<Item> DRAGON_ARMOR_TAG = tag("dragon_armor_tag");
 
 //=======================================
         public static final TagKey<Item> LEGENDARY_WEAPON_TAG = tag("legendary_weapon");

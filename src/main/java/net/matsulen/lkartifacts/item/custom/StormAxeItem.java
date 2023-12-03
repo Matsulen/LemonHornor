@@ -30,7 +30,7 @@ public class StormAxeItem extends AxeItem {
         if (!pLevel.isClientSide()) {
             pPlayer.addEffect(new MobEffectInstance(MobEffects.JUMP, 300,2),pPlayer);
         }
-        pPlayer.playSound(SoundEvents.ELYTRA_FLYING);
+        pPlayer.playSound(SoundEvents.ELYTRA_FLYING, 0.3F, 1.0F);
         pPlayer.awardStat(Stats.ITEM_USED.get(this));
         if (!pPlayer.getAbilities().instabuild) {
             itemstack.hurtAndBreak(20, pPlayer, p -> p.broadcastBreakEvent(pUsedHand));
@@ -47,8 +47,8 @@ public class StormAxeItem extends AxeItem {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.storm_axe.tooltip.shift3").withStyle(ChatFormatting.DARK_GRAY));
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.storm_axe.tooltip.shift4").withStyle(ChatFormatting.DARK_GRAY));
         } else if (Screen.hasControlDown()) {
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.storm_axe.tooltip.control1").withStyle(ChatFormatting.LIGHT_PURPLE));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.storm_axe.tooltip.control2").withStyle(ChatFormatting.LIGHT_PURPLE));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.storm_axe.tooltip.control1").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.storm_axe.tooltip.control2").withStyle(ChatFormatting.DARK_GRAY));
 
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.tooltip.default1"));

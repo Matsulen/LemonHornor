@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "lkartifacts:dragon_elytra_chestplate"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.armor"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.armor"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "lkartifacts:root",
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

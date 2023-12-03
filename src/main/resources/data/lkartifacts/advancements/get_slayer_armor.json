@@ -1,0 +1,32 @@
+{
+  "parent": "lkartifacts:armor",
+  "display": {
+    "icon": {
+      "item": "lkartifacts:slayer_chestplate"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.slayer"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.slayer"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lkartifacts:slayer_armor_tag"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

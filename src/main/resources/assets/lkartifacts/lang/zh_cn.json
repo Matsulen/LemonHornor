@@ -65,6 +65,20 @@
   "lkartifacts.ad.chainsaw_sword": "§b获得圆形锯剑",
   "lkartifacts.adtitle.chainsaw_sword": "§6电锯人！启动！",
 
+  "lkartifacts.adtitle.armor": "§6我们有了新的办法",
+  "lkartifacts.ad.armor": "§b在锻造台进化你的盔甲！",
+  "lkartifacts.adtitle.knight": "§b中世纪风格",
+  "lkartifacts.ad.knight": "§d锻造出骑士盔甲",
+  "lkartifacts.adtitle.slayer": "§b猎杀时刻",
+  "lkartifacts.ad.slayer": "§d锻造出钻石猎杀者盔甲",
+  "lkartifacts.adtitle.lava": "§b熔岩流淌！",
+  "lkartifacts.ad.lava": "§d锻造出活体熔岩盔甲",
+  "lkartifacts.adtitle.dragon": "§b巨龙传说！",
+  "lkartifacts.ad.dragon": "§d锻造出龙息合金盔甲",
+  "lkartifacts.adtitle.dragon_elytra": "§6那一天我站在世界屋脊",
+  "lkartifacts.ad.dragon_elytra": "§d锻造出龙息合金盔甲 附鞘翅",
+
+
   "item.lkartifacts.broken_star_small": "§2破碎星星碎片",
   "item.lkartifacts.broken_star_long": "§b破碎星星长碎片",
   "item.lkartifacts.broken_star_big": "§d大块破碎星星",

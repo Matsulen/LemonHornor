@@ -88,8 +88,8 @@ public class DragonElytraArmorItem extends AllArmorItem {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.shift2").withStyle(ChatFormatting.DARK_GRAY));
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.shift3").withStyle(ChatFormatting.DARK_GRAY));
         } else if (Screen.hasControlDown()) {
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.control1").withStyle(ChatFormatting.LIGHT_PURPLE));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.control2").withStyle(ChatFormatting.LIGHT_PURPLE));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.control1").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.dragon_elytra_chestplate.tooltip.control2").withStyle(ChatFormatting.DARK_GRAY));
 
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.tooltip.default1"));

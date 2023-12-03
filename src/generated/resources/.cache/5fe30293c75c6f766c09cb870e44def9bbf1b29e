@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-25T00:57:18.3960771	Item Models: lkartifacts
+// 1.20.1	2023-11-27T17:10:58.5139616	Item Models: lkartifacts
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword.json
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword_1.json
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword_2.json
@@ -110,12 +110,6 @@ c5ae1a50d6f9add1338c8ea8eba7b38da9b72f08 assets/lkartifacts/models/item/effected
 c5ae1a50d6f9add1338c8ea8eba7b38da9b72f08 assets/lkartifacts/models/item/effected_sword_5.json
 526c85d6d0a46701da7c50c74832c57efefa1303 assets/lkartifacts/models/item/evolve_anvil.json
 d9903820445b5a6f0b358d97e5a92df846ce3c73 assets/lkartifacts/models/item/evolve_upgrade_smithing_template.json
-b5431b58fabda46177b11705dc4bfb2d573b681f assets/lkartifacts/models/item/flint_hand.json
-b5431b58fabda46177b11705dc4bfb2d573b681f assets/lkartifacts/models/item/flint_hand_1.json
-b5431b58fabda46177b11705dc4bfb2d573b681f assets/lkartifacts/models/item/flint_hand_2.json
-b5431b58fabda46177b11705dc4bfb2d573b681f assets/lkartifacts/models/item/flint_hand_3.json
-b5431b58fabda46177b11705dc4bfb2d573b681f assets/lkartifacts/models/item/flint_hand_4.json
-b5431b58fabda46177b11705dc4bfb2d573b681f assets/lkartifacts/models/item/flint_hand_5.json
 927b83e4d2eed3cc6731fcd1290bcfe59d5bb588 assets/lkartifacts/models/item/golden_spear.json
 927b83e4d2eed3cc6731fcd1290bcfe59d5bb588 assets/lkartifacts/models/item/golden_spear_1.json
 927b83e4d2eed3cc6731fcd1290bcfe59d5bb588 assets/lkartifacts/models/item/golden_spear_2.json

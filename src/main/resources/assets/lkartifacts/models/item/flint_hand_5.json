@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "lkartifacts:item/flint_hand_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "lkartifacts:item/flint_hand_2d"
+    },
+    "ground": {
+      "parent": "lkartifacts:item/flint_hand_2d"
+    },
+    "fixed": {
+      "parent": "lkartifacts:item/flint_hand_2d"
+    }
+  }
+}

@@ -55,8 +55,8 @@ public class SmallHealBottleItem extends Item {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.small_heal_bottle.tooltip.shift2").withStyle(ChatFormatting.DARK_GRAY));
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.small_heal_bottle.tooltip.shift3").withStyle(ChatFormatting.DARK_GRAY));
         } else if (Screen.hasControlDown()) {
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.small_heal_bottle.tooltip.control1").withStyle(ChatFormatting.LIGHT_PURPLE));
-            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.small_heal_bottle.tooltip.control2").withStyle(ChatFormatting.LIGHT_PURPLE));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.small_heal_bottle.tooltip.control1").withStyle(ChatFormatting.DARK_GRAY));
+            pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.small_heal_bottle.tooltip.control2").withStyle(ChatFormatting.DARK_GRAY));
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.healitem.tooltip").withStyle(ChatFormatting.RED));
             pTooltipComponents.add(Component.translatable("tooltip.lkartifacts.tooltip.default1"));

@@ -57,6 +57,7 @@ public class ModCreativeModTabs {
                         
                         pOutput.accept(ModItems.DRAGON_HELMET.get());
                         pOutput.accept(ModItems.DRAGON_CHESTPLATE.get());
+                        pOutput.accept(ModItems.DRAGON_ELYTRA_CHESTPLATE.get());
                         pOutput.accept(ModItems.DRAGON_LEGGINGS.get());
                         pOutput.accept(ModItems.DRAGON_BOOTS.get());
                         

@@ -96,7 +96,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         Ingredient.of(Items.NETHERITE_BOOTS),Ingredient.of(ModItems.DRAGON_BREATH_POWDER.get()),RecipeCategory.MISC,ModItems.DRAGON_BOOTS.get())
                 .unlocks(getHasName(ModItems.DRAGON_TEMPLATE.get()), has(ModItems.DRAGON_TEMPLATE.get()))
                 .save(pWriter, "dragon_boots_from_smithing_table");
-        
+
+        SmithingTransformRecipeBuilder.smithing(Ingredient.of(Items.ELYTRA),
+                        Ingredient.of(ModItems.DRAGON_CHESTPLATE.get()),Ingredient.of(ModItems.DRAGON_BREATH_POWDER.get()),RecipeCategory.MISC,ModItems.DRAGON_ELYTRA_CHESTPLATE.get())
+                .unlocks(getHasName(ModItems.DRAGON_CHESTPLATE.get()), has(ModItems.DRAGON_CHESTPLATE.get()))
+                .save(pWriter, "dragon_elytra_chestplate_from_smithing_table");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.EMERALD, 50)
                 .requires(ModTags.Items.TOTEM_SWORD_TAG)

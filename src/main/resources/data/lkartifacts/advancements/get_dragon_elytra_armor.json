@@ -1,0 +1,32 @@
+{
+  "parent": "lkartifacts:get_dragon_armor",
+  "display": {
+    "icon": {
+      "item": "lkartifacts:dragon_elytra_chestplate"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.dragon_elytra"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.dragon_elytra"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "lkartifacts:dragon_elytra_chestplate"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}
