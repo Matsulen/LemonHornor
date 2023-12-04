@@ -33,6 +33,7 @@ public class HornOfGoatItem extends AxeItem {
         pPlayer.getCooldowns().addCooldown(this, 400);
         if (!pLevel.isClientSide()) {
             pPlayer.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 300,2),pPlayer);
+            pPlayer.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 200,2),pPlayer);
             pPlayer.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN,200,1),pPlayer);
         }
         pPlayer.playSound(SoundEvents.SHIELD_BLOCK);

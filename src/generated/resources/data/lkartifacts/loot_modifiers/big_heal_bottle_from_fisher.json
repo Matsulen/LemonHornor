@@ -3,12 +3,12 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/nether_bridge"
+      "loot_table_id": "minecraft:chests/village/village_fisher"
     },
     {
-      "chance": 0.3,
+      "chance": 0.2,
       "condition": "minecraft:random_chance"
     }
   ],
-  "item": "lkartifacts:broken_star_long"
+  "item": "lkartifacts:big_heal_bottle"
 }

@@ -28,10 +28,10 @@ public class LanternSwordItem extends SwordItem {
     @Override
     public InteractionResultHolder<ItemStack> use(Level pLevel, Player pPlayer, InteractionHand pUsedHand) {
         ItemStack itemstack = pPlayer.getItemInHand(pUsedHand);
-        pPlayer.getCooldowns().addCooldown(this, 500);
+        pPlayer.getCooldowns().addCooldown(this, 800);
         if (!pLevel.isClientSide()) {
             pPlayer.addEffect(new MobEffectInstance(MobEffects.GLOWING, 500,1),pPlayer);
-            pPlayer.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 200,1, false, false,true),pPlayer);
+            pPlayer.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 500,1, false, false,false),pPlayer);
         }
         pPlayer.playSound(SoundEvents.EXPERIENCE_ORB_PICKUP);
         pPlayer.awardStat(Stats.ITEM_USED.get(this));

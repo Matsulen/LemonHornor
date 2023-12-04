@@ -3,10 +3,10 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/nether_bridge"
+      "loot_table_id": "minecraft:chests/stronghold_corridor"
     },
     {
-      "chance": 0.3,
+      "chance": 0.15,
       "condition": "minecraft:random_chance"
     }
   ],

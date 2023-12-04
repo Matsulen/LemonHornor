@@ -3,12 +3,12 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/village/village_armorer"
+      "loot_table_id": "minecraft:entities/vindicator"
     },
     {
-      "chance": 0.3,
+      "chance": 0.1,
       "condition": "minecraft:random_chance"
     }
   ],
-  "item": "lkartifacts:broken_star_long"
+  "item": "lkartifacts:big_heal_bottle"
 }

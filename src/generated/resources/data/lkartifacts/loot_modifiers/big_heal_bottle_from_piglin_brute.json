@@ -3,12 +3,12 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/nether_bridge"
+      "loot_table_id": "minecraft:entities/piglin_brute"
     },
     {
-      "chance": 0.3,
+      "chance": 0.5,
       "condition": "minecraft:random_chance"
     }
   ],
-  "item": "lkartifacts:broken_star_long"
+  "item": "lkartifacts:big_heal_bottle"
 }
