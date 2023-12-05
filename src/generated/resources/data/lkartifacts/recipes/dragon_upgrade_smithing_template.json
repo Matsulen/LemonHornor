@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "T": {
+      "item": "lkartifacts:dragon_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    "DTD",
+    "DSD",
+    "DDD"
+  ],
+  "result": {
+    "count": 2,
+    "item": "lkartifacts:dragon_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

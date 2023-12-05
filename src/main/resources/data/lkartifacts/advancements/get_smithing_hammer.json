@@ -20,7 +20,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "lkartifacts:smithing_hammer"
+            "item": "lkartifacts:smithing_hammer"
           }
         ]
       }

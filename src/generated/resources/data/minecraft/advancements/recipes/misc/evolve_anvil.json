@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_diamond_dust": {
+    "has_smithing_hammer": {
       "conditions": {
         "items": [
           {
             "items": [
-              "lkartifacts:diamond_dust"
+              "lkartifacts:smithing_hammer"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:diamond"
+        "recipe": "minecraft:evolve_anvil"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_diamond_dust",
+      "has_smithing_hammer",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:diamond"
+      "minecraft:evolve_anvil"
     ]
   },
   "sends_telemetry_event": false

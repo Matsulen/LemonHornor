@@ -105,19 +105,19 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Items.EMERALD, 50)
                 .requires(ModTags.Items.TOTEM_SWORD_TAG)
                 .unlockedBy(getHasName(ModItems.TOTEM_SWORD.get()), has(ModTags.Items.TOTEM_SWORD_TAG))
-                .save(pWriter);
+                .save(pWriter, "emerald_from_totem_sword");
 
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DIAMOND_DUST.get(), 4)
                 .requires(Items.DIAMOND)
                 .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))
-                .save(pWriter);
+                .save(pWriter,"diamond_dust_from_diamond");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Items.DIAMOND)
                 .pattern("DD")
                 .pattern("DD")
                 .define('D',ModItems.DIAMOND_DUST.get())
                 .unlockedBy(getHasName(ModItems.DIAMOND_DUST.get()), has(ModItems.DIAMOND_DUST.get()))
-                .save(pWriter);
+                .save(pWriter,"diamond_from_diamond_dust");
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SMITHING_HAMMER.get())
                 .pattern("  N")
                 .pattern(" S ")
@@ -125,14 +125,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('N', Items.NETHERITE_INGOT)
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(Items.NETHERITE_INGOT), has(Items.NETHERITE_INGOT))
-                .save(pWriter);
+                .save(pWriter, "smithing_hammer");
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.EVOLVE_ANVIL.get())
                 .pattern("H ")
                 .pattern("A ")
                 .define('H', ModItems.SMITHING_HAMMER.get())
                 .define('A', Items.ANVIL)
                 .unlockedBy(getHasName(ModItems.SMITHING_HAMMER.get()), has(ModItems.SMITHING_HAMMER.get()))
-                .save(pWriter);
+                .save(pWriter,"evolve_anvil");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.KNIGHT_TEMPLATE.get(),2)
                 .pattern("DTD")
@@ -160,6 +160,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('D', Items.DIAMOND)
                 .define('S', Items.STONE)
                 .unlockedBy(getHasName(ModItems.SLAYER_TEMPLATE.get()), has(ModItems.SLAYER_TEMPLATE.get()))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.DRAGON_TEMPLATE.get(),2)
+                .pattern("DTD")
+                .pattern("DSD")
+                .pattern("DDD")
+                .define('T', ModItems.DRAGON_TEMPLATE.get())
+                .define('D', Items.DIAMOND)
+                .define('S', Items.STONE)
+                .unlockedBy(getHasName(ModItems.DRAGON_TEMPLATE.get()), has(ModItems.DRAGON_TEMPLATE.get()))
                 .save(pWriter);
 
         new EvolveTableRecipeProvider(ModItems.IRON_SICKLE.get(), ModItems.BROKEN_STAR_SMALL.get(), ModItems.IRON_SICKLE_1.get(), 1)
