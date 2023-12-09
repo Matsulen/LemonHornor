@@ -20,7 +20,9 @@
       "conditions": {
         "items": [
           {
-            "item": "lkartifacts:smithing_hammer"
+            "items": [
+              "lkartifacts:smithing_hammer"
+            ]
           }
         ]
       }
