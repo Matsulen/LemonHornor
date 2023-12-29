@@ -6,7 +6,7 @@
       "loot_table_id": "minecraft:gameplay/hero_of_the_village/armorer_gift"
     },
     {
-      "chance": 0.5,
+      "chance": 0.3,
       "condition": "minecraft:random_chance"
     }
   ],

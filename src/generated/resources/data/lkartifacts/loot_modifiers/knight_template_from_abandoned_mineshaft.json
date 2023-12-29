@@ -3,12 +3,12 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/ancient_city"
+      "loot_table_id": "minecraft:chests/abandoned_mineshaft"
     },
     {
-      "chance": 0.04,
+      "chance": 0.5,
       "condition": "minecraft:random_chance"
     }
   ],
-  "item": "lkartifacts:star"
+  "item": "lkartifacts:knight_upgrade_smithing_template"
 }

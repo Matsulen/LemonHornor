@@ -2129,20 +2129,40 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
         }, ModItems.STAR.get()));
         add("star_from_end_city_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.03f).build()
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
         }, ModItems.STAR.get()));
-        add("star_from_bastion_ancient_city", new AddItemModifier(new LootItemCondition[]{
+        add("star_from_buried_treasure", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/buried_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.25f).build()
+        }, ModItems.STAR.get()));
+        add("star_from_woodland_mansion", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/woodland_mansion")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.STAR.get()));
+        add("star_from_ruined_portal", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/ruined_portal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.STAR.get()));
+        add("star_from_shipwreck_treasure", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.STAR.get()));
+        add("star_from_stronghold_library", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/stronghold_library")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.STAR.get()));
+        add("star_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
-                LootItemRandomChanceCondition.randomChance(0.04f).build()
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
         }, ModItems.STAR.get()));
-        add("star_from_bastion_treasure", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+        add("star_from_desert_pyramid", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/desert_pyramid")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
         }, ModItems.STAR.get()));
 
         add("mystery_amethyst_from_armorer_gift", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("gameplay/hero_of_the_village/armorer_gift")).build(),
-                LootItemRandomChanceCondition.randomChance(0.5f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.MYSTERY_AMETHYST.get()));
         add("mystery_amethyst_from_elder_guardian", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/elder_guardian")).build(),
@@ -2174,22 +2194,37 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
         }, ModItems.MYSTERY_AMETHYST.get()));
         add("mystery_amethyst_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
-                LootItemRandomChanceCondition.randomChance(0.08f).build()
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
         }, ModItems.MYSTERY_AMETHYST.get()));
         add("mystery_amethyst_from_end_city_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.07f).build()
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
         }, ModItems.MYSTERY_AMETHYST.get()));
-        add("mystery_plate_from_woodland_mansion", new AddItemModifier(new LootItemCondition[]{
+        add("mystery_amethyst_from_woodland_mansion", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/woodland_mansion")).build(),
                 LootItemRandomChanceCondition.randomChance(0.08f).build()
         }, ModItems.MYSTERY_AMETHYST.get()));
-
+        add("mystery_amethyst_from_ruined_portal", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/ruined_portal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_amethyst_from_ruined_portal", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_amethyst_from_ruined_portal", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/stronghold_library")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
+        add("mystery_amethyst_from_ruined_portal", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.MYSTERY_AMETHYST.get()));
         
         
         add("mystery_plate_from_end_city_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.05f).build()
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
         }, ModItems.MYSTERY_PLATE.get()));
         add("mystery_plate_from_buried_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/buried_treasure")).build(),
@@ -2197,12 +2232,32 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
         }, ModItems.MYSTERY_PLATE.get()));
         add("mystery_plate_from_woodland_mansion", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/woodland_mansion")).build(),
-                LootItemRandomChanceCondition.randomChance(0.03f).build()
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.MYSTERY_PLATE.get()));
+        add("mystery_plate_from_ruined_portal", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/ruined_portal")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.MYSTERY_PLATE.get()));
+        add("mystery_plate_from_shipwreck_treasure", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.MYSTERY_PLATE.get()));
+        add("mystery_plate_from_stronghold_library", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/stronghold_library")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.MYSTERY_PLATE.get()));
+        add("mystery_plate_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.MYSTERY_PLATE.get()));
+        add("mystery_plate_from_desert_pyramid", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/desert_pyramid")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
         }, ModItems.MYSTERY_PLATE.get()));
 
         add("dragon_breath_powder_from_end_city_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.1f).build()
+                LootItemRandomChanceCondition.randomChance(0.9f).build()
         }, ModItems.DRAGON_BREATH_POWDER.get()));
         add("dragon_breath_powder_from_buried_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/buried_treasure")).build(),
@@ -2210,7 +2265,7 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
         }, ModItems.DRAGON_BREATH_POWDER.get()));
         add("dragon_breath_powder_from_woodland_mansion", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/woodland_mansion")).build(),
-                LootItemRandomChanceCondition.randomChance(0.06f).build()
+                LootItemRandomChanceCondition.randomChance(0.09f).build()
         }, ModItems.DRAGON_BREATH_POWDER.get()));
         add("dragon_breath_powder_from_ender_dragon", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/ender_dragon")).build(),
@@ -2222,81 +2277,123 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
         }, ModItems.DRAGON_BREATH_POWDER.get()));
         add("dragon_breath_powder_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
-                LootItemRandomChanceCondition.randomChance(0.08f).build()
+                LootItemRandomChanceCondition.randomChance(0.1f).build()
         }, ModItems.DRAGON_BREATH_POWDER.get()));
 
         
         add("knight_template_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build(),
-                LootItemRandomChanceCondition.randomChance(0.1f).build()
-        }, ModItems.KNIGHT_TEMPLATE.get()));
-        add("knight_template_from_shipwreck_treasure", new AddItemModifier(new LootItemCondition[]{
-                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
         }, ModItems.KNIGHT_TEMPLATE.get()));
         add("knight_template_from_nether_bridge", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/nether_bridge")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
         }, ModItems.KNIGHT_TEMPLATE.get()));
         add("knight_template_from_pillager_outpost", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/pillager_outpost")).build(),
-                LootItemRandomChanceCondition.randomChance(0.1f).build()
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
         }, ModItems.KNIGHT_TEMPLATE.get()));
         add("knight_template_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
                 LootItemRandomChanceCondition.randomChance(0.1f).build()
         }, ModItems.KNIGHT_TEMPLATE.get()));
-
+        add("knight_template_from_abandoned_mineshaft", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/abandoned_mineshaft")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
+        }, ModItems.KNIGHT_TEMPLATE.get()));
+        add("knight_template_from_shipwreck_map", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_map")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
+        }, ModItems.KNIGHT_TEMPLATE.get()));
+        add("knight_template_from_shipwreck_supply", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_supply")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
+        }, ModItems.KNIGHT_TEMPLATE.get()));
+        add("knight_template_from_shipwreck_treasure", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
+        }, ModItems.KNIGHT_TEMPLATE.get()));
+        add("knight_template_from_underwater_ruin_big", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/underwater_ruin_big")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
+        }, ModItems.KNIGHT_TEMPLATE.get()));
+        add("knight_template_from_underwater_ruin_small", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/underwater_ruin_small")).build(),
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
+        }, ModItems.KNIGHT_TEMPLATE.get()));
 
         add("slayer_template_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.SLAYER_TEMPLATE.get()));
         add("slayer_template_from_bastion_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.1f).build()
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
         }, ModItems.SLAYER_TEMPLATE.get()));
         add("slayer_template_from_jungle_temple", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build(),
-                LootItemRandomChanceCondition.randomChance(0.1f).build()
+                LootItemRandomChanceCondition.randomChance(0.5f).build()
         }, ModItems.SLAYER_TEMPLATE.get()));
         add("slayer_template_from_end_city_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.SLAYER_TEMPLATE.get()));
         add("slayer_template_from_stronghold_crossing", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/stronghold_crossing")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.SLAYER_TEMPLATE.get()));
         add("slayer_template_from_stronghold_library", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/stronghold_library")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.SLAYER_TEMPLATE.get()));
-
-
+        add("slayer_template_from_abandoned_mineshaft", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/abandoned_mineshaft")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
+        }, ModItems.SLAYER_TEMPLATE.get()));
+        add("slayer_template_from_shipwreck_map", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_map")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
+        }, ModItems.SLAYER_TEMPLATE.get()));
+        add("slayer_template_from_shipwreck_supply", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_supply")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
+        }, ModItems.SLAYER_TEMPLATE.get()));
+        add("slayer_template_from_shipwreck_treasure", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/shipwreck_treasure")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
+        }, ModItems.SLAYER_TEMPLATE.get()));
+        add("slayer_template_from_underwater_ruin_big", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/underwater_ruin_big")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
+        }, ModItems.SLAYER_TEMPLATE.get()));
+        add("slayer_template_from_underwater_ruin_small", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/underwater_ruin_small")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
+        }, ModItems.SLAYER_TEMPLATE.get()));
+        
         add("lava_template_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/ancient_city")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.LAVA_TEMPLATE.get()));
         add("lava_template_from_bastion_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.LAVA_TEMPLATE.get()));
         add("lava_template_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.LAVA_TEMPLATE.get()));
         add("lava_template_from_end_city_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.LAVA_TEMPLATE.get()));
         add("lava_template_from_bastion_hoglin_stable", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_hoglin_stable")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.6f).build()
         }, ModItems.LAVA_TEMPLATE.get()));
         add("lava_template_from_bastion_other", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build(),
-                LootItemRandomChanceCondition.randomChance(0.2f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.LAVA_TEMPLATE.get()));
 
         add("dragon_template_from_ancient_city", new AddItemModifier(new LootItemCondition[]{
@@ -2305,23 +2402,35 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
         }, ModItems.DRAGON_TEMPLATE.get()));
         add("dragon_template_from_bastion_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.1f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.DRAGON_TEMPLATE.get()));
         add("dragon_template_from_bastion_bridge", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_bridge")).build(),
-                LootItemRandomChanceCondition.randomChance(0.1f).build()
+                LootItemRandomChanceCondition.randomChance(0.15f).build()
         }, ModItems.DRAGON_TEMPLATE.get()));
         add("dragon_template_from_end_city_treasure", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/end_city_treasure")).build(),
-                LootItemRandomChanceCondition.randomChance(0.1f).build()
+                LootItemRandomChanceCondition.randomChance(0.3f).build()
         }, ModItems.DRAGON_TEMPLATE.get()));
         add("dragon_template_from_bastion_hoglin_stable", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_hoglin_stable")).build(),
-                LootItemRandomChanceCondition.randomChance(0.1f).build()
+                LootItemRandomChanceCondition.randomChance(0.4f).build()
         }, ModItems.DRAGON_TEMPLATE.get()));
         add("dragon_template_from_bastion_other", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("chests/bastion_other")).build(),
                 LootItemRandomChanceCondition.randomChance(0.1f).build()
+        }, ModItems.DRAGON_TEMPLATE.get()));
+        add("dragon_template_from_igloo_chest", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/igloo_chest")).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build()
+        }, ModItems.DRAGON_TEMPLATE.get()));
+        add("dragon_template_from_jungle_temple", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build()
+        }, ModItems.DRAGON_TEMPLATE.get()));
+        add("dragon_template_from_stronghold_corridor", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/stronghold_corridor")).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build()
         }, ModItems.DRAGON_TEMPLATE.get()));
 
 

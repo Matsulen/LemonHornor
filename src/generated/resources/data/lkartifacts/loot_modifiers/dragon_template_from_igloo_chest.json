@@ -3,12 +3,12 @@
   "conditions": [
     {
       "condition": "forge:loot_table_id",
-      "loot_table_id": "minecraft:chests/bastion_treasure"
+      "loot_table_id": "minecraft:chests/igloo_chest"
     },
     {
       "chance": 0.2,
       "condition": "minecraft:random_chance"
     }
   ],
-  "item": "lkartifacts:star"
+  "item": "lkartifacts:dragon_upgrade_smithing_template"
 }
