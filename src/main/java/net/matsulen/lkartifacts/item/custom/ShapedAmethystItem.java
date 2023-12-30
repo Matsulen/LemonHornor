@@ -4,6 +4,8 @@ import net.minecraft.ChatFormatting;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
@@ -13,6 +15,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 
@@ -32,9 +35,9 @@ public class ShapedAmethystItem extends SwordItem {
         if(entity instanceof LivingEntity livingEntity) {
             Random random = new Random();
             int i = random.nextInt(3) + 1;
-            livingEntity.addEffect(new MobEffectInstance(MobEffects.HARM, 0,1), player);
+            livingEntity.addEffect(new MobEffectInstance(MobEffects.HARM, 1,1), player);
             livingEntity.playSound(SoundEvents.AMETHYST_CLUSTER_BREAK);
-            stack.hurtAndBreak(i * 2, player, p -> p.broadcastBreakEvent(player.getUsedItemHand()));
+            stack.hurtAndBreak(i * 3, player, p -> p.broadcastBreakEvent(player.getUsedItemHand()));
         }
 
         return super.onLeftClickEntity(stack, player, entity);

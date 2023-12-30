@@ -261,7 +261,34 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.CHAINSAW_SWORD_3.get());
                         pOutput.accept(ModItems.CHAINSAW_SWORD_4.get());
                         pOutput.accept(ModItems.CHAINSAW_SWORD_5.get());
+
+                        pOutput.accept(ModItems.LIVING_WOOD.get());
+                        pOutput.accept(ModItems.LIVING_WOOD_1.get());
+                        pOutput.accept(ModItems.LIVING_WOOD_2.get());
+                        pOutput.accept(ModItems.LIVING_WOOD_3.get());
+                        pOutput.accept(ModItems.LIVING_WOOD_4.get());
+                        pOutput.accept(ModItems.LIVING_WOOD_5.get());
+
+                        pOutput.accept(ModItems.RECOVERY_BLADE.get());
+                        pOutput.accept(ModItems.RECOVERY_BLADE_1.get());
+                        pOutput.accept(ModItems.RECOVERY_BLADE_2.get());
+                        pOutput.accept(ModItems.RECOVERY_BLADE_3.get());
+                        pOutput.accept(ModItems.RECOVERY_BLADE_4.get());
+                        pOutput.accept(ModItems.RECOVERY_BLADE_5.get());
                         
+                        pOutput.accept(ModItems.BROOM.get());
+                        pOutput.accept(ModItems.BROOM_1.get());
+                        pOutput.accept(ModItems.BROOM_2.get());
+                        pOutput.accept(ModItems.BROOM_3.get());
+                        pOutput.accept(ModItems.BROOM_4.get());
+                        pOutput.accept(ModItems.BROOM_5.get());
+
+                        pOutput.accept(ModItems.HEALING_WAND.get());
+                        pOutput.accept(ModItems.HEALING_WAND_1.get());
+                        pOutput.accept(ModItems.HEALING_WAND_2.get());
+                        pOutput.accept(ModItems.HEALING_WAND_3.get());
+                        pOutput.accept(ModItems.HEALING_WAND_4.get());
+                        pOutput.accept(ModItems.HEALING_WAND_5.get());
                     })
                     .build());
 

@@ -2599,6 +2599,57 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
                 LootItemRandomChanceCondition.randomChance(0.2f).build(),
         }, ModItems.SHAPED_AMETHYST.get()));
 
+        add("living_wood_from_jungle_temple", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/jungle_temple")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.LIVING_WOOD.get()));
+        add("living_wood_from_oak_wood", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("blocks/oak_wood")).build(),
+                LootItemRandomChanceCondition.randomChance(0.03f).build(),
+        }, ModItems.LIVING_WOOD.get()));
+        add("living_wood_from_spruce_wood", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("blocks/spruce_wood")).build(),
+                LootItemRandomChanceCondition.randomChance(0.03f).build(),
+        }, ModItems.LIVING_WOOD.get()));
+        add("living_wood_from_cherry_wood", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("blocks/cherry_wood")).build(),
+                LootItemRandomChanceCondition.randomChance(0.03f).build(),
+        }, ModItems.LIVING_WOOD.get()));
+        add("living_wood_from_birch_wood", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("blocks/birch_wood")).build(),
+                LootItemRandomChanceCondition.randomChance(0.03f).build(),
+        }, ModItems.LIVING_WOOD.get()));
+        add("living_wood_from_jungle_wood", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("blocks/jungle_wood")).build(),
+                LootItemRandomChanceCondition.randomChance(0.03f).build(),
+        }, ModItems.LIVING_WOOD.get()));
+        add("living_wood_from_acacia_wood", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("blocks/acacia_wood")).build(),
+                LootItemRandomChanceCondition.randomChance(0.03f).build(),
+        }, ModItems.LIVING_WOOD.get()));
+        add("living_wood_from_mangrove_wood", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("blocks/mangrove_wood")).build(),
+                LootItemRandomChanceCondition.randomChance(0.03f).build(),
+        }, ModItems.LIVING_WOOD.get()));
+        add("living_wood_from_dark_oak_wood", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("blocks/dark_oak_wood")).build(),
+                LootItemRandomChanceCondition.randomChance(0.03f).build(),
+        }, ModItems.LIVING_WOOD.get()));
+
+        add("recovery_blade_from_warden", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/warden")).build(),
+                LootItemRandomChanceCondition.randomChance(1f).build(),
+        }, ModItems.RECOVERY_BLADE.get()));
+
+        add("broom_from_warden", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/witch")).build(),
+                LootItemRandomChanceCondition.randomChance(0.2f).build(),
+        }, ModItems.BROOM.get()));
+
+        add("healing_wand_from_nether_bridge", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("chests/nether_bridge")).build(),
+                LootItemRandomChanceCondition.randomChance(0.3f).build(),
+        }, ModItems.HEALING_WAND.get()));
 
         // NORMAL WEAPON =====================================================================
 

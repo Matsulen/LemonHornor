@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-27T17:10:58.5139616	Item Models: lkartifacts
+// 1.20.1	2023-12-30T18:17:59.4859708	Item Models: lkartifacts
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword.json
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword_1.json
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword_2.json
@@ -26,6 +26,12 @@
 abc68e2a05b6d24cc701a78d53ce5f0817f6055b assets/lkartifacts/models/item/broken_star_big.json
 bbdce86a29afbb4146e3725672f8efd25048ec63 assets/lkartifacts/models/item/broken_star_long.json
 2353862cb8aa6c0a89206573dec3c3da006adeb0 assets/lkartifacts/models/item/broken_star_small.json
+432ed542170fde6fcb4f635fd6fcf668fe5da2d9 assets/lkartifacts/models/item/broom.json
+432ed542170fde6fcb4f635fd6fcf668fe5da2d9 assets/lkartifacts/models/item/broom_1.json
+432ed542170fde6fcb4f635fd6fcf668fe5da2d9 assets/lkartifacts/models/item/broom_2.json
+432ed542170fde6fcb4f635fd6fcf668fe5da2d9 assets/lkartifacts/models/item/broom_3.json
+432ed542170fde6fcb4f635fd6fcf668fe5da2d9 assets/lkartifacts/models/item/broom_4.json
+432ed542170fde6fcb4f635fd6fcf668fe5da2d9 assets/lkartifacts/models/item/broom_5.json
 f225e4865f383b47d5500733d019db4b1a799140 assets/lkartifacts/models/item/camp_fire_sword.json
 f225e4865f383b47d5500733d019db4b1a799140 assets/lkartifacts/models/item/camp_fire_sword_1.json
 f225e4865f383b47d5500733d019db4b1a799140 assets/lkartifacts/models/item/camp_fire_sword_2.json
@@ -116,6 +122,12 @@ d9903820445b5a6f0b358d97e5a92df846ce3c73 assets/lkartifacts/models/item/evolve_u
 927b83e4d2eed3cc6731fcd1290bcfe59d5bb588 assets/lkartifacts/models/item/golden_spear_3.json
 927b83e4d2eed3cc6731fcd1290bcfe59d5bb588 assets/lkartifacts/models/item/golden_spear_4.json
 927b83e4d2eed3cc6731fcd1290bcfe59d5bb588 assets/lkartifacts/models/item/golden_spear_5.json
+6aa4771893df18ac380b0c2810fa2abd0698b733 assets/lkartifacts/models/item/healing_wand.json
+6aa4771893df18ac380b0c2810fa2abd0698b733 assets/lkartifacts/models/item/healing_wand_1.json
+6aa4771893df18ac380b0c2810fa2abd0698b733 assets/lkartifacts/models/item/healing_wand_2.json
+6aa4771893df18ac380b0c2810fa2abd0698b733 assets/lkartifacts/models/item/healing_wand_3.json
+6aa4771893df18ac380b0c2810fa2abd0698b733 assets/lkartifacts/models/item/healing_wand_4.json
+6aa4771893df18ac380b0c2810fa2abd0698b733 assets/lkartifacts/models/item/healing_wand_5.json
 4a62cf1b426e632430629321b6bd69b47ccdcd31 assets/lkartifacts/models/item/horn_of_goat.json
 4a62cf1b426e632430629321b6bd69b47ccdcd31 assets/lkartifacts/models/item/horn_of_goat_1.json
 4a62cf1b426e632430629321b6bd69b47ccdcd31 assets/lkartifacts/models/item/horn_of_goat_2.json
@@ -258,6 +270,12 @@ e5cc7dffeb176163c42349434a9ffb480bf28a93 assets/lkartifacts/models/item/lava_leg
 1020ed3167794d1208614e250027d0de050f2691 assets/lkartifacts/models/item/lava_sword_4.json
 1020ed3167794d1208614e250027d0de050f2691 assets/lkartifacts/models/item/lava_sword_5.json
 db540bb1aea81a72d4eaf1137ff9a0f11863942a assets/lkartifacts/models/item/lava_upgrade_smithing_template.json
+d17aea665e9d0c33bcd8eede9f75c030df71c7b6 assets/lkartifacts/models/item/living_wood.json
+d17aea665e9d0c33bcd8eede9f75c030df71c7b6 assets/lkartifacts/models/item/living_wood_1.json
+d17aea665e9d0c33bcd8eede9f75c030df71c7b6 assets/lkartifacts/models/item/living_wood_2.json
+d17aea665e9d0c33bcd8eede9f75c030df71c7b6 assets/lkartifacts/models/item/living_wood_3.json
+d17aea665e9d0c33bcd8eede9f75c030df71c7b6 assets/lkartifacts/models/item/living_wood_4.json
+d17aea665e9d0c33bcd8eede9f75c030df71c7b6 assets/lkartifacts/models/item/living_wood_5.json
 b464e4fb4162b611d17dc4ea9d272ba82a89046d assets/lkartifacts/models/item/meat_knife.json
 b464e4fb4162b611d17dc4ea9d272ba82a89046d assets/lkartifacts/models/item/meat_knife_1.json
 b464e4fb4162b611d17dc4ea9d272ba82a89046d assets/lkartifacts/models/item/meat_knife_2.json
@@ -266,6 +284,12 @@ b464e4fb4162b611d17dc4ea9d272ba82a89046d assets/lkartifacts/models/item/meat_kni
 b464e4fb4162b611d17dc4ea9d272ba82a89046d assets/lkartifacts/models/item/meat_knife_5.json
 5a56872d3efb798e8076f362057cff47e416f55b assets/lkartifacts/models/item/mystery_amethyst.json
 791a88effec96eacb570d012e502ac772c34c869 assets/lkartifacts/models/item/mystery_plate.json
+477d0dbe6c4d58b512015819c81719a17632cec5 assets/lkartifacts/models/item/recovery_blade.json
+477d0dbe6c4d58b512015819c81719a17632cec5 assets/lkartifacts/models/item/recovery_blade_1.json
+477d0dbe6c4d58b512015819c81719a17632cec5 assets/lkartifacts/models/item/recovery_blade_2.json
+477d0dbe6c4d58b512015819c81719a17632cec5 assets/lkartifacts/models/item/recovery_blade_3.json
+477d0dbe6c4d58b512015819c81719a17632cec5 assets/lkartifacts/models/item/recovery_blade_4.json
+477d0dbe6c4d58b512015819c81719a17632cec5 assets/lkartifacts/models/item/recovery_blade_5.json
 7e5e5d650e6a95c0cc4b5423a257940007834677 assets/lkartifacts/models/item/round_sword.json
 7e5e5d650e6a95c0cc4b5423a257940007834677 assets/lkartifacts/models/item/round_sword_1.json
 7e5e5d650e6a95c0cc4b5423a257940007834677 assets/lkartifacts/models/item/round_sword_2.json

@@ -241,7 +241,31 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.CHAINSAW_SWORD_2.get(),
                         ModItems.CHAINSAW_SWORD_3.get(),
                         ModItems.CHAINSAW_SWORD_4.get(),
-                        ModItems.CHAINSAW_SWORD_5.get()
+                        ModItems.CHAINSAW_SWORD_5.get(),
+                        ModItems.LIVING_WOOD.get(),
+                        ModItems.LIVING_WOOD_1.get(),
+                        ModItems.LIVING_WOOD_2.get(),
+                        ModItems.LIVING_WOOD_3.get(),
+                        ModItems.LIVING_WOOD_4.get(),
+                        ModItems.LIVING_WOOD_5.get(),
+                        ModItems.RECOVERY_BLADE.get(),
+                        ModItems.RECOVERY_BLADE_1.get(),
+                        ModItems.RECOVERY_BLADE_2.get(),
+                        ModItems.RECOVERY_BLADE_3.get(),
+                        ModItems.RECOVERY_BLADE_4.get(),
+                        ModItems.RECOVERY_BLADE_5.get(),
+                        ModItems.BROOM.get(),
+                        ModItems.BROOM_1.get(),
+                        ModItems.BROOM_2.get(),
+                        ModItems.BROOM_3.get(),
+                        ModItems.BROOM_4.get(),
+                        ModItems.BROOM_5.get(),
+                        ModItems.HEALING_WAND.get(),
+                        ModItems.HEALING_WAND_1.get(),
+                        ModItems.HEALING_WAND_2.get(),
+                        ModItems.HEALING_WAND_3.get(),
+                        ModItems.HEALING_WAND_4.get(),
+                        ModItems.HEALING_WAND_5.get()
                 );
 
 
@@ -471,7 +495,38 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.CHAINSAW_SWORD_4.get(),
                         ModItems.CHAINSAW_SWORD_5.get()
                 );
+        this.tag(ModTags.Items.LIVING_WOOD_TAG)
+                .add(ModItems.LIVING_WOOD.get(),
+                        ModItems.LIVING_WOOD_1.get(),
+                        ModItems.LIVING_WOOD_2.get(),
+                        ModItems.LIVING_WOOD_3.get(),
+                        ModItems.LIVING_WOOD_4.get(),
+                        ModItems.LIVING_WOOD_5.get()
+                );
+        this.tag(ModTags.Items.RECOVERY_BLADE_TAG)
+                .add(ModItems.RECOVERY_BLADE.get(),
+                        ModItems.RECOVERY_BLADE_1.get(),
+                        ModItems.RECOVERY_BLADE_2.get(),
+                        ModItems.RECOVERY_BLADE_3.get(),
+                        ModItems.RECOVERY_BLADE_4.get(),
+                        ModItems.RECOVERY_BLADE_5.get()
+                );
+        this.tag(ModTags.Items.BROOM_TAG)
+                .add(ModItems.BROOM.get(),
+                        ModItems.BROOM_1.get(),
+                        ModItems.BROOM_2.get(),
+                        ModItems.BROOM_3.get(),
+                        ModItems.BROOM_4.get(),
+                        ModItems.BROOM_5.get()
+                );
 
-
+        this.tag(ModTags.Items.HEALING_WAND_TAG)
+                .add(ModItems.HEALING_WAND.get(),
+                        ModItems.HEALING_WAND_1.get(),
+                        ModItems.HEALING_WAND_2.get(),
+                        ModItems.HEALING_WAND_3.get(),
+                        ModItems.HEALING_WAND_4.get(),
+                        ModItems.HEALING_WAND_5.get()
+                );
     }
 }

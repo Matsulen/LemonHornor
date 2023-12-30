@@ -1,0 +1,32 @@
+{
+  "parent": "lkartifacts:weapon",
+  "display": {
+    "icon": {
+      "item": "lkartifacts:healing_wand"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.healing_wand"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.healing_wand"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lkartifacts:healing_wand"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

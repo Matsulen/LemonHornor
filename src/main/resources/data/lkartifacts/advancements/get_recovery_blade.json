@@ -1,0 +1,32 @@
+{
+  "parent": "lkartifacts:weapon",
+  "display": {
+    "icon": {
+      "item": "lkartifacts:recovery_blade"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.recovery_blade"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.recovery_blade"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lkartifacts:recovery_blade"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

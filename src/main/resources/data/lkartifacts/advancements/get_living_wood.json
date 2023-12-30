@@ -1,0 +1,32 @@
+{
+  "parent": "lkartifacts:weapon",
+  "display": {
+    "icon": {
+      "item": "lkartifacts:living_wood"
+    },
+    "title": {
+      "translate": "lkartifacts.adtitle.living_wood"
+    },
+    "description": {
+      "translate": "lkartifacts.ad.living_wood"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "lkartifacts:living_wood"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

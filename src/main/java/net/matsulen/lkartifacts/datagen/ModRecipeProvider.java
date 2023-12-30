@@ -107,6 +107,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.TOTEM_SWORD.get()), has(ModTags.Items.TOTEM_SWORD_TAG))
                 .save(pWriter, "emerald_from_totem_sword");
 
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.DIAMOND_DUST.get(), 4)
                 .requires(Items.DIAMOND)
                 .unlockedBy(getHasName(Items.DIAMOND), has(Items.DIAMOND))

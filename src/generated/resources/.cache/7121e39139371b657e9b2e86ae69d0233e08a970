@@ -1,7 +1,8 @@
-// 1.20.1	2023-11-27T18:00:47.2455177	Tags for minecraft:item mod id lkartifacts
+// 1.20.1	2023-12-30T18:17:59.4802153	Tags for minecraft:item mod id lkartifacts
 7add2b4255dfca5e27f5f6a646df395f146c69a6 data/lkartifacts/tags/items/bamboo_sword.json
 b2458d8cfc52f1c5243a5cf6c1948cf3735d3f4d data/lkartifacts/tags/items/baysword.json
 6669f9c604156e4de6cc8bbbd8cb37c384c3ad11 data/lkartifacts/tags/items/big_fired_chicken.json
+a3ae3cc62096360f2952a8806d699048d4873b43 data/lkartifacts/tags/items/broom.json
 349a100d554ae45143dac475e96cee8eeb12f80c data/lkartifacts/tags/items/camp_fire_sword.json
 1d24613f664adf4ef38d503af1bc844e7053cbfe data/lkartifacts/tags/items/chainsaw_sword.json
 d1b5427dd0c1f36ad3466026a69f2daf9c6f52d0 data/lkartifacts/tags/items/dragon_armor_tag.json
@@ -9,6 +10,7 @@ d1b5427dd0c1f36ad3466026a69f2daf9c6f52d0 data/lkartifacts/tags/items/dragon_armo
 f97471851b940f7497029b1c4962e622748d711f data/lkartifacts/tags/items/effected_sword.json
 5857dc344dc3b57d7afa8c8e1ee88e2ce0fc322d data/lkartifacts/tags/items/flint_hand.json
 5de9d741bbcedb673dcf8e9af34c98188c790f7f data/lkartifacts/tags/items/golden_spear.json
+34da275f66a4ae40574be25486d3bee1490aac8a data/lkartifacts/tags/items/healing_wand.json
 a1463323c23d68943be40ecbb66fe59451ac8eab data/lkartifacts/tags/items/horn_of_goat.json
 6289d223697636b501d25c08888cd593a0b66a22 data/lkartifacts/tags/items/iron_blade.json
 c7b137cbcd538253438e280d6201d654831815ee data/lkartifacts/tags/items/iron_sickle.json
@@ -18,9 +20,11 @@ fb2403b25f0c2cb86ee79f9a9d5b8075bd880e3c data/lkartifacts/tags/items/knight_horn
 af384d0d996328d778caf918a3f8c7b6a4ef3381 data/lkartifacts/tags/items/lantern_sword.json
 41016bc6a7180c1419a69dba1d5b22094e740927 data/lkartifacts/tags/items/lava_armor_tag.json
 cbdf4d2725bf5f22dfb410b219b051d13a4b20cd data/lkartifacts/tags/items/lava_sword.json
-6bd8d635ec59747f027bb86e519fbfb29f593456 data/lkartifacts/tags/items/legendary_weapon.json
+a9423b22de5fc9ab61426dbe76b96eb5204a5619 data/lkartifacts/tags/items/legendary_weapon.json
+b85ecba290a10f13c55ea1a9a90a128fb64d6048 data/lkartifacts/tags/items/living_wood.json
 86d2cd109d4f34b727e20fc5a5a3e0f59e4ef76a data/lkartifacts/tags/items/meat_knife.json
 691070b8122c784364c3ef45994f510cefd45e58 data/lkartifacts/tags/items/normal_weapon.json
+b1797b7c3eeaca375ae2cf39c8bd2095be25291c data/lkartifacts/tags/items/recovery_blade.json
 c1418f29bda6e5b2b4906eb42b79a6994a487280 data/lkartifacts/tags/items/round_sword.json
 b8bbbbafef5d171c6be4793d949bea0ece3f9b58 data/lkartifacts/tags/items/samon_sword.json
 b39a264c54473f6aa7079d904a16f8e8d2e8dabd data/lkartifacts/tags/items/shaped_amethyst.json

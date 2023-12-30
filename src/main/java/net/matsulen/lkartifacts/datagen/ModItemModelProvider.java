@@ -326,6 +326,34 @@ public class ModItemModelProvider extends ItemModelProvider {
         tagWeaponItem(ModItems.CHAINSAW_SWORD_5, ModTags.Items.CHAINSAW_SWORD_TAG);
 
 
+        tagWeaponItem(ModItems.LIVING_WOOD, ModTags.Items.LIVING_WOOD_TAG);
+        tagWeaponItem(ModItems.LIVING_WOOD_1, ModTags.Items.LIVING_WOOD_TAG);
+        tagWeaponItem(ModItems.LIVING_WOOD_2, ModTags.Items.LIVING_WOOD_TAG);
+        tagWeaponItem(ModItems.LIVING_WOOD_3, ModTags.Items.LIVING_WOOD_TAG);
+        tagWeaponItem(ModItems.LIVING_WOOD_4, ModTags.Items.LIVING_WOOD_TAG);
+        tagWeaponItem(ModItems.LIVING_WOOD_5, ModTags.Items.LIVING_WOOD_TAG);
+
+        tagWeaponItem(ModItems.RECOVERY_BLADE, ModTags.Items.RECOVERY_BLADE_TAG);
+        tagWeaponItem(ModItems.RECOVERY_BLADE_1, ModTags.Items.RECOVERY_BLADE_TAG);
+        tagWeaponItem(ModItems.RECOVERY_BLADE_2, ModTags.Items.RECOVERY_BLADE_TAG);
+        tagWeaponItem(ModItems.RECOVERY_BLADE_3, ModTags.Items.RECOVERY_BLADE_TAG);
+        tagWeaponItem(ModItems.RECOVERY_BLADE_4, ModTags.Items.RECOVERY_BLADE_TAG);
+        tagWeaponItem(ModItems.RECOVERY_BLADE_5, ModTags.Items.RECOVERY_BLADE_TAG);
+        
+        tagWeaponItem(ModItems.BROOM, ModTags.Items.BROOM_TAG);
+        tagWeaponItem(ModItems.BROOM_1, ModTags.Items.BROOM_TAG);
+        tagWeaponItem(ModItems.BROOM_2, ModTags.Items.BROOM_TAG);
+        tagWeaponItem(ModItems.BROOM_3, ModTags.Items.BROOM_TAG);
+        tagWeaponItem(ModItems.BROOM_4, ModTags.Items.BROOM_TAG);
+        tagWeaponItem(ModItems.BROOM_5, ModTags.Items.BROOM_TAG);
+        
+        tagWeaponItem(ModItems.HEALING_WAND, ModTags.Items.HEALING_WAND_TAG);
+        tagWeaponItem(ModItems.HEALING_WAND_1, ModTags.Items.HEALING_WAND_TAG);
+        tagWeaponItem(ModItems.HEALING_WAND_2, ModTags.Items.HEALING_WAND_TAG);
+        tagWeaponItem(ModItems.HEALING_WAND_3, ModTags.Items.HEALING_WAND_TAG);
+        tagWeaponItem(ModItems.HEALING_WAND_4, ModTags.Items.HEALING_WAND_TAG);
+        tagWeaponItem(ModItems.HEALING_WAND_5, ModTags.Items.HEALING_WAND_TAG);
+
         complexBlock(ModBlocks.EVOLVE_ANVIL.get());
 
     }
