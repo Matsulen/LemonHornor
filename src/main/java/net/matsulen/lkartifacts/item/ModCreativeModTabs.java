@@ -289,6 +289,13 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.HEALING_WAND_3.get());
                         pOutput.accept(ModItems.HEALING_WAND_4.get());
                         pOutput.accept(ModItems.HEALING_WAND_5.get());
+
+                        pOutput.accept(ModItems.CRIMSON_WAND.get());
+                        pOutput.accept(ModItems.CRIMSON_WAND_1.get());
+                        pOutput.accept(ModItems.CRIMSON_WAND_2.get());
+                        pOutput.accept(ModItems.CRIMSON_WAND_3.get());
+                        pOutput.accept(ModItems.CRIMSON_WAND_4.get());
+                        pOutput.accept(ModItems.CRIMSON_WAND_5.get());
                     })
                     .build());
 

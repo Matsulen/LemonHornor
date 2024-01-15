@@ -354,6 +354,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         tagWeaponItem(ModItems.HEALING_WAND_4, ModTags.Items.HEALING_WAND_TAG);
         tagWeaponItem(ModItems.HEALING_WAND_5, ModTags.Items.HEALING_WAND_TAG);
 
+        tagWeaponItem(ModItems.CRIMSON_WAND, ModTags.Items.CRIMSON_WAND_TAG);
+        tagWeaponItem(ModItems.CRIMSON_WAND_1, ModTags.Items.CRIMSON_WAND_TAG);
+        tagWeaponItem(ModItems.CRIMSON_WAND_2, ModTags.Items.CRIMSON_WAND_TAG);
+        tagWeaponItem(ModItems.CRIMSON_WAND_3, ModTags.Items.CRIMSON_WAND_TAG);
+        tagWeaponItem(ModItems.CRIMSON_WAND_4, ModTags.Items.CRIMSON_WAND_TAG);
+        tagWeaponItem(ModItems.CRIMSON_WAND_5, ModTags.Items.CRIMSON_WAND_TAG);
+
         complexBlock(ModBlocks.EVOLVE_ANVIL.get());
 
     }

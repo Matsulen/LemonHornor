@@ -1,10 +1,11 @@
-// 1.20.1	2023-12-30T18:17:59.4802153	Tags for minecraft:item mod id lkartifacts
+// 1.20.1	2024-01-03T19:53:18.5858539	Tags for minecraft:item mod id lkartifacts
 7add2b4255dfca5e27f5f6a646df395f146c69a6 data/lkartifacts/tags/items/bamboo_sword.json
 b2458d8cfc52f1c5243a5cf6c1948cf3735d3f4d data/lkartifacts/tags/items/baysword.json
 6669f9c604156e4de6cc8bbbd8cb37c384c3ad11 data/lkartifacts/tags/items/big_fired_chicken.json
 a3ae3cc62096360f2952a8806d699048d4873b43 data/lkartifacts/tags/items/broom.json
 349a100d554ae45143dac475e96cee8eeb12f80c data/lkartifacts/tags/items/camp_fire_sword.json
 1d24613f664adf4ef38d503af1bc844e7053cbfe data/lkartifacts/tags/items/chainsaw_sword.json
+b014a13dc19893667c064374ce162d57aa5232fb data/lkartifacts/tags/items/crimson_wand.json
 d1b5427dd0c1f36ad3466026a69f2daf9c6f52d0 data/lkartifacts/tags/items/dragon_armor_tag.json
 814016f435f2522a1d556b67190f23daaed52935 data/lkartifacts/tags/items/dragon_tear.json
 f97471851b940f7497029b1c4962e622748d711f data/lkartifacts/tags/items/effected_sword.json
@@ -20,7 +21,7 @@ fb2403b25f0c2cb86ee79f9a9d5b8075bd880e3c data/lkartifacts/tags/items/knight_horn
 af384d0d996328d778caf918a3f8c7b6a4ef3381 data/lkartifacts/tags/items/lantern_sword.json
 41016bc6a7180c1419a69dba1d5b22094e740927 data/lkartifacts/tags/items/lava_armor_tag.json
 cbdf4d2725bf5f22dfb410b219b051d13a4b20cd data/lkartifacts/tags/items/lava_sword.json
-a9423b22de5fc9ab61426dbe76b96eb5204a5619 data/lkartifacts/tags/items/legendary_weapon.json
+d5145228d791c1bc85b4df0ab9e9654f3e9f987d data/lkartifacts/tags/items/legendary_weapon.json
 b85ecba290a10f13c55ea1a9a90a128fb64d6048 data/lkartifacts/tags/items/living_wood.json
 86d2cd109d4f34b727e20fc5a5a3e0f59e4ef76a data/lkartifacts/tags/items/meat_knife.json
 691070b8122c784364c3ef45994f510cefd45e58 data/lkartifacts/tags/items/normal_weapon.json

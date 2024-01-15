@@ -2651,6 +2651,11 @@ public class ModGlobalLootModifiers extends GlobalLootModifierProvider {
                 LootItemRandomChanceCondition.randomChance(0.3f).build(),
         }, ModItems.HEALING_WAND.get()));
 
+        add("healing_wand_from_desert_pyramid_archaeology", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("archaeology/desert_pyramid")).build(),
+                LootItemRandomChanceCondition.randomChance(0.1f).build(),
+        }, ModItems.CRIMSON_WAND.get()));
+
         // NORMAL WEAPON =====================================================================
 
         add("iron_blade_from_abandoned_mineshaft", new AddItemModifier(new LootItemCondition[]{

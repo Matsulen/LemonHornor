@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_CHAINSAW_SWORD": {
+    "has_chainsaw_sword": {
       "conditions": {
         "items": [
           {
@@ -22,7 +22,7 @@
   },
   "requirements": [
     [
-      "has_CHAINSAW_SWORD",
+      "has_chainsaw_sword",
       "has_the_recipe"
     ]
   ],

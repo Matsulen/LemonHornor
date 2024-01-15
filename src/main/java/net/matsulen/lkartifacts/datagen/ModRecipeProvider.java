@@ -468,16 +468,70 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_lantern_sword", has(ModItems.LANTERN_SWORD_4.get())).save(pWriter);
         
         new EvolveTableRecipeProvider(ModItems.CHAINSAW_SWORD.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.CHAINSAW_SWORD_1.get(), 1)
-                .unlockedBy("has_CHAINSAW_SWORD", has(ModItems.CHAINSAW_SWORD.get())).save(pWriter);
+                .unlockedBy("has_chainsaw_sword", has(ModItems.CHAINSAW_SWORD.get())).save(pWriter);
         new EvolveTableRecipeProvider(ModItems.CHAINSAW_SWORD_1.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.CHAINSAW_SWORD_2.get(), 1)
-                .unlockedBy("has_CHAINSAW_SWORD", has(ModItems.CHAINSAW_SWORD_1.get())).save(pWriter);
+                .unlockedBy("has_chainsaw_sword", has(ModItems.CHAINSAW_SWORD_1.get())).save(pWriter);
         new EvolveTableRecipeProvider(ModItems.CHAINSAW_SWORD_2.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.CHAINSAW_SWORD_3.get(), 1)
-                .unlockedBy("has_CHAINSAW_SWORD", has(ModItems.CHAINSAW_SWORD_2.get())).save(pWriter);
+                .unlockedBy("has_chainsaw_sword", has(ModItems.CHAINSAW_SWORD_2.get())).save(pWriter);
         new EvolveTableRecipeProvider(ModItems.CHAINSAW_SWORD_3.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.CHAINSAW_SWORD_4.get(), 1)
-                .unlockedBy("has_CHAINSAW_SWORD", has(ModItems.CHAINSAW_SWORD_3.get())).save(pWriter);
+                .unlockedBy("has_chainsaw_sword", has(ModItems.CHAINSAW_SWORD_3.get())).save(pWriter);
         new EvolveTableRecipeProvider(ModItems.CHAINSAW_SWORD_4.get(), ModItems.MYSTERY_PLATE.get(), ModItems.CHAINSAW_SWORD_5.get(), 1)
-                .unlockedBy("has_CHAINSAW_SWORD", has(ModItems.CHAINSAW_SWORD_4.get())).save(pWriter);
+                .unlockedBy("has_chainsaw_sword", has(ModItems.CHAINSAW_SWORD_4.get())).save(pWriter);
 
+        new EvolveTableRecipeProvider(ModItems.LIVING_WOOD.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.LIVING_WOOD_1.get(), 1)
+                .unlockedBy("has_living_wood", has(ModItems.LIVING_WOOD.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.LIVING_WOOD_1.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.LIVING_WOOD_2.get(), 1)
+                .unlockedBy("has_living_wood", has(ModItems.LIVING_WOOD_1.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.LIVING_WOOD_2.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.LIVING_WOOD_3.get(), 1)
+                .unlockedBy("has_living_wood", has(ModItems.LIVING_WOOD_2.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.LIVING_WOOD_3.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.LIVING_WOOD_4.get(), 1)
+                .unlockedBy("has_living_wood", has(ModItems.LIVING_WOOD_3.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.LIVING_WOOD_4.get(), ModItems.MYSTERY_PLATE.get(), ModItems.LIVING_WOOD_5.get(), 1)
+                .unlockedBy("has_living_wood", has(ModItems.LIVING_WOOD_4.get())).save(pWriter);
+        
+        new EvolveTableRecipeProvider(ModItems.RECOVERY_BLADE.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.RECOVERY_BLADE_1.get(), 1)
+                .unlockedBy("has_recovery_blade", has(ModItems.RECOVERY_BLADE.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.RECOVERY_BLADE_1.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.RECOVERY_BLADE_2.get(), 1)
+                .unlockedBy("has_recovery_blade", has(ModItems.RECOVERY_BLADE_1.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.RECOVERY_BLADE_2.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.RECOVERY_BLADE_3.get(), 1)
+                .unlockedBy("has_recovery_blade", has(ModItems.RECOVERY_BLADE_2.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.RECOVERY_BLADE_3.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.RECOVERY_BLADE_4.get(), 1)
+                .unlockedBy("has_recovery_blade", has(ModItems.RECOVERY_BLADE_3.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.RECOVERY_BLADE_4.get(), ModItems.MYSTERY_PLATE.get(), ModItems.RECOVERY_BLADE_5.get(), 1)
+                .unlockedBy("has_recovery_blade", has(ModItems.RECOVERY_BLADE_4.get())).save(pWriter);
+        
+        new EvolveTableRecipeProvider(ModItems.BROOM.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.BROOM_1.get(), 1)
+                .unlockedBy("has_broom", has(ModItems.BROOM.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.BROOM_1.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.BROOM_2.get(), 1)
+                .unlockedBy("has_broom", has(ModItems.BROOM_1.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.BROOM_2.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.BROOM_3.get(), 1)
+                .unlockedBy("has_broom", has(ModItems.BROOM_2.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.BROOM_3.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.BROOM_4.get(), 1)
+                .unlockedBy("has_broom", has(ModItems.BROOM_3.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.BROOM_4.get(), ModItems.MYSTERY_PLATE.get(), ModItems.BROOM_5.get(), 1)
+                .unlockedBy("has_broom", has(ModItems.BROOM_4.get())).save(pWriter);
+
+        new EvolveTableRecipeProvider(ModItems.HEALING_WAND.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.HEALING_WAND_1.get(), 1)
+                .unlockedBy("has_healing_wand", has(ModItems.HEALING_WAND.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.HEALING_WAND_1.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.HEALING_WAND_2.get(), 1)
+                .unlockedBy("has_healing_wand", has(ModItems.HEALING_WAND_1.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.HEALING_WAND_2.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.HEALING_WAND_3.get(), 1)
+                .unlockedBy("has_healing_wand", has(ModItems.HEALING_WAND_2.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.HEALING_WAND_3.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.HEALING_WAND_4.get(), 1)
+                .unlockedBy("has_healing_wand", has(ModItems.HEALING_WAND_3.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.HEALING_WAND_4.get(), ModItems.MYSTERY_PLATE.get(), ModItems.HEALING_WAND_5.get(), 1)
+                .unlockedBy("has_healing_wand", has(ModItems.HEALING_WAND_4.get())).save(pWriter);
+
+        new EvolveTableRecipeProvider(ModItems.CRIMSON_WAND.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.CRIMSON_WAND_1.get(), 1)
+                .unlockedBy("has_crimson_wand", has(ModItems.CRIMSON_WAND.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.CRIMSON_WAND_1.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.CRIMSON_WAND_2.get(), 1)
+                .unlockedBy("has_crimson_wand", has(ModItems.CRIMSON_WAND_1.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.CRIMSON_WAND_2.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.CRIMSON_WAND_3.get(), 1)
+                .unlockedBy("has_crimson_wand", has(ModItems.CRIMSON_WAND_2.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.CRIMSON_WAND_3.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.CRIMSON_WAND_4.get(), 1)
+                .unlockedBy("has_crimson_wand", has(ModItems.CRIMSON_WAND_3.get())).save(pWriter);
+        new EvolveTableRecipeProvider(ModItems.CRIMSON_WAND_4.get(), ModItems.MYSTERY_PLATE.get(), ModItems.CRIMSON_WAND_5.get(), 1)
+                .unlockedBy("has_crimson_wand", has(ModItems.CRIMSON_WAND_4.get())).save(pWriter);
 
         new EvolveTableRecipeProvider(ModItems.SHAPED_AMETHYST.get(), ModItems.MYSTERY_AMETHYST.get(), ModItems.SHAPED_AMETHYST_1.get(), 1)
                 .unlockedBy("has_shaped_amethyst", has(ModItems.SHAPED_AMETHYST.get())).save(pWriter);

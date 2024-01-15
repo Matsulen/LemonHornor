@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-30T18:17:59.4859708	Item Models: lkartifacts
+// 1.20.1	2024-01-03T19:53:18.5908633	Item Models: lkartifacts
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword.json
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword_1.json
 8ff96c49f0ae339bb1a61dca11968095e158e462 assets/lkartifacts/models/item/bamboo_sword_2.json
@@ -44,6 +44,12 @@ bd3d6e0313f575a1eb25009d838b54e61e87a3be assets/lkartifacts/models/item/chainsaw
 bd3d6e0313f575a1eb25009d838b54e61e87a3be assets/lkartifacts/models/item/chainsaw_sword_3.json
 bd3d6e0313f575a1eb25009d838b54e61e87a3be assets/lkartifacts/models/item/chainsaw_sword_4.json
 bd3d6e0313f575a1eb25009d838b54e61e87a3be assets/lkartifacts/models/item/chainsaw_sword_5.json
+7d615be9e19013a4dd461b0f43ed3ade5cbdab92 assets/lkartifacts/models/item/crimson_wand.json
+7d615be9e19013a4dd461b0f43ed3ade5cbdab92 assets/lkartifacts/models/item/crimson_wand_1.json
+7d615be9e19013a4dd461b0f43ed3ade5cbdab92 assets/lkartifacts/models/item/crimson_wand_2.json
+7d615be9e19013a4dd461b0f43ed3ade5cbdab92 assets/lkartifacts/models/item/crimson_wand_3.json
+7d615be9e19013a4dd461b0f43ed3ade5cbdab92 assets/lkartifacts/models/item/crimson_wand_4.json
+7d615be9e19013a4dd461b0f43ed3ade5cbdab92 assets/lkartifacts/models/item/crimson_wand_5.json
 1c40a53ad09a45d24f80f3a7047c420ffbf5f968 assets/lkartifacts/models/item/diamond_dust.json
 e7c8b810a641f31e6a91a869103fc1696ed7be75 assets/lkartifacts/models/item/dragon_boots.json
 d7f5b5d01addc8ffb2891f0fc00a6819e53ce632 assets/lkartifacts/models/item/dragon_boots_amethyst_trim.json

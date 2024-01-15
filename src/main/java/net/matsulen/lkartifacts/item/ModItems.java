@@ -563,29 +563,29 @@ public class ModItems {
             () -> new LanternSwordItem(ModToolTiers.Evolve, 16,-2.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> LANTERN_SWORD_4 = ITEMS.register("lantern_sword_4",
-            () -> new LanternSwordItem(ModToolTiers.Evolve, 21,-2.5f
+            () -> new LanternSwordItem(ModToolTiers.Evolve, 22,-2.5f
                     , new Item.Properties()));
     public static final RegistryObject<Item> LANTERN_SWORD_5 = ITEMS.register("lantern_sword_5",
-            () -> new LanternSwordItem(ModToolTiers.Evolve, 25,-2.5f
+            () -> new LanternSwordItem(ModToolTiers.Evolve, 27,-2.5f
                     , new Item.Properties()));
 
     public static final RegistryObject<Item> CHAINSAW_SWORD = ITEMS.register("chainsaw_sword",
-            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 5,-2.9f
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 6,-2.9f
                     , new Item.Properties()));
     public static final RegistryObject<Item> CHAINSAW_SWORD_1 = ITEMS.register("chainsaw_sword_1",
-            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 9,-2.9f
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 11,-2.9f
                     , new Item.Properties()));
     public static final RegistryObject<Item> CHAINSAW_SWORD_2 = ITEMS.register("chainsaw_sword_2",
-            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 14,-2.9f
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 17,-2.9f
                     , new Item.Properties()));
     public static final RegistryObject<Item> CHAINSAW_SWORD_3 = ITEMS.register("chainsaw_sword_3",
-            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 19,-2.9f
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 22,-2.9f
                     , new Item.Properties()));
     public static final RegistryObject<Item> CHAINSAW_SWORD_4 = ITEMS.register("chainsaw_sword_4",
-            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 23,-2.9f
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 26,-2.9f
                     , new Item.Properties()));
     public static final RegistryObject<Item> CHAINSAW_SWORD_5 = ITEMS.register("chainsaw_sword_5",
-            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 28,-2.9f
+            () -> new ChainsawSwordItem(ModToolTiers.Evolve, 31,-2.9f
                     , new Item.Properties()));
 
     public static final RegistryObject<Item> LIVING_WOOD = ITEMS.register("living_wood",
@@ -595,16 +595,16 @@ public class ModItems {
             () -> new LivingWoodItem(ModToolTiers.Evolve, 7,-2.0f
                     , new Item.Properties()));
     public static final RegistryObject<Item> LIVING_WOOD_2 = ITEMS.register("living_wood_2",
-            () -> new LivingWoodItem(ModToolTiers.Evolve, 12,-2.0f
+            () -> new LivingWoodItem(ModToolTiers.Evolve, 11,-2.0f
                     , new Item.Properties()));
     public static final RegistryObject<Item> LIVING_WOOD_3 = ITEMS.register("living_wood_3",
-            () -> new LivingWoodItem(ModToolTiers.Evolve, 16,-2.0f
+            () -> new LivingWoodItem(ModToolTiers.Evolve, 15,-2.0f
                     , new Item.Properties()));
     public static final RegistryObject<Item> LIVING_WOOD_4 = ITEMS.register("living_wood_4",
-            () -> new LivingWoodItem(ModToolTiers.Evolve, 20,-2.0f
+            () -> new LivingWoodItem(ModToolTiers.Evolve, 19,-2.0f
                     , new Item.Properties()));
     public static final RegistryObject<Item> LIVING_WOOD_5 = ITEMS.register("living_wood_5",
-            () -> new LivingWoodItem(ModToolTiers.Evolve, 25,-2.0f
+            () -> new LivingWoodItem(ModToolTiers.Evolve, 23,-2.0f
                     , new Item.Properties()));
 
     public static final RegistryObject<Item> RECOVERY_BLADE = ITEMS.register("recovery_blade",
@@ -662,6 +662,25 @@ public class ModItems {
                     , new Item.Properties()));
     public static final RegistryObject<Item> HEALING_WAND_5 = ITEMS.register("healing_wand_5",
             () -> new HealingWandItem(ModToolTiers.Evolve, 14,-1.5f
+                    , new Item.Properties()));
+
+    public static final RegistryObject<Item> CRIMSON_WAND = ITEMS.register("crimson_wand",
+            () -> new CrimsonWandItem(ModToolTiers.Evolve, 5,-2.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> CRIMSON_WAND_1 = ITEMS.register("crimson_wand_1",
+            () -> new CrimsonWandItem(ModToolTiers.Evolve, 8,-2.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> CRIMSON_WAND_2 = ITEMS.register("crimson_wand_2",
+            () -> new CrimsonWandItem(ModToolTiers.Evolve, 12,-2.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> CRIMSON_WAND_3 = ITEMS.register("crimson_wand_3",
+            () -> new CrimsonWandItem(ModToolTiers.Evolve, 18,-2.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> CRIMSON_WAND_4 = ITEMS.register("crimson_wand_4",
+            () -> new CrimsonWandItem(ModToolTiers.Evolve, 22,-2.5f
+                    , new Item.Properties()));
+    public static final RegistryObject<Item> CRIMSON_WAND_5 = ITEMS.register("crimson_wand_5",
+            () -> new CrimsonWandItem(ModToolTiers.Evolve, 26,-2.5f
                     , new Item.Properties()));
     
 

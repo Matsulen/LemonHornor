@@ -46,6 +46,7 @@ public class ModTags {
         public static final TagKey<Item> RECOVERY_BLADE_TAG = tag("recovery_blade");
         public static final TagKey<Item> BROOM_TAG = tag("broom");
         public static final TagKey<Item> HEALING_WAND_TAG = tag("healing_wand");
+        public static final TagKey<Item> CRIMSON_WAND_TAG = tag("crimson_wand");
         //====================================================================
         public static final TagKey<Item> KNIGHT_ARMOR_TAG = tag("knight_armor_tag");
         public static final TagKey<Item> SLAYER_ARMOR_TAG = tag("slayer_armor_tag");

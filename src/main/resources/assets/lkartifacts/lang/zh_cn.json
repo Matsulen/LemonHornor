@@ -584,6 +584,17 @@
   "tooltip.lkartifacts.healing_wand.tooltip.control1": "右键使用可以治愈持有者。",
   "tooltip.lkartifacts.healing_wand.tooltip.control2": "攻击似乎也带有微弱的魔力？",
 
+  "item.lkartifacts.crimson_wand": "§6活体血藤",
+  "item.lkartifacts.crimson_wand_1": "§6活体血藤+1",
+  "item.lkartifacts.crimson_wand_2": "§6活体血藤+2",
+  "item.lkartifacts.crimson_wand_3": "§6活体血藤+3",
+  "item.lkartifacts.crimson_wand_4": "§6活体血藤+4",
+  "item.lkartifacts.crimson_wand_5": "§6活体血藤+5",
+  "tooltip.lkartifacts.crimson_wand.tooltip.shift2": "来自下界的血藤缠绕在断掉",
+  "tooltip.lkartifacts.crimson_wand.tooltip.shift3": "的树枝上，但是却似乎沾染了",
+  "tooltip.lkartifacts.crimson_wand.tooltip.shift4": "某些不可知的力量..",
+  "tooltip.lkartifacts.crimson_wand.tooltip.control1": "持续攻击会吸取敌人的血量",
+  "tooltip.lkartifacts.crimson_wand.tooltip.control2": "",
 
 
   "creativetab.lemon_kindom_item": "柠檬王国物品",

@@ -265,7 +265,13 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.HEALING_WAND_2.get(),
                         ModItems.HEALING_WAND_3.get(),
                         ModItems.HEALING_WAND_4.get(),
-                        ModItems.HEALING_WAND_5.get()
+                        ModItems.HEALING_WAND_5.get(),
+                        ModItems.CRIMSON_WAND.get(),
+                        ModItems.CRIMSON_WAND_1.get(),
+                        ModItems.CRIMSON_WAND_2.get(),
+                        ModItems.CRIMSON_WAND_3.get(),
+                        ModItems.CRIMSON_WAND_4.get(),
+                        ModItems.CRIMSON_WAND_5.get()
                 );
 
 
@@ -527,6 +533,14 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.HEALING_WAND_3.get(),
                         ModItems.HEALING_WAND_4.get(),
                         ModItems.HEALING_WAND_5.get()
+                );
+        this.tag(ModTags.Items.CRIMSON_WAND_TAG)
+                .add(ModItems.CRIMSON_WAND.get(),
+                        ModItems.CRIMSON_WAND_1.get(),
+                        ModItems.CRIMSON_WAND_2.get(),
+                        ModItems.CRIMSON_WAND_3.get(),
+                        ModItems.CRIMSON_WAND_4.get(),
+                        ModItems.CRIMSON_WAND_5.get()
                 );
     }
 }
