@@ -11,7 +11,7 @@ attack damage and totally different combat style for each of them.
 
 ![Special Weapons](https://github.com/Matsulen/LemonKindom-Artifacts/assets/75823097/5a956dfa-ab77-4e23-82aa-cbfafb505b58)
 
-![Legendary Weapons](https://github.com/Matsulen/LemonKindom-Artifacts/assets/75823097/951f8884-84df-4827-8aa6-428e2882b09c)
+![LegendaryWeapon](https://github.com/Matsulen/LemonKindom-Artifacts/assets/75823097/958b0e39-24d8-428f-a56c-a98a897d50ec)
 
 ![Materials](https://github.com/Matsulen/LemonKindom-Artifacts/assets/75823097/6c93eaf3-792e-4ad8-95e5-d2601b710629)
 
